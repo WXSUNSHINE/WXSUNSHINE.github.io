@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Notes on relativistic QFT</title>
+    <url>/2022/09/26/Relativistic%20QFT/</url>
+    <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
+<h2 id="参考资料：">参考资料：</h2>
+<ul>
+<li>WeinbergI</li>
+<li>WeinbergII</li>
+<li>New_QFT by Yuchen Wang</li>
+<li>Schwartz</li>
+<li>Zee</li>
+</ul>
+<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
+<ul>
+<li>Tong:Gauge theory</li>
+<li>Srecnicki</li>
+<li>Peskin&amp;Schroeder</li>
+<li>Skinner</li>
+<li>Tong:QFT</li>
+<li>to be continued</li>
+</ul>
+<h2 id="latex">Latex:</h2>
+
+
+	<div class="row">
+    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
+  </entry>
+  <entry>
     <title>Reading notes on condensed matter physics</title>
     <url>/2022/09/25/1/</url>
     <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
