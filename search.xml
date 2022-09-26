@@ -1,19 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
+    <title>Learning project on topological quantum matters</title>
+    <url>/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/</url>
+    <content><![CDATA[<h1>一些基本概念</h1>
+<h1>作为基础的数学补充</h1>
+<ul>
+<li>Nakahara: Topology,geometry and physics</li>
+<li>Moore: Quantum Symmetries and Compatible Hamiltonians</li>
+<li>Moore: Quantum Symmetries and K-Theory(a shorter version)</li>
+<li>Moore: Clifford algebra</li>
+<li>Moore: Abstract group theory(focus on group cohomology and group extension)</li>
+<li>Karoubi: K-theory: an introduction</li>
+<li>…</li>
+</ul>
+<h1>文献：Non-interacting fermionic SPT(TI,TSC,Nodal systems)：</h1>
+<h2 id="综述及教材">综述及教材</h2>
+<ul>
+<li>
+<p>Qi_topological insulator and superconductor</p>
+</li>
+<li>
+<p>Topological insulator_Hasan</p>
+</li>
+<li>
+<p>Classification of topological quantum matter with symmetries</p>
+</li>
+<li>
+<p>Topological insulators Dirac equation in condensed matter (Shen, Shun-Qing)</p>
+</li>
+<li>
+<p>A Short Course on Topological Insulators Band Structure and Edge States in One and Two Dimensions</p>
+</li>
+<li>
+<p>Topological Insulators and Topological Superconductors by B. Andrei Bernevig Taylor L. Hughes</p>
+</li>
+<li>
+<p>Topological quantum by H.Simons</p>
+</li>
+<li>
+<p>Witten_Three Lectures On Topological Phases Of Matter</p>
+</li>
+<li>
+<p>Another note by Witten</p>
+</li>
+<li>
+<p>…</p>
+</li>
+</ul>
+<h2 id="其他的笔记">其他的笔记</h2>
+<ul>
+<li>Q.R Wang Lecture notes</li>
+<li>Topo-Invariants by Y.X Zhao</li>
+<li>…</li>
+</ul>
+<h2 id="讲分类的文章和用k理论-nlsm-clifford代数的文章">讲分类的文章和用K理论，NLSM,Clifford代数的文章</h2>
+<ul>
+<li>Classification of topological insulators and superconductors in three spatial dimensions</li>
+<li>Classification of topological insulators and superconductors</li>
+<li>Topological insulators and superconductors tenfold way and dimensional hierarchy</li>
+<li>Kitaev_Periodic table for topological insulators and superconductors</li>
+<li>Topological phases classification of topological insulators and superconductors of non-interacting fermions, and beyond_Ludwig_2015</li>
+<li>Stability of fermi surfaces and K theory</li>
+<li>Topological classification and stability of fermi surfaces</li>
+<li>Disordered Weyl semimetals and their topological family</li>
+<li>Topoligical phases_isomorphism,homotopy and K-theory</li>
+<li>Topological classification with additional symmetries from Clifford algebras</li>
+<li>Twisted equivariant matter</li>
+<li>Clifford modules and symmetries of topological insulators</li>
+<li>…</li>
+</ul>
+<h2 id="wilson-loop方法">Wilson loop方法</h2>
+<ul>
+<li>Benalcaza_Bernevig_Hughes_2017</li>
+<li>Equivalent expression of Z2 topological invariant for band insulators using the non-Abelian Berry connection</li>
+</ul>
+<h2 id="其他相关的物理基础">其他相关的物理基础</h2>
+<p>Topological nodal line semimetals</p>
+<h2 id="经典原始文献">经典原始文献</h2>
+<ul>
+<li>Kane_Z2 Topological Order and the Quantum Spin Hall Effect</li>
+<li>Kane_Time reversal polarization and Z2 adiabatic spin pump</li>
+<li>Kane_Topological insulators in 3D</li>
+<li>Kane_Topological insulators with inversion symmetry</li>
+<li>Kitaev_Unpaired Majorana fermions in quantum wires</li>
+<li>Qi_Topological field theory of timereversal invariance topological insulators</li>
+<li>A&amp;Z_Nonstandard symmetry classes in mesoscopic normal-superconducting hybrid structures</li>
+<li>TKNN</li>
+<li>Laughlin</li>
+<li>Haldane model</li>
+</ul>
+<h2 id="组内文章">组内文章</h2>
+<h1>文献：General SPT:</h1>
+<p>主要是Kitaev,Wen,Witten,…的文章。</p>
 ]]></content>
       <categories>
-        <category>凝聚态基础理论学习笔记</category>
+        <category>拓扑物态学习</category>
       </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
   </entry>
   <entry>
-    <title>Notes on relativistic QFT</title>
+    <title>Summary notes on relativistic QFT</title>
     <url>/2022/09/26/Relativistic%20QFT/</url>
     <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
 <p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
@@ -57,6 +146,21 @@
       </categories>
       <tags>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/1/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
+]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
       </tags>
   </entry>
 </search>
