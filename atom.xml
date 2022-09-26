@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Personal Blog</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-09-26T11:00:43.925Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>王祥</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Notes on relativistic QFT</title>
+    <link href="http://example.com/2022/09/26/Relativistic%20QFT/"/>
+    <id>http://example.com/2022/09/26/Relativistic%20QFT/</id>
+    <published>2022-09-26T10:20:55.726Z</published>
+    <updated>2022-09-26T11:00:43.925Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;自己整理的相对论性量子场论的笔记&lt;/h1&gt;
+&lt;p&gt;目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge</summary>
+        
+      
+    
+    
+    
+    <category term="场论学习" scheme="http://example.com/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Reading notes on condensed matter physics</title>
+    <link href="http://example.com/2022/09/25/1/"/>
+    <id>http://example.com/2022/09/25/1/</id>
+    <published>2022-09-25T14:17:49.283Z</published>
+    <updated>2022-09-26T10:51:09.656Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在这里记录一下学习凝聚态理论的日常。&lt;/p&gt;
+&lt;h2 id=&quot;学习材料&quot;&gt;学习材料&lt;/h2&gt;
+&lt;p&gt;Condensed Matter Field theory by A.Altland &amp;amp;</summary>
+        
+      
+    
+    
+    
+    <category term="凝聚态基础理论学习笔记" scheme="http://example.com/categories/%E5%87%9D%E8%81%9A%E6%80%81%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+</feed>
