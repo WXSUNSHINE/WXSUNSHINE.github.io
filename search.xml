@@ -1,84 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Summary notes on relativistic QFT</title>
-    <url>/2022/09/26/Relativistic%20QFT/</url>
-    <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
-<p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
-<p>目前的思路是：</p>
-<ul>
-<li>量子力学的原理，这部分可以再额外参考Moore的两本书：群论和讲twisted K-theory的书。</li>
-<li>庞加莱群及其不可约表示，这部分可以再额外参考Woit的书。</li>
-<li>二次量子化，这部分可以再额外参考凝聚态的书。</li>
-<li>自由场算符的推导</li>
-<li>正则量子化，路径积分量子化，这部分得重写，需要写得更加简洁一些。还需要加入关于constraint system的讨论。路径积分的部分可以再参考一些凝聚态的书。</li>
-<li>To be continued</li>
-</ul>
-<h2 id="参考资料：">参考资料：</h2>
-<ul>
-<li>WeinbergI</li>
-<li>WeinbergII</li>
-<li>New_QFT by Yuchen Wang</li>
-<li>Schwartz</li>
-<li>Zee</li>
-</ul>
-<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
-<ul>
-<li>Tong:Gauge theory</li>
-<li>Srecnicki</li>
-<li>Peskin&amp;Schroeder</li>
-<li>Skinner</li>
-<li>Tong:QFT</li>
-<li>to be continued</li>
-</ul>
-<h2 id="latex">Latex:</h2>
-
-
-	<div class="row">
-    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-]]></content>
-      <categories>
-        <category>场论学习</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>马列毛经典阅读笔记</title>
-    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1>《国家与革命》</h1>
-<h1>《怎么办？》</h1>
-<h1>《进一步，退两步》</h1>
-<h1>《毛选》</h1>
-<h1>《政治经济学概论》</h1>
-]]></content>
-      <categories>
-        <category>哲学/社科/小说阅读随记</category>
-      </categories>
-      <tags>
-        <tag>哲学随记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
-]]></content>
-      <categories>
-        <category>凝聚态基础理论学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Learning project on topological quantum matters</title>
     <url>/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/</url>
     <content><![CDATA[<h1>学习规划</h1>
@@ -86,15 +8,64 @@
 <li>2022/9/27 这周计划学习一下 2016年的综述，以及组里的两篇投影表示的重要文章，周末把最近学的内容整理一下：TI/TSC 中的对称性，基于对称性的分类：K理论/Clifford代数简单的结论，Band crossing/inversion，拓扑不变量的定义和计算，几个简单的模型（SSH，Graphene，Kitaev chain)(主要是熟练拓扑数的计算和各种变换，对称性的应用），空间群，投影表示的原理。这部分整理一个周末肯定不够，下周继续，等这部分物理初步整理完了，可以去看Berry phase的文章，以及更详细的分类工作；继续学习Altland上拓扑场论相关的部分，之后去看Nakahara；可以开始学习Moore的书了；</li>
 </ul>
 <h1>一些基本概念</h1>
-<h1>作为基础的数学补充</h1>
 <ul>
-<li>Nakahara: Topology,geometry and physics</li>
-<li>Moore: Quantum Symmetries and Compatible Hamiltonians</li>
-<li>Moore: Quantum Symmetries and K-Theory(a shorter version)</li>
-<li>Moore: Clifford algebra</li>
-<li>Moore: Abstract group theory(focus on group cohomology and group extension)</li>
-<li>Karoubi: K-theory: an introduction</li>
-<li>…</li>
+<li>
+<p>Based on the idea of tensor product states, the ground state of a many body system H can be classified into SRE and LRE states, the latter is known as having intrinsic topological order. Further take symmetry into consideration, the SRE is then promoted to SPT states, as long as keeping the energy gap and preserving symmtry, the ground state can be topological: can’t be deformed into trivial states.</p>
+</li>
+<li>
+<p>The field theoretical definition of topological phases of matter is that the long-range effective theory of the ground state is a topological field theory.There are several types of topological field theories: Chern-SImons term ,WZW term , theta term, DW TQFT, TV TQFT,… The bulk-boundary correspondence implies that at the boundary there can be CFT presenting.</p>
+</li>
+<li>
+<p>The bosonic SPT states are classified by group cohomology, while it is not clear if fermionic SPT states can be classified by super group cohomology.</p>
+</li>
+<li>
+<p>For noninteracting fermionic SPT states, there’s a complete classification, known as 10-fold way.This classification result can be obtained using several ways: K theory in topological band theory, extension problem of real/complex Clifford algebra(Using Dirac Hamiltonian),Anderson localization at the boundary using NLSMs and homotopy(of classifying space), gauge anomalous response(topological field theories). Last method also applies in interacting cases.</p>
+</li>
+<li>
+<p>The 10-fold classification have several features:<br>
+-Bott periodicity<br>
+-The table is constructed with antiunitary symmetries(unitary ones will make the classification finer, but “degenerate” in non-interacting phases): T,C,S.<br>
+-The 10-fold classification have geometrical meanings:Cartan symmetric spaces, and have something to do with disorder(A-Z random matrix theory)</p>
+</li>
+</ul>
+<ul>
+<li>In each case, the phases are classified by topological invariants,these topological invariants coincide with coefficients of the topological terms and is quantized due to symmtry. They can also been obtained using topological band theory: the Berry phase,…,these topological invariants can be considered as indicating the homotopy group of the k-space band Hamiltonian.<br>
+-There’s certain dimension reduction, descent</li>
+</ul>
+<p>*Specific physical implications of topology:<br>
+-Anomalous boundary/defect states,protected by symmtry,topological(stable) against disorder(extended),these states are gapless.<br>
+-The topological invariants can identified with polarizations physically and related to boundary chiral/helical states( Weyl/Dirac/Majorana)<br>
+-Exotic boundary states when the energy gap is open.</p>
+<ul>
+<li>These feature also applies to certain gapless phases:semimetal, non-ordinary SC,… Where the topology is not captured by filled bands but by the Fermi surface/line/point.</li>
+</ul>
+<p>*…</p>
+<h1>作为基础的数学和物理补充</h1>
+<ul>
+<li>
+<p>Nakahara: Topology,geometry and physics</p>
+</li>
+<li>
+<p>Moore: Quantum Symmetries and Compatible Hamiltonians</p>
+</li>
+<li>
+<p>Moore: Quantum Symmetries and K-Theory(a shorter version)</p>
+</li>
+<li>
+<p>Moore: Clifford algebra</p>
+</li>
+<li>
+<p>Moore: Abstract group theory(focus on group cohomology and group extension)</p>
+</li>
+<li>
+<p>Karoubi: K-theory: an introduction</p>
+</li>
+<li>
+<p>…</p>
+</li>
+<li>
+<p>Tong: Instanton (topological defect,especially index theorem)</p>
+</li>
 </ul>
 <h1>文献：Non-interacting fermionic SPT(TI,TSC,Nodal systems)：</h1>
 <h2 id="综述及教材">综述及教材</h2>
@@ -178,6 +149,84 @@
 ]]></content>
       <categories>
         <category>拓扑物态学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>马列毛经典阅读笔记</title>
+    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1>《国家与革命》</h1>
+<h1>《怎么办？》</h1>
+<h1>《进一步，退两步》</h1>
+<h1>《毛选》</h1>
+<h1>《政治经济学概论》</h1>
+]]></content>
+      <categories>
+        <category>哲学/社科/小说阅读随记</category>
+      </categories>
+      <tags>
+        <tag>哲学随记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Summary notes on relativistic QFT</title>
+    <url>/2022/09/26/Relativistic%20QFT/</url>
+    <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
+<p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
+<p>目前的思路是：</p>
+<ul>
+<li>量子力学的原理，这部分可以再额外参考Moore的两本书：群论和讲twisted K-theory的书。</li>
+<li>庞加莱群及其不可约表示，这部分可以再额外参考Woit的书。</li>
+<li>二次量子化，这部分可以再额外参考凝聚态的书。</li>
+<li>自由场算符的推导</li>
+<li>正则量子化，路径积分量子化，这部分得重写，需要写得更加简洁一些。还需要加入关于constraint system的讨论。路径积分的部分可以再参考一些凝聚态的书。</li>
+<li>To be continued</li>
+</ul>
+<h2 id="参考资料：">参考资料：</h2>
+<ul>
+<li>WeinbergI</li>
+<li>WeinbergII</li>
+<li>New_QFT by Yuchen Wang</li>
+<li>Schwartz</li>
+<li>Zee</li>
+</ul>
+<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
+<ul>
+<li>Tong:Gauge theory</li>
+<li>Srecnicki</li>
+<li>Peskin&amp;Schroeder</li>
+<li>Skinner</li>
+<li>Tong:QFT</li>
+<li>to be continued</li>
+</ul>
+<h2 id="latex">Latex:</h2>
+
+
+	<div class="row">
+    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
+      <categories>
+        <category>场论学习</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/1/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
+]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
       </categories>
       <tags>
         <tag>学习记录</tag>
