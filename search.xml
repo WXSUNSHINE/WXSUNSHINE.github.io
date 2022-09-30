@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/1/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
+]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Math learning</title>
+    <url>/2022/09/30/Math%20learning/</url>
+    <content><![CDATA[<h1>Plane:</h1>
+<h1>Basic Algebra:</h1>
+<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
+<ul>
+<li>Algebra: Chapter 0</li>
+<li>代数学方法</li>
+<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
+<li>Algebra_S.Lang</li>
+<li>Basic algebra_Jacobson</li>
+<li>…</li>
+</ul>
+<h2 id="physical-literacture">Physical literacture:</h2>
+<ul>
+<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
+<li>Group theory: application to group theory</li>
+<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
+<li>Woit: Quantum theory,groups and representation</li>
+<li>…</li>
+</ul>
+<h1>Representation theory</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Commutative algebra and homological algebra:</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Group cohomology</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Algebraic topology</h1>
+<ul>
+<li>Algebraic topology_Hatcher</li>
+<li>Rotman: introduction to algebraic topology</li>
+<li>Differential Forms in Algebraic Topology_Bott</li>
+</ul>
+<h2 id="physical-literature">Physical literature:</h2>
+<ul>
+<li>Nakahara</li>
+</ul>
+<h1>K-theory:</h1>
+<ul>
+<li>K-theory: an introduction</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数学补习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Learning project on topological quantum matters</title>
     <url>/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/</url>
     <content><![CDATA[<h1>学习规划</h1>
@@ -155,22 +226,6 @@
       </tags>
   </entry>
   <entry>
-    <title>马列毛经典阅读笔记</title>
-    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1>《国家与革命》</h1>
-<h1>《怎么办？》</h1>
-<h1>《进一步，退两步》</h1>
-<h1>《毛选》</h1>
-<h1>《政治经济学概论》</h1>
-]]></content>
-      <categories>
-        <category>哲学/社科/小说阅读随记</category>
-      </categories>
-      <tags>
-        <tag>哲学随记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Summary notes on relativistic QFT</title>
     <url>/2022/09/26/Relativistic%20QFT/</url>
     <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
@@ -218,18 +273,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
+    <title>马列毛经典阅读笔记</title>
+    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1>《国家与革命》</h1>
+<h1>《怎么办？》</h1>
+<h1>《进一步，退两步》</h1>
+<h1>《毛选》</h1>
+<h1>《政治经济学概论》</h1>
 ]]></content>
       <categories>
-        <category>凝聚态基础理论学习</category>
+        <category>哲学/社科/小说阅读随记</category>
       </categories>
       <tags>
-        <tag>学习记录</tag>
+        <tag>哲学随记</tag>
       </tags>
   </entry>
 </search>
