@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-30T09:01:35.492Z</updated>
+  <updated>2022-09-30T13:01:23.655Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/09/30/Math%20learning/"/>
     <id>http://example.com/2022/09/30/Math%20learning/</id>
     <published>2022-09-29T16:00:00.000Z</published>
-    <updated>2022-09-30T09:01:35.492Z</updated>
+    <updated>2022-09-30T13:01:23.655Z</updated>
     
     
       
@@ -29,8 +29,9 @@
         
         
     <summary type="html">&lt;h1&gt;Plane:&lt;/h1&gt;
+&lt;p&gt;学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。&lt;/p&gt;
 &lt;h1&gt;Basic Algebra:&lt;/h1&gt;
-&lt;h2 id=&quot;abstract-algebra-basic-category-theory&quot;&gt;Abstract algebra &amp;amp; basic category</summary>
+&lt;h2 id=&quot;abstract-algebra-basic-category-theory&quot;&gt;Abstract</summary>
         
       
     
