@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-30T13:01:23.655Z</updated>
+  <updated>2022-10-01T02:44:04.004Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日常记录</title>
+    <link href="http://example.com/2022/10/01/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+    <id>http://example.com/2022/10/01/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</id>
+    <published>2022-09-30T16:00:00.000Z</published>
+    <updated>2022-10-01T02:44:04.004Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;2022/10/1&lt;/h1&gt;
+&lt;p&gt;都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="日常记录" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Math learning</title>
