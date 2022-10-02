@@ -202,36 +202,8 @@
       </tags>
   </entry>
   <entry>
-    <title>日常记录</title>
-    <url>/2022/10/01/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h1>2022/10/1</h1>
-<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
-]]></content>
-      <categories>
-        <category>日常记录</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
-]]></content>
-      <categories>
-        <category>凝聚态基础理论学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Math learning</title>
-    <url>/2022/09/30/Math%20learning/</url>
+    <url>/2022/10/02/Math%20learning/</url>
     <content><![CDATA[<h1>Plane:</h1>
 <p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
 <h1>Basic Algebra:</h1>
@@ -291,6 +263,34 @@
 ]]></content>
       <categories>
         <category>数学补习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日常记录</title>
+    <url>/2022/10/01/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1>2022/10/1</h1>
+<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
+]]></content>
+      <categories>
+        <category>日常记录</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/1/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
+]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
       </categories>
       <tags>
         <tag>学习记录</tag>

@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-01T02:44:04.004Z</updated>
+  <updated>2022-10-02T15:42:48.426Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Math learning</title>
+    <link href="http://example.com/2022/10/02/Math%20learning/"/>
+    <id>http://example.com/2022/10/02/Math%20learning/</id>
+    <published>2022-10-01T16:00:00.000Z</published>
+    <updated>2022-10-02T15:42:48.426Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Plane:&lt;/h1&gt;
+&lt;p&gt;学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。&lt;/p&gt;
+&lt;h1&gt;Basic Algebra:&lt;/h1&gt;
+&lt;h2 id=&quot;abstract-algebra-basic-category-theory&quot;&gt;Abstract</summary>
+        
+      
+    
+    
+    
+    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
+    
+    
+    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>日常记录</title>
@@ -40,34 +68,6 @@
     
     
     <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Math learning</title>
-    <link href="http://example.com/2022/09/30/Math%20learning/"/>
-    <id>http://example.com/2022/09/30/Math%20learning/</id>
-    <published>2022-09-29T16:00:00.000Z</published>
-    <updated>2022-10-02T15:40:54.134Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;Plane:&lt;/h1&gt;
-&lt;p&gt;学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。&lt;/p&gt;
-&lt;h1&gt;Basic Algebra:&lt;/h1&gt;
-&lt;h2 id=&quot;abstract-algebra-basic-category-theory&quot;&gt;Abstract</summary>
-        
-      
-    
-    
-    
-    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
-    
-    
-    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
