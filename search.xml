@@ -176,92 +176,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Math learning</title>
-    <url>/2022/10/02/Math%20learning/</url>
-    <content><![CDATA[<h1>Plan:</h1>
-<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
-<h1>Basic Algebra:</h1>
-<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
-<ul>
-<li>Algebra: Chapter 0</li>
-<li>代数学方法</li>
-<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
-<li>Algebra_S.Lang</li>
-<li>Basic algebra_Jacobson</li>
-<li>…</li>
-</ul>
-<h2 id="physical-literacture">Physical literacture:</h2>
-<ul>
-<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
-<li>Group theory: application to group theory</li>
-<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
-<li>Woit: Quantum theory,groups and representation</li>
-<li>…</li>
-</ul>
-<h1>Representation theory</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Commutative algebra and homological algebra:</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Group cohomology</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Algebraic topology</h1>
-<ul>
-<li>Algebraic topology_Hatcher</li>
-<li>Rotman: introduction to algebraic topology</li>
-<li>Differential Forms in Algebraic Topology_Bott</li>
-</ul>
-<h2 id="physical-literature">Physical literature:</h2>
-<ul>
-<li>Nakahara</li>
-</ul>
-<h1>K-theory:</h1>
-<ul>
-<li>K-theory: an introduction</li>
-</ul>
-<h1>Notes:</h1>
-<h2 id="basic-category-theory">Basic category theory:</h2>
-<p>This is the note based on the introductory lecture on bilibili. More materials should be learned and included. This should be accompanied with learning of algebraic topology and abstract algebra and homological algebra.</p>
-
-
-	<div class="row">
-    <embed src="/pdf/Basic_category_theory.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h2 id="nakahara-fiber-bundle">Nakahara: FIber bundle</h2>
-<p>Reading notes:</p>
-<ul>
-<li>Total space is glued up piece by piece by transition functions(physically gauge transformations)</li>
-<li>The topolohgical properties of fiber bundle will have physical meaning in gauge theory, especially the principle bundle(Fiber=Structure group) and topological configurations(monopole,instanton,…)</li>
-<li>Quantum mechanics can be considered in fiber bundles: Hilbert space= projective space.Wave functions = sections of canonical complex line bundle.</li>
-<li>Fields are sections of the corresponding fiber bundle.</li>
-<li>vector bundles are related to principle bundles: using vector space(carrier space of the group we consider) and principle bundle we construct the associated vectore bundle, conversely we can construct associated principle bundle with vector bundle using reconstruction procedure. Examples include: Frame bundle and spin bundle.</li>
-<li>H bundle over G/H can be considered as a group extension. The theory of group cohomology and group extension have geometrical interpretation as principle bundles and associated bundles.</li>
-</ul>
-
-
-	<div class="row">
-    <embed src="/pdf/ch9" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <categories>
-        <category>数学补习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>马列毛经典阅读笔记</title>
     <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1>《国家与革命》</h1>
@@ -322,6 +236,93 @@
       </categories>
       <tags>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Math learning</title>
+    <url>/2022/10/02/Math%20learning/</url>
+    <content><![CDATA[<h1>Plan:</h1>
+<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
+<h1>Basic Algebra:</h1>
+<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
+<ul>
+<li>Algebra: Chapter 0</li>
+<li>代数学方法</li>
+<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
+<li>Algebra_S.Lang</li>
+<li>Basic algebra_Jacobson</li>
+<li>…</li>
+</ul>
+<h2 id="physical-literacture">Physical literacture:</h2>
+<ul>
+<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
+<li>Group theory: application to group theory</li>
+<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
+<li>Woit: Quantum theory,groups and representation</li>
+<li>…</li>
+</ul>
+<h1>Representation theory</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Commutative algebra and homological algebra:</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Group cohomology</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Algebraic topology</h1>
+<ul>
+<li>Algebraic topology_Hatcher</li>
+<li>Rotman: introduction to algebraic topology</li>
+<li>Differential Forms in Algebraic Topology_Bott</li>
+</ul>
+<h2 id="physical-literature">Physical literature:</h2>
+<ul>
+<li>Nakahara</li>
+</ul>
+<h1>K-theory:</h1>
+<ul>
+<li>K-theory: an introduction</li>
+</ul>
+<h1>Notes:</h1>
+<h2 id="basic-category-theory">Basic category theory:</h2>
+<p>This is the note based on the introductory lecture on bilibili. More materials should be learned and included. This should be accompanied with learning of algebraic topology and abstract algebra and homological algebra.</p>
+
+
+	<div class="row">
+    <embed src="/pdf/Basic_category_theory.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-fiber-bundle">Nakahara: Fiber bundle</h2>
+<p>Reading notes:</p>
+<ul>
+<li>Total space is glued up piece by piece by transition functions(physically gauge transformations)</li>
+<li>The topolohgical properties of fiber bundle will have physical meaning in gauge theory, especially the principle bundle(Fiber=Structure group) and topological configurations(monopole,instanton,…)</li>
+<li>Quantum mechanics can be considered in fiber bundles: Hilbert space= projective space.Wave functions = sections of canonical complex line bundle.</li>
+<li>Fields are sections of the corresponding fiber bundle.</li>
+<li>vector bundles are related to principle bundles: using vector space(carrier space of the group we consider) and principle bundle we construct the associated vectore bundle, conversely we can construct associated principle bundle with vector bundle using reconstruction procedure. Examples include: Frame bundle and spin bundle.</li>
+<li>H bundle over G/H can be considered as a group extension. The theory of group cohomology and group extension have geometrical interpretation as principle bundles and associated bundles.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch9_Fiber_Bundle.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="none"></h2>
+]]></content>
+      <categories>
+        <category>数学补习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
       </tags>
   </entry>
   <entry>
