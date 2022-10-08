@@ -161,75 +161,67 @@
       </tags>
   </entry>
   <entry>
-    <title>Math learning</title>
-    <url>/2022/10/02/Math%20learning/</url>
-    <content><![CDATA[<h1>Plan:</h1>
-<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
-<h1>Basic Algebra:</h1>
-<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
+    <title>Math notes</title>
+    <url>/2022/10/08/math%20notes/</url>
+    <content><![CDATA[<h1>Notes:</h1>
+<h2 id="basic-category-theory">Basic category theory:</h2>
+<p>This is the note based on the introductory lecture on bilibili. More materials should be learned and included. This should be accompanied with learning of algebraic topology and abstract algebra and homological algebra.</p>
+
+
+	<div class="row">
+    <embed src="/pdf/Basic_category_theory.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-fiber-bundle">Nakahara: Fiber bundle</h2>
+<p>Reading notes:</p>
 <ul>
-<li>Algebra: Chapter 0</li>
-<li>代数学方法</li>
-<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
-<li>Algebra_S.Lang</li>
-<li>Basic algebra_Jacobson</li>
-<li>…</li>
+<li>Total space is glued up piece by piece by transition functions(physically gauge transformations)</li>
+<li>The topolohgical properties of fiber bundle will have physical meaning in gauge theory, especially the principle bundle(Fiber=Structure group) and topological configurations(monopole,instanton,…)</li>
+<li>Quantum mechanics can be considered in fiber bundles: Hilbert space= projective space.Wave functions = sections of canonical complex line bundle.</li>
+<li>Fields are sections of the corresponding fiber bundle.</li>
+<li>vector bundles are related to principle bundles: using vector space(carrier space of the group we consider) and principle bundle we construct the associated vectore bundle, conversely we can construct associated principle bundle with vector bundle using reconstruction procedure. Examples include: Frame bundle and spin bundle.</li>
+<li>H bundle over G/H can be considered as a group extension. The theory of group cohomology and group extension have geometrical interpretation as principle bundles and associated bundles.</li>
 </ul>
-<h2 id="physical-literacture">Physical literacture:</h2>
+
+
+	<div class="row">
+    <embed src="/pdf/ch9_Fiber_Bundle.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-connections-on-fiber-bundles">Nakahara: Connections on Fiber bundles</h2>
+<p>Reading notes:</p>
 <ul>
-<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
-<li>Group theory: application to group theory</li>
-<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
-<li>Woit: Quantum theory,groups and representation</li>
-<li>…</li>
+<li>Given principle bundle, geometrically we can uniquely separate the tangent space  into vertical part and  horizontal part with respect to the fiber G. This defines the E-connection naturally.</li>
+<li>This then define the Lie algebra valued connection one form, whose image and kernal defines the separation properly.</li>
+<li>Given local section, we can then pull back the connection one form to have a local connection one form on M, this defines the gauge potential. The requirement that the connection one form is unique, independent of covering then defines the compatibility condition of local connection, which is just the gauge transformation defined via transition function.</li>
+<li>The definition of parallel transportation on principle bundle( transport both base point and its fiber) is then defined by horizontal lift of curves in base manifold. The horizontal lift depend on the definition of horizontal space, thus depend on connection.</li>
+<li>The loops in base manifold induce horizontal lift which have closed base point but not the fiber element in general. This is then defines the holonomy group.The holonomy is known as Wilson loop or Berry phase. The holonomy group is a manifest of the curvature on principle bundle.</li>
+<li>By defining covariant derivative on principle bundle via horizontal space(connection), the curvature two form is defined as the covariant derivative of the connection one form. The pull back by local section is the local curvature two form or gauge field strength. Whose local covariant derivative vanishes(Bianchi identity)</li>
+<li>The holonomy(curvature) manifest the non trivial topological properties of the fiber bundle, which is also manifest by transition function and its homotopy group. Characteristic classes can be constructed from curvature.</li>
+<li>The connection on principle bundle defines a natural covariant derivative of sections of the associated vector bundle, which defines how the fibers change in parallel transportation (the fiber is constant with respect to the horizontal lift) induced by the curve in base space. This definition of covariant derivative depend on only the section itself and connection on principle bundle, independent of both horizontal lift(which is not unique upon right action),and local trivialization( which is not unique upon left action(transition function)). The curvature can be expressed in terms of covariant derivative.</li>
+<li>Gauge theories first relies on defining the right base manifold and fiber(as a group). The homotopy class of the bundle is manifested by the transition function(gauge transformation), characteristic class,… The physical degrees of freedom manifest as the associated vector bundle, with the section specifying both gauge D.O.F(principle bundle) and physical D.O.F(multiplet). The gauge bosons(connection itself) are defined with adjoint action(representation) and Lie algebra, while others are defined with other representations(action) and carrier vector spaces. The mod out right action is just gauge equivalence, with right action of gauge group on the fiber(both local gauge and multiplet) which is identified as the gauge transformation of both matter field and gauge field(on connection).</li>
+<li>Many topological spaces can also be viewed as fiber bundles. The notion of twist(transition function/gauge transformation) is very important, also note that the independence of local trivialization, local coordinate system, covering, triangulation is very important.These are all expressed as certain equivalence relation and the these equivalence relation further define more constructions. The topological properties of many systems can be expressed explicitly in terms of fiber bundles and characteristic class(cohomology) and homotopy. The topological properties then is physically related to gauge theories! By triangulation, we then obtain lattice gauge theories.</li>
+<li>examples include: Topological spaces like Mobius stripe, Gauge theories like Yang-Mills, General relativity, others like Berry phase, topological configurations(monopole,instanton,…)</li>
 </ul>
-<h1>Representation theory</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Commutative algebra and homological algebra:</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Group cohomology</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Algebraic topology</h1>
-<ul>
-<li>Algebraic topology_Hatcher</li>
-<li>Rotman: introduction to algebraic topology</li>
-<li>Differential Forms in Algebraic Topology_Bott</li>
-</ul>
-<h2 id="physical-literature">Physical literature:</h2>
-<ul>
-<li>Nakahara</li>
-</ul>
-<h1>K-theory:</h1>
-<ul>
-<li>K-theory: an introduction</li>
-</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch10_Connections_On_Fiber_Bundles.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1></h1>
 ]]></content>
       <categories>
         <category>数学补习</category>
       </categories>
       <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
-]]></content>
-      <categories>
-        <category>凝聚态基础理论学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -293,66 +285,75 @@
       </tags>
   </entry>
   <entry>
-    <title>Math notes</title>
-    <url>/2022/10/02/math%20notes/</url>
-    <content><![CDATA[<h1>Notes:</h1>
-<h2 id="basic-category-theory">Basic category theory:</h2>
-<p>This is the note based on the introductory lecture on bilibili. More materials should be learned and included. This should be accompanied with learning of algebraic topology and abstract algebra and homological algebra.</p>
-
-
-	<div class="row">
-    <embed src="/pdf/Basic_category_theory.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h2 id="nakahara-fiber-bundle">Nakahara: Fiber bundle</h2>
-<p>Reading notes:</p>
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/1/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
+]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Math learning</title>
+    <url>/2022/10/02/Math%20learning/</url>
+    <content><![CDATA[<h1>Plan:</h1>
+<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
+<h1>Basic Algebra:</h1>
+<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
 <ul>
-<li>Total space is glued up piece by piece by transition functions(physically gauge transformations)</li>
-<li>The topolohgical properties of fiber bundle will have physical meaning in gauge theory, especially the principle bundle(Fiber=Structure group) and topological configurations(monopole,instanton,…)</li>
-<li>Quantum mechanics can be considered in fiber bundles: Hilbert space= projective space.Wave functions = sections of canonical complex line bundle.</li>
-<li>Fields are sections of the corresponding fiber bundle.</li>
-<li>vector bundles are related to principle bundles: using vector space(carrier space of the group we consider) and principle bundle we construct the associated vectore bundle, conversely we can construct associated principle bundle with vector bundle using reconstruction procedure. Examples include: Frame bundle and spin bundle.</li>
-<li>H bundle over G/H can be considered as a group extension. The theory of group cohomology and group extension have geometrical interpretation as principle bundles and associated bundles.</li>
+<li>Algebra: Chapter 0</li>
+<li>代数学方法</li>
+<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
+<li>Algebra_S.Lang</li>
+<li>Basic algebra_Jacobson</li>
+<li>…</li>
 </ul>
-
-
-	<div class="row">
-    <embed src="/pdf/ch9_Fiber_Bundle.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h2 id="nakahara-connections-on-fiber-bundles">Nakahara: Connections on Fiber bundles</h2>
-<p>Reading notes:</p>
+<h2 id="physical-literacture">Physical literacture:</h2>
 <ul>
-<li>Given principle bundle, geometrically we can uniquely separate the tangent space  into vertical part and  horizontal part with respect to the fiber G. This defines the E-connection naturally.</li>
-<li>This then define the Lie algebra valued connection one form, whose image and kernal defines the separation properly.</li>
-<li>Given local section, we can then pull back the connection one form to have a local connection one form on M, this defines the gauge potential. The requirement that the connection one form is unique, independent of covering then defines the compatibility condition of local connection, which is just the gauge transformation defined via transition function.</li>
-<li>The definition of parallel transportation on principle bundle( transport both base point and its fiber) is then defined by horizontal lift of curves in base manifold. The horizontal lift depend on the definition of horizontal space, thus depend on connection.</li>
-<li>The loops in base manifold induce horizontal lift which have closed base point but not the fiber element in general. This is then defines the holonomy group.The holonomy is known as Wilson loop or Berry phase. The holonomy group is a manifest of the curvature on principle bundle.</li>
-<li>By defining covariant derivative on principle bundle via horizontal space(connection), the curvature two form is defined as the covariant derivative of the connection one form. The pull back by local section is the local curvature two form or gauge field strength. Whose local covariant derivative vanishes(Bianchi identity)</li>
-<li>The holonomy(curvature) manifest the non trivial topological properties of the fiber bundle, which is also manifest by transition function and its homotopy group. Characteristic classes can be constructed from curvature.</li>
-<li>The connection on principle bundle defines a natural covariant derivative of sections of the associated vector bundle, which defines how the fibers change in parallel transportation (the fiber is constant with respect to the horizontal lift) induced by the curve in base space. This definition of covariant derivative depend on only the section itself and connection on principle bundle, independent of both horizontal lift(which is not unique upon right action),and local trivialization( which is not unique upon left action(transition function)). The curvature can be expressed in terms of covariant derivative.</li>
-<li>Gauge theories first relies on defining the right base manifold and fiber(as a group). The homotopy class of the bundle is manifested by the transition function(gauge transformation), characteristic class,… The physical degrees of freedom manifest as the associated vector bundle, with the section specifying both gauge D.O.F(principle bundle) and physical D.O.F(multiplet). The gauge bosons(connection itself) are defined with adjoint action(representation) and Lie algebra, while others are defined with other representations(action) and carrier vector spaces. The mod out right action is just gauge equivalence, with right action of gauge group on the fiber(both local gauge and multiplet) which is identified as the gauge transformation of both matter field and gauge field(on connection).</li>
-<li>Many topological spaces can also be viewed as fiber bundles. The notion of twist(transition function/gauge transformation) is very important, also note that the independence of local trivialization, local coordinate system, covering, triangulation is very important.These are all expressed as certain equivalence relation and the these equivalence relation further define more constructions. The topological properties of many systems can be expressed explicitly in terms of fiber bundles and characteristic class(cohomology) and homotopy. The topological properties then is physically related to gauge theories! By triangulation, we then obtain lattice gauge theories.</li>
-<li>examples include: Topological spaces like Mobius stripe, Gauge theories like Yang-Mills, General relativity, others like Berry phase, topological configurations(monopole,instanton,…)</li>
+<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
+<li>Group theory: application to group theory</li>
+<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
+<li>Woit: Quantum theory,groups and representation</li>
+<li>…</li>
 </ul>
-
-
-	<div class="row">
-    <embed src="/pdf/" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
+<h1>Representation theory</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Commutative algebra and homological algebra:</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Group cohomology</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Algebraic topology</h1>
+<ul>
+<li>Algebraic topology_Hatcher</li>
+<li>Rotman: introduction to algebraic topology</li>
+<li>Differential Forms in Algebraic Topology_Bott</li>
+</ul>
+<h2 id="physical-literature">Physical literature:</h2>
+<ul>
+<li>Nakahara</li>
+</ul>
+<h1>K-theory:</h1>
+<ul>
+<li>K-theory: an introduction</li>
+</ul>
 ]]></content>
       <categories>
         <category>数学补习</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
+        <tag>学习记录</tag>
       </tags>
   </entry>
   <entry>
