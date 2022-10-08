@@ -176,6 +176,35 @@
       </tags>
   </entry>
   <entry>
+    <title>马列毛经典阅读笔记</title>
+    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1>《国家与革命》</h1>
+<h1>《怎么办？》</h1>
+<h1>《进一步，退两步》</h1>
+<h1>《毛选》</h1>
+<h1>《政治经济学概论》</h1>
+]]></content>
+      <categories>
+        <category>哲学/社科/小说阅读随记</category>
+      </categories>
+      <tags>
+        <tag>哲学随记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日常记录</title>
+    <url>/2022/10/01/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1>2022/10/1</h1>
+<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
+]]></content>
+      <categories>
+        <category>日常记录</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Summary notes on relativistic QFT</title>
     <url>/2022/09/26/Relativistic%20QFT/</url>
     <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
@@ -318,7 +347,7 @@
 
 
 	<div class="row">
-    <embed src="/pdf/ch10" width="100%" height="550" type="application/pdf">
+    <embed src="/pdf/ch10_Connections_On_Fiber_Bundles.pdf" width="100%" height="550" type="application/pdf">
 	</div>
 
 
@@ -329,35 +358,6 @@
       </categories>
       <tags>
         <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>日常记录</title>
-    <url>/2022/10/01/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h1>2022/10/1</h1>
-<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
-]]></content>
-      <categories>
-        <category>日常记录</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>马列毛经典阅读笔记</title>
-    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1>《国家与革命》</h1>
-<h1>《怎么办？》</h1>
-<h1>《进一步，退两步》</h1>
-<h1>《毛选》</h1>
-<h1>《政治经济学概论》</h1>
-]]></content>
-      <categories>
-        <category>哲学/社科/小说阅读随记</category>
-      </categories>
-      <tags>
-        <tag>哲学随记</tag>
       </tags>
   </entry>
 </search>
