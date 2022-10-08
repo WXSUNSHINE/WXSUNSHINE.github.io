@@ -176,22 +176,6 @@
       </tags>
   </entry>
   <entry>
-    <title>马列毛经典阅读笔记</title>
-    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1>《国家与革命》</h1>
-<h1>《怎么办？》</h1>
-<h1>《进一步，退两步》</h1>
-<h1>《毛选》</h1>
-<h1>《政治经济学概论》</h1>
-]]></content>
-      <categories>
-        <category>哲学/社科/小说阅读随记</category>
-      </categories>
-      <tags>
-        <tag>哲学随记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Summary notes on relativistic QFT</title>
     <url>/2022/09/26/Relativistic%20QFT/</url>
     <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
@@ -316,7 +300,29 @@
 
 
 
-<h2 id="none"></h2>
+<h2 id="nakahara-connections-on-fiber-bundles">Nakahara: Connections on Fiber bundles</h2>
+<p>Reading notes:</p>
+<ul>
+<li>Given principle bundle, geometrically we can uniquely separate the tangent space  into vertical part and  horizontal part with respect to the fiber G. This defines the E-connection naturally.</li>
+<li>This then define the Lie algebra valued connection one form, whose image and kernal defines the separation properly.</li>
+<li>Given local section, we can then pull back the connection one form to have a local connection one form on M, this defines the gauge potential. The requirement that the connection one form is unique, independent of covering then defines the compatibility condition of local connection, which is just the gauge transformation defined via transition function.</li>
+<li>The definition of parallel transportation on principle bundle( transport both base point and its fiber) is then defined by horizontal lift of curves in base manifold. The horizontal lift depend on the definition of horizontal space, thus depend on connection.</li>
+<li>The loops in base manifold induce horizontal lift which have closed base point but not the fiber element in general. This is then defines the holonomy group.The holonomy is known as Wilson loop or Berry phase. The holonomy group is a manifest of the curvature on principle bundle.</li>
+<li>By defining covariant derivative on principle bundle via horizontal space(connection), the curvature two form is defined as the covariant derivative of the connection one form. The pull back by local section is the local curvature two form or gauge field strength. Whose local covariant derivative vanishes(Bianchi identity)</li>
+<li>The holonomy(curvature) manifest the non trivial topological properties of the fiber bundle, which is also manifest by transition function and its homotopy group. Characteristic classes can be constructed from curvature.</li>
+<li>The connection on principle bundle defines a natural covariant derivative of sections of the associated vector bundle, which defines how the fibers change in parallel transportation (the fiber is constant with respect to the horizontal lift) induced by the curve in base space. This definition of covariant derivative depend on only the section itself and connection on principle bundle, independent of both horizontal lift(which is not unique upon right action),and local trivialization( which is not unique upon left action(transition function)). The curvature can be expressed in terms of covariant derivative.</li>
+<li>Gauge theories first relies on defining the right base manifold and fiber(as a group). The homotopy class of the bundle is manifested by the transition function(gauge transformation), characteristic class,… The physical degrees of freedom manifest as the associated vector bundle, with the section specifying both gauge D.O.F(principle bundle) and physical D.O.F(multiplet). The gauge bosons(connection itself) are defined with adjoint action(representation) and Lie algebra, while others are defined with other representations(action) and carrier vector spaces. The mod out right action is just gauge equivalence, with right action of gauge group on the fiber(both local gauge and multiplet) which is identified as the gauge transformation of both matter field and gauge field(on connection).</li>
+<li>Many topological spaces can also be viewed as fiber bundles. The notion of twist(transition function/gauge transformation) is very important, also note that the independence of local trivialization, local coordinate system, covering, triangulation is very important.These are all expressed as certain equivalence relation and the these equivalence relation further define more constructions. The topological properties of many systems can be expressed explicitly in terms of fiber bundles and characteristic class(cohomology) and homotopy. The topological properties then is physically related to gauge theories! By triangulation, we then obtain lattice gauge theories.</li>
+<li>examples include: Topological spaces like Mobius stripe, Gauge theories like Yang-Mills, General relativity, others like Berry phase, topological configurations(monopole,instanton,…)</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch10" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
 ]]></content>
       <categories>
         <category>数学补习</category>
@@ -336,6 +342,22 @@
       </categories>
       <tags>
         <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>马列毛经典阅读笔记</title>
+    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1>《国家与革命》</h1>
+<h1>《怎么办？》</h1>
+<h1>《进一步，退两步》</h1>
+<h1>《毛选》</h1>
+<h1>《政治经济学概论》</h1>
+]]></content>
+      <categories>
+        <category>哲学/社科/小说阅读随记</category>
+      </categories>
+      <tags>
+        <tag>哲学随记</tag>
       </tags>
   </entry>
 </search>
