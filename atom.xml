@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-08T09:05:12.425Z</updated>
+  <updated>2022-10-08T09:11:27.370Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/10/02/Math%20learning/"/>
     <id>http://example.com/2022/10/02/Math%20learning/</id>
     <published>2022-10-01T16:00:00.000Z</published>
-    <updated>2022-10-08T09:05:12.425Z</updated>
+    <updated>2022-10-08T09:11:27.370Z</updated>
     
     
       
@@ -41,6 +41,33 @@
     
     
     <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Math notes</title>
+    <link href="http://example.com/2022/10/02/math%20notes/"/>
+    <id>http://example.com/2022/10/02/math%20notes/</id>
+    <published>2022-10-01T16:00:00.000Z</published>
+    <updated>2022-10-08T09:12:06.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Notes:&lt;/h1&gt;
+&lt;h2 id=&quot;basic-category-theory&quot;&gt;Basic category theory:&lt;/h2&gt;
+&lt;p&gt;This is the note based on the introductory lecture on</summary>
+        
+      
+    
+    
+    
+    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
+    
+    
+    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
