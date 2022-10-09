@@ -16,68 +16,11 @@
       </tags>
   </entry>
   <entry>
-    <title>Math learning</title>
-    <url>/2022/10/02/Math%20learning/</url>
-    <content><![CDATA[<h1>Plan:</h1>
-<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
-<h1>Basic Algebra:</h1>
-<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
-<ul>
-<li>Algebra: Chapter 0</li>
-<li>代数学方法</li>
-<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
-<li>Algebra_S.Lang</li>
-<li>Basic algebra_Jacobson</li>
-<li>…</li>
-</ul>
-<h2 id="physical-literacture">Physical literacture:</h2>
-<ul>
-<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
-<li>Group theory: application to group theory</li>
-<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
-<li>Woit: Quantum theory,groups and representation</li>
-<li>…</li>
-</ul>
-<h1>Representation theory</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Commutative algebra and homological algebra:</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Group cohomology</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Algebraic topology</h1>
-<ul>
-<li>Algebraic topology_Hatcher</li>
-<li>Rotman: introduction to algebraic topology</li>
-<li>Differential Forms in Algebraic Topology_Bott</li>
-</ul>
-<h2 id="physical-literature">Physical literature:</h2>
-<ul>
-<li>Nakahara</li>
-</ul>
-<h1>K-theory:</h1>
-<ul>
-<li>K-theory: an introduction</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数学补习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Learning project on topological quantum matters</title>
     <url>/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/</url>
     <content><![CDATA[<h1>学习规划</h1>
 <ul>
-<li>2022/9/27 这周计划学习一下 2016年的综述，以及组里的两篇投影表示的重要文章，周末把最近学的内容整理一下：TI/TSC 中的对称性，基于对称性的分类：K理论/Clifford代数简单的结论，Band crossing/inversion，拓扑不变量的定义和计算，几个简单的模型（SSH，Graphene，Kitaev chain)(主要是熟练拓扑数的计算和各种变换，对称性的应用），空间群，投影表示的原理。这部分整理一个周末肯定不够，下周继续，等这部分物理初步整理完了，可以去看Berry phase的文章，以及更详细的分类工作；继续学习Altland上拓扑场论相关的部分，之后去看Nakahara；可以开始学习Moore的书了；</li>
+<li>2022/10/9 这周计划学习一下 2016年的综述，以及组里的两篇投影表示的重要文章，周末把最近学的内容整理一下：TI/TSC 中的对称性，基于对称性的分类：K理论/Clifford代数简单的结论，Band crossing/inversion，拓扑不变量的定义和计算，几个简单的模型（SSH，Graphene，Kitaev chain)(主要是熟练拓扑数的计算和各种变换，对称性的应用），空间群，投影表示的原理。这部分整理一个周末肯定不够，下周继续，等这部分物理初步整理完了，可以去看Berry phase的文章，以及更详细的分类工作；继续学习Altland上拓扑场论相关的部分，之后去看Nakahara；可以开始学习Moore的书了；</li>
 </ul>
 <h1>一些基本概念</h1>
 <ul>
@@ -233,6 +176,63 @@
       </tags>
   </entry>
   <entry>
+    <title>Math learning</title>
+    <url>/2022/10/02/Math%20learning/</url>
+    <content><![CDATA[<h1>Plan:</h1>
+<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
+<h1>Basic Algebra:</h1>
+<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
+<ul>
+<li>Algebra: Chapter 0</li>
+<li>代数学方法</li>
+<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
+<li>Algebra_S.Lang</li>
+<li>Basic algebra_Jacobson</li>
+<li>…</li>
+</ul>
+<h2 id="physical-literacture">Physical literacture:</h2>
+<ul>
+<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
+<li>Group theory: application to group theory</li>
+<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
+<li>Woit: Quantum theory,groups and representation</li>
+<li>…</li>
+</ul>
+<h1>Representation theory</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Commutative algebra and homological algebra:</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Group cohomology</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Algebraic topology</h1>
+<ul>
+<li>Algebraic topology_Hatcher</li>
+<li>Rotman: introduction to algebraic topology</li>
+<li>Differential Forms in Algebraic Topology_Bott</li>
+</ul>
+<h2 id="physical-literature">Physical literature:</h2>
+<ul>
+<li>Nakahara</li>
+</ul>
+<h1>K-theory:</h1>
+<ul>
+<li>K-theory: an introduction</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数学补习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Summary notes on relativistic QFT</title>
     <url>/2022/09/26/Relativistic%20QFT/</url>
     <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
@@ -281,7 +281,7 @@
   </entry>
   <entry>
     <title>Math notes</title>
-    <url>/2022/10/08/math%20notes/</url>
+    <url>/2022/10/09/math%20notes/</url>
     <content><![CDATA[<h1>Notes:</h1>
 <h2 id="basic-category-theory">Basic category theory:</h2>
 <p>This is the note based on the introductory lecture on bilibili. More materials should be learned and included. This should be accompanied with learning of algebraic topology and abstract algebra and homological algebra.</p>
@@ -334,7 +334,7 @@
 
 
 
-<p>##Nakahara: Characteristic classes</p>
+<h2 id="nakahara-characteristic-classes">Nakahara: Characteristic classes</h2>
 <p>Reading notes:</p>
 <ul>
 <li>The characteristic classes are defined to be subsets of cohomology class of the base space, which measure the (non)trivial property of both M and Fiber bundles over M.</li>
@@ -343,11 +343,11 @@
 <li>The classification of homotopy class of complex vector bundle can be turned into the classification homotopy class of smooth map from base space to the universal classifying space defined using Grassmann manifold which is also related to the classification of Clifford algebra. The characteristic classes of the classifying space pull back define characteristic classes of the fiber bundle.Which can be used to construct indicators of the homotopy class(topological invariants)</li>
 <li>Useful characteristic classes include:</li>
 </ul>
-<ul>
+<ol>
 <li>Complex vector bundle: Chern class, Chern character(important in index theorems), Todd class</li>
 <li>Real vector bundle: Protrjagin class, Euler class(Gauss-Bonet:curvature—Euler character), L-polynomial, A-genus(Dirac genus).</li>
 <li>Spin bundle: Stiefel-Whitney class(1st measure the (non)orientability, 2nd measure the possible spin bundle associated with the frame bundle(principle bundle associated with the tangent bundle endowed with a fiber metric)</li>
-</ul>
+</ol>
 <ul>
 <li>Since the characteristic classes are closed(de Rham type), they are locally the exterior derivative of the Chern-Simons forms, defined via Chern-Weil theorem(transgression).</li>
 <li>The local form of characteristic classes(de Rham type) only measure the local bundle, which is trivial. What is important is their integral over the base space, which is global. The integral can be turned into the integral over the boundary with Chern-Simons forms, which measure the topology(global) of the boundary manifold. This gives bulk-boundary correspondence.</li>
@@ -370,9 +370,11 @@
   </entry>
   <entry>
     <title>日常记录</title>
-    <url>/2022/10/01/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
+    <url>/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1>2022/10/1</h1>
 <p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
+<h1>2022/10/9</h1>
+<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
 ]]></content>
       <categories>
         <category>日常记录</category>
