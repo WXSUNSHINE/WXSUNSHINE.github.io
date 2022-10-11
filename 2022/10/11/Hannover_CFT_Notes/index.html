@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Lecture notes on Introduction to conformal field theory | Personal Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Acknowledgement This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [Link]:https:&#x2F;&#x2F;blog.csdn.net&#x2F;duoduo_11011&#x2F;article&#x2F;details&#x2F;106389412. Lecture">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lecture notes on Introduction to conformal field theory">
+<meta property="og:url" content="http://example.com/2022/10/11/Hannover_CFT_Notes/index.html">
+<meta property="og:site_name" content="Personal Blog">
+<meta property="og:description" content="Acknowledgement This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [Link]:https:&#x2F;&#x2F;blog.csdn.net&#x2F;duoduo_11011&#x2F;article&#x2F;details&#x2F;106389412. Lecture">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-10-11T14:26:30.842Z">
+<meta property="article:modified_time" content="2022-10-11T14:59:07.500Z">
+<meta property="article:author" content="王祥">
+<meta property="article:tag" content="学习记录">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"><link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Personal Blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Hannover_CFT_Notes" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/11/Hannover_CFT_Notes/" class="article-date">
+  <time class="dt-published" datetime="2022-10-11T14:26:30.842Z" itemprop="datePublished">2022-10-11</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/">场论学习</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Lecture notes on Introduction to conformal field theory
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1>Acknowledgement</h1>
+<p>This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [Link]:<a target="_blank" rel="noopener" href="https://blog.csdn.net/duoduo_11011/article/details/106389412">https://blog.csdn.net/duoduo_11011/article/details/106389412</a>.</p>
+<h1>Lecture 1,2:</h1>
+<p>Reading notes:</p>
+<h2 id="motivation">Motivation:</h2>
+<ul>
+<li>CFT provide good effective description of systems at/near criticality(2nd phase transition point), near which we have interesting phenomena including long-range correlation, scaling invariance, etc.</li>
+<li>CFT is the fixed point of RG, which implies all other QFTs are perturbation(approximation) to CFTs, they are also cut-off independent.</li>
+<li>CFT can be made more mathematical rogirous, there are roughly 3 different formulation, havn’t been unified yet.</li>
+</ul>
+<h2 id="what-is-cft">What is CFT:</h2>
+<ul>
+<li>From the group theoretical point of view, CFT are local field(quantum) construction of projective unitary representations of the conformal group(actually the local algebra, generated by infinitesimal transformations)</li>
+<li>The combination of locality and unitarity is nontrival.</li>
+<li>For quantum theory, we actually need intrinsic projective representation(with central extension) to construct physical models.</li>
+</ul>
+<h2 id="conformal-transformations">Conformal transformations:</h2>
+<ul>
+<li>Consider the case of flat spacetime, the conformal transformations are defined to be those leaves metric invariant up to a spacetime dependent scale(preserving angles). This condition then lead to two useful constraint on infinitesimal conformal transformations.</li>
+<li>In general the infinitesimal conformal transformations are generated by some vector fields(may be represented by differential operators), for d&gt;3, the situation is simpler, there are generators of translation, rotation &amp; boost, scale transformation, special conformal transformation. For d=2, the situation is more subtler, the local algebra(close under Lie bracket) is an infinite dimensional algebra, for Euclidean metric, it’s known as Witt alegebra, for Lorentzian metric, the Lie algebra is isomorphic to Witt algebra. The meaning of the conformal transformations are far more clear in d=2 Minkowski spacetime, they correspond to dilatation/contraction of the two independent light-cone coordinate axes, for d=2 Euclidean case, the finite conformal transformations coorespond to linear complex analytic functions, especially the group PSL(2,C)(Mobius transformaitions). This means the study of conformal transformations is reduced to the study of orientation-preserving diffeomorphism of R or S^{1} when compactified.</li>
+<li>Question: Is the compacitifed case related to the knot theory and thus topological field theory?</li>
+<li>Not all infinitesimal conformal transformations can be exponentiated to be a finite transforamtion. There may be singularities as the obstructions. Those generator admitting finite transformations form a subalgebra, being the Lie algebra of the finite conformal transformations they form a group. There are two possibilies, when the infinity is excluded, we have less finite transformations, with infitnity included(we are compatictifying thus on a Riemann sphere/surface) there are more fninite transformations.</li>
+<li>With more transformation, the system is more symmetric and thus more constraint. This means the physics of d=2 conformal field theories are highly constraint. The claim is that they are classfied by the central charge related to projective representations. Also note that the d=2 conformal field theory are very important in statistical physics and as the boundary of 2+1d topological bulk.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect1,2.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/10/11/Hannover_CFT_Notes/" data-id="cl94bx87k000753preryg4y6c" data-title="Lecture notes on Introduction to conformal field theory" class="article-share-link">分享</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">日常记录</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%87%9D%E8%81%9A%E6%80%81%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/">凝聚态基础理论学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%93%B2%E5%AD%A6-%E7%A4%BE%E7%A7%91-%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E9%9A%8F%E8%AE%B0/">哲学/社科/小说阅读随记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/">场论学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/">拓扑物态学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/">数学补习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%93%B2%E5%AD%A6%E9%9A%8F%E8%AE%B0/" rel="tag">哲学随记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E5%93%B2%E5%AD%A6%E9%9A%8F%E8%AE%B0/" style="font-size: 10px;">哲学随记</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" style="font-size: 20px;">学习记录</a> <a href="/tags/%E6%97%A5%E5%B8%B8/" style="font-size: 10px;">日常</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">十月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">九月 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/10/11/Hannover_CFT_Notes/">Lecture notes on Introduction to conformal field theory</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/09/math%20notes/">Math notes</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/02/Math%20learning/">Math learning</a>
+          </li>
+        
+          <li>
+            <a href="/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">马列毛经典阅读笔记</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 王祥<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
