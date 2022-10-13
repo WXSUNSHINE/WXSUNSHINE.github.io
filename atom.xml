@@ -47,7 +47,7 @@
     <link href="http://example.com/2022/10/13/Notes%20on%20TI,TSC/"/>
     <id>http://example.com/2022/10/13/Notes%20on%20TI,TSC/</id>
     <published>2022-10-12T16:00:00.000Z</published>
-    <updated>2022-10-13T10:53:46.637Z</updated>
+    <updated>2022-10-13T11:00:28.186Z</updated>
     
     
       
@@ -55,10 +55,11 @@
         
         
     <summary type="html">&lt;h1&gt;Moore: PiTP 2015 on 10-fold way&lt;/h1&gt;
+&lt;p&gt;Main results:&lt;/p&gt;
 
 
 	&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;/pdf/10-fold_Way_Moore.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot;</summary>
+    &lt;embed src=&quot;/pdf/10-fold_Way_Moore.pdf&quot; width=&quot;100%&quot;</summary>
         
       
     
@@ -68,6 +69,33 @@
     
     
     <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Math notes</title>
+    <link href="http://example.com/2022/10/09/math%20notes/"/>
+    <id>http://example.com/2022/10/09/math%20notes/</id>
+    <published>2022-10-08T16:00:00.000Z</published>
+    <updated>2022-10-09T15:18:29.404Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Notes:&lt;/h1&gt;
+&lt;h2 id=&quot;basic-category-theory&quot;&gt;Basic category theory:&lt;/h2&gt;
+&lt;p&gt;This is the note based on the introductory lecture on</summary>
+        
+      
+    
+    
+    
+    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
+    
+    
+    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -96,33 +124,6 @@
     
     
     <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Math notes</title>
-    <link href="http://example.com/2022/10/09/math%20notes/"/>
-    <id>http://example.com/2022/10/09/math%20notes/</id>
-    <published>2022-10-08T16:00:00.000Z</published>
-    <updated>2022-10-09T15:18:29.404Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;Notes:&lt;/h1&gt;
-&lt;h2 id=&quot;basic-category-theory&quot;&gt;Basic category theory:&lt;/h2&gt;
-&lt;p&gt;This is the note based on the introductory lecture on</summary>
-        
-      
-    
-    
-    
-    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
-    
-    
-    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
