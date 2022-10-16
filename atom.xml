@@ -41,6 +41,32 @@
   </entry>
   
   <entry>
+    <title>Lecture notes on Introduction to conformal field theory</title>
+    <link href="http://example.com/2022/10/13/Hannover_CFT_Notes/"/>
+    <id>http://example.com/2022/10/13/Hannover_CFT_Notes/</id>
+    <published>2022-10-12T16:00:00.000Z</published>
+    <updated>2022-10-16T03:53:05.866Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Acknowledgement&lt;/h1&gt;
+&lt;p&gt;This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="场论学习" scheme="http://example.com/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Lecture notes on TI, TSC</title>
     <link href="http://example.com/2022/10/13/Notes%20on%20TI,TSC/"/>
     <id>http://example.com/2022/10/13/Notes%20on%20TI,TSC/</id>
@@ -64,32 +90,6 @@
     
     
     <category term="拓扑物态学习" scheme="http://example.com/categories/%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Lecture notes on Introduction to conformal field theory</title>
-    <link href="http://example.com/2022/10/13/Hannover_CFT_Notes/"/>
-    <id>http://example.com/2022/10/13/Hannover_CFT_Notes/</id>
-    <published>2022-10-12T16:00:00.000Z</published>
-    <updated>2022-10-13T10:55:19.652Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;Acknowledgement&lt;/h1&gt;
-&lt;p&gt;This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="场论学习" scheme="http://example.com/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/"/>
     
     
     <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
