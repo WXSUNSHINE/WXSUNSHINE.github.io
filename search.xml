@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/1/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
+]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Materials for learning CFT and TQFT</title>
+    <url>/2022/10/17/CFT&amp;TQFT_materials/</url>
+    <content><![CDATA[<h1>CFT</h1>
+<h2 id="books-and-notes">Books and Notes</h2>
+<ul>
+<li>conformal field theroy-“the yellow book”</li>
+<li>Introduction to conformal field theory with application to string theory</li>
+<li>String theory_Polchinski</li>
+<li>String theory_D.Tong</li>
+</ul>
+<h2 id="reviews">Reviews</h2>
+<ul>
+<li>Applied conformal field theory_Ginsparg</li>
+<li>An introduction to conformal field theory_Gaberdiel</li>
+</ul>
+<h2 id="lecture-notes">Lecture notes</h2>
+<ul>
+<li>Conformal field theroy_Alday</li>
+<li>Supersymmetry and conformal field theory_Herzog</li>
+<li>Conformal field theory for string theorists_Herzog</li>
+<li>Lectures on conformal field theory_Joshua</li>
+</ul>
+<h2 id="zhihu-notes">Zhihu notes</h2>
+<ul>
+<li>[<a href="https://zhuanlan.zhihu.com/p/473536902">https://zhuanlan.zhihu.com/p/473536902</a>]</li>
+<li>[<a href="https://zhuanlan.zhihu.com/p/20769052">https://zhuanlan.zhihu.com/p/20769052</a>]</li>
+<li>[<a href="https://zhuanlan.zhihu.com/p/428292248">https://zhuanlan.zhihu.com/p/428292248</a>]</li>
+<li>[<a href="https://zhuanlan.zhihu.com/p/392768986">https://zhuanlan.zhihu.com/p/392768986</a>]</li>
+</ul>
+<h2 id="online-lectures">Online lectures</h2>
+<ul>
+<li>2020 Introduction to Topological Field Theory-Prof. M. Marino [<a href="https://www.bilibili.com/video/BV1Ji4y187pH/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1Ji4y187pH/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
+<li>Introduction to conformal field theory by Tobias Osborne [<a href="https://www.bilibili.com/video/BV1xW411F7jn/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1xW411F7jn/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
+<li>RCFT 孔良 [<a href="https://www.bilibili.com/video/BV1t44y1g7e8/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1t44y1g7e8/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
+<li>Conformal Field Theory (PSI 11-12, Core) - Jaume Gomis [<a href="https://www.bilibili.com/video/BV1u4411E7Uj/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1u4411E7Uj/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
+</ul>
+]]></content>
+      <categories>
+        <category>场论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Learning project on topological quantum matters</title>
     <url>/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/</url>
     <content><![CDATA[<h1>学习规划</h1>
@@ -161,6 +221,83 @@
       </tags>
   </entry>
   <entry>
+    <title>Lecture notes on TI, TSC</title>
+    <url>/2022/10/13/Notes%20on%20TI,TSC/</url>
+    <content><![CDATA[<h1>Kane: Topolgical insulator</h1>
+<p>Main results:</p>
+
+
+	<div class="row">
+    <embed src="/pdf/TI_Kane.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
+      <categories>
+        <category>拓扑物态学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Math learning</title>
+    <url>/2022/10/02/Math%20learning/</url>
+    <content><![CDATA[<h1>Plan:</h1>
+<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
+<h1>Basic Algebra:</h1>
+<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
+<ul>
+<li>Algebra: Chapter 0</li>
+<li>代数学方法</li>
+<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
+<li>Algebra_S.Lang</li>
+<li>Basic algebra_Jacobson</li>
+<li>…</li>
+</ul>
+<h2 id="physical-literacture">Physical literacture:</h2>
+<ul>
+<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
+<li>Group theory: application to group theory</li>
+<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
+<li>Woit: Quantum theory,groups and representation</li>
+<li>…</li>
+</ul>
+<h1>Representation theory</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Commutative algebra and homological algebra:</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Group cohomology</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Algebraic topology</h1>
+<ul>
+<li>Algebraic topology_Hatcher</li>
+<li>Rotman: introduction to algebraic topology</li>
+<li>Differential Forms in Algebraic Topology_Bott</li>
+</ul>
+<h2 id="physical-literature">Physical literature:</h2>
+<ul>
+<li>Nakahara</li>
+</ul>
+<h1>K-theory:</h1>
+<ul>
+<li>K-theory: an introduction</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数学补习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Lecture notes on Introduction to conformal field theory</title>
     <url>/2022/10/16/Hannover_CFT_Notes/</url>
     <content><![CDATA[<h1>Acknowledgement</h1>
@@ -248,6 +385,21 @@
       </tags>
   </entry>
   <entry>
+    <title>日常记录</title>
+    <url>/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1>2022/10/1</h1>
+<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
+<h1>2022/10/9</h1>
+<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
+]]></content>
+      <categories>
+        <category>日常记录</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Summary notes on relativistic QFT</title>
     <url>/2022/09/26/Relativistic%20QFT/</url>
     <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
@@ -295,41 +447,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
-]]></content>
-      <categories>
-        <category>凝聚态基础理论学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Lecture notes on TI, TSC</title>
-    <url>/2022/10/13/Notes%20on%20TI,TSC/</url>
-    <content><![CDATA[<h1>Kane: Topolgical insulator</h1>
-<p>Main results:</p>
-
-
-	<div class="row">
-    <embed src="/pdf/TI_Kane.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-]]></content>
-      <categories>
-        <category>拓扑物态学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Notes on TiTP 2015</title>
     <url>/2022/10/15/TiTP_2015/</url>
     <content><![CDATA[<h1>Acknowledgement</h1>
@@ -374,63 +491,6 @@
 
 
 ]]></content>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Math learning</title>
-    <url>/2022/10/02/Math%20learning/</url>
-    <content><![CDATA[<h1>Plan:</h1>
-<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
-<h1>Basic Algebra:</h1>
-<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
-<ul>
-<li>Algebra: Chapter 0</li>
-<li>代数学方法</li>
-<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
-<li>Algebra_S.Lang</li>
-<li>Basic algebra_Jacobson</li>
-<li>…</li>
-</ul>
-<h2 id="physical-literacture">Physical literacture:</h2>
-<ul>
-<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
-<li>Group theory: application to group theory</li>
-<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
-<li>Woit: Quantum theory,groups and representation</li>
-<li>…</li>
-</ul>
-<h1>Representation theory</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Commutative algebra and homological algebra:</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Group cohomology</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Algebraic topology</h1>
-<ul>
-<li>Algebraic topology_Hatcher</li>
-<li>Rotman: introduction to algebraic topology</li>
-<li>Differential Forms in Algebraic Topology_Bott</li>
-</ul>
-<h2 id="physical-literature">Physical literature:</h2>
-<ul>
-<li>Nakahara</li>
-</ul>
-<h1>K-theory:</h1>
-<ul>
-<li>K-theory: an introduction</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数学补习</category>
-      </categories>
       <tags>
         <tag>学习记录</tag>
       </tags>
@@ -522,21 +582,6 @@
       </categories>
       <tags>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>日常记录</title>
-    <url>/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h1>2022/10/1</h1>
-<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
-<h1>2022/10/9</h1>
-<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
-]]></content>
-      <categories>
-        <category>日常记录</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
