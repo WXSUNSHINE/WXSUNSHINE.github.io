@@ -71,6 +71,93 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-AT_Dieck" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/19/AT_Dieck/" class="article-date">
+  <time class="dt-published" datetime="2022-10-19T13:31:52.248Z" itemprop="datePublished">2022-10-19</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/">数学补习</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/19/AT_Dieck/">Reading notes on Algebraic topology by T.Dieck</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1>Introduction</h1>
+<ul>
+<li>Algebraic topology is the interplay between continuous and discrete mathematics, for topological/geometrical continuum, A.T allows their realizations to be of an algebraic nature.</li>
+<li>Classical A.T consists of construction and use functors to study/extract-information from topological category. Two important views are homology and homotopy. These implies the category of topological spaces has itself a kind of hidden algebraic structure and can been manifested only in techniques of A.T, these properties can not been obtained using simply point-set topology.</li>
+</ul>
+<h1>Topological space</h1>
+<p>This chapter serve as a set up of some point-set topological notions, the most important notions are quotient space(quotient set with quotient topology) and transformation groups.</p>
+<h2 id="basic-notions">Basic notions</h2>
+<ul>
+<li>Topological space is defined axiomatically with open sets, dually closed sets. Related notions including: closure(also defining dense subset), interior, boundary, etc. There’s notion of topological basis, also a weaker one known subbasis. There’s also subspaces, with subspace/induced topology defined on subset.</li>
+<li>There are many topological structure can be defined. We then have the notion of coarser/finer topology. The morphisms are continuous maps defined via open sets, the morphisms are usually refered to as open/close morphism. The isomorphism in TOP is homeomorphism, we have to make sure the inverse is also continous(a morphism).</li>
+<li>The notion of (open) neighbourhood is usually used, it is used to define continuity at some point. This notion is more useful in metric spaces, with topology defined respect to the metric, using open neighbourhoods. This type of topology is more related to analysis.</li>
+<li>There are some properties we can attach to a topological space. Separation axioms have four types: Hausdorff(separated), (complete) regular, normal. Another one is (local) compactness(defined using open coverings).</li>
+<li>Associated with compactness is the technique of compactification, most used one is known as one-point compactification. The proper morphism is associated with compactness.</li>
+<li>There’s theorem implying locally compact set in Hausdorff space is locally closed. Locally closed set in locally compact space is locally compact.</li>
+</ul>
+<p>There are many theorems related to openness, Hausdorffness, compactness, etc in the literature, they seem not that important to me.</p>
+<ul>
+<li>Associated with morphisms we have notions of sections, in topological context they are assumed to be continuous. Same for rectraction.</li>
+</ul>
+<h2 id="categorical-constructions">Categorical constructions</h2>
+<ul>
+<li>Product of topological spaces is defined with product topology on product of sets. The product topology is the coarsest topology making the projections continuous. The universal properties in this book is frequently framed as “the unique(by construction from universal properties in SET) map is continuous if the associated ones are”. This is just checking the definition is indeed a morphism, this is important and we should also check well-defineness.</li>
+<li>Dually we have coproduct which is refered to as topological sum. The subspace topology of components is the original ones, this means they are open in the sum.</li>
+<li>Finer constructions are fiber product and fiber coproduct, the former is refered to as pull back defined with subspace topology, the latter is refered to as push out defined by quotient topology via coproduct morphism.</li>
+<li>There’s notion of embedding, this is common in describing the topological object in terms of solution set of equations, they are defined with subspace topology. The embedding is of categorical nature</li>
+<li>The quotient space is important, it express the idea of pasting points by identifying them with equivalence relations usually through morphisms. Specificly the quotient topology is defined via surjective map, equivalently canonical projections to quotient sets. This morphism is known as identification or quotient map.</li>
+<li>Associted with quotient is the idea of constructing larger spaces by pasting smaller pieces. These process will finally need quotient, moding out some equivalence relation, this quotient process is intuitively identifying some structures in common, thus pasting different pieces together. Specific example include adjunction space, which is also a special case of push out of inclusion.</li>
+<li>More generally, we have the notion of clutching, the definition is rather subtle, involving labeled subsets and bijections. The bijections define the notion of pasting, the datum lead to equivalence relations on disjiont sum(largest set)between points comes from different pieces. By quotienting we have well defined spaces and injections identifying different pieces. The bijections serve for transition between different pieces pasting them together.</li>
+</ul>
+<h2 id="topological-groups">Topological groups</h2>
+<ul>
+<li>A topological group is a group with topological structure defined on set making the inverse and multiplication continous. The left action of group on itself is known as left transition and is a homeomorphism. Examples include matrice groups some of them are identified with topological spaces like n-sphere, n-torus, etc. Notions like subspace and quotient can be defined.</li>
+<li>Group action of topological group on topological spaces define category G-TOP, consisting of G-spaces(like G-module, G-set) and equivariant morphisms(G-map). There’s related notions like orbit space by quotienting out the G action, stabilizer fixed point set, etc.</li>
+<li>The equivariant continuous maps between topological spaces induce natrually continuous maps between corresponding G-spaces.</li>
+<li>Equivariant homotopy or G-homotopy is defined as a homotopy such that at all time the morphism is a G-map.</li>
+<li>The quotient space is defined on quotient set, the quotient space may not be a quotient group. The quotient space is defined with natural G-action, it is refered to as homogeneous space. It’s important in geometry.</li>
+<li>By orbit-stabilizer theorem, the homogeneous space constructed by mod out the some stabilizer is identified with the orbit(transitive) we usually refer the latter. Important examples include sphere, projective spaces, Grassmann manifolds, Stiefel manifolds.</li>
+<li>The homogeneous G-spaces with the mod out subgroup closed in G together with G-maps form orbit category.</li>
+<li>The action on real/complex vector space is known as (G-modules) real/complex representation if the translations are linear maps.</li>
+<li>Given a right G-space and a left G-space we can construct product with a left G action. Then by quotienting the action we obtain a orbit space. This constuction is important.</li>
+</ul>
+<h1>The fundamental group</h1>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/10/19/AT_Dieck/" data-id="cl9hzez110007dhprdcldgdzm" data-title="Reading notes on Algebraic topology by T.Dieck" class="article-share-link">分享</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-CFT&amp;TQFT_materials" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/10/17/CFT&TQFT_materials/" class="article-date">
@@ -110,18 +197,18 @@
 <li>Applied conformal field theory_Ginsparg</li>
 <li>An introduction to conformal field theory_Gaberdiel</li>
 </ul>
+<p>These two reviews are good, the former is more physical, the later contain more formal aspects of 2d CFT, and the references are important.</p>
 <h2 id="lecture-notes">Lecture notes</h2>
 <ul>
 <li>Conformal field theroy_Alday</li>
 <li>Supersymmetry and conformal field theory_Herzog</li>
 <li>Conformal field theory for string theorists_Herzog</li>
-<li>Lectures on conformal field theory_Joshua</li>
+<li>Lectures on conformal field theory_Qualls</li>
 </ul>
+<p>I don’t have enough time to study all these, these will be used as just reference, the main materials for study will be [Ginsparg],[Gaberdiel],[Yellow book],[Tong], and the important papers especially about [BPZ] and [MS]</p>
 <h2 id="zhihu-notes">Zhihu notes</h2>
 <ul>
 <li>[<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/473536902">https://zhuanlan.zhihu.com/p/473536902</a>]</li>
-<li>[<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/20769052">https://zhuanlan.zhihu.com/p/20769052</a>]</li>
-<li>[<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/428292248">https://zhuanlan.zhihu.com/p/428292248</a>]</li>
 <li>[<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/392768986">https://zhuanlan.zhihu.com/p/392768986</a>]</li>
 </ul>
 <h2 id="online-lectures">Online lectures</h2>
@@ -131,11 +218,26 @@
 <li>RCFT 孔良 [<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1t44y1g7e8/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1t44y1g7e8/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
 <li>Conformal Field Theory (PSI 11-12, Core) - Jaume Gomis [<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1u4411E7Uj/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1u4411E7Uj/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
 </ul>
+<h2 id="important-original-papers">Important original papers</h2>
+<ul>
+<li>BPZ</li>
+<li>Moore,Seiberg</li>
+<li>Segel</li>
+<li>…</li>
+</ul>
+<h2 id="important-notions">Important notions</h2>
+<ul>
+<li>Scale invariance, conformal invariance, trace anomaly, universality, consistent conditions.</li>
+<li>Witt algebra, OPE, VOA, Virasoro algebra, central charge</li>
+<li>Verma module and representation</li>
+<li>Meromorphic CFT(chiral algebra,VOA)</li>
+<li>Moore Seiberg: MTC, quantum groups</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/17/CFT&TQFT_materials/" data-id="cl9cw7a0n00038hpr26ibc0tl" data-title="Materials for learning CFT and TQFT" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2022/10/17/CFT&TQFT_materials/" data-id="cl9hzez0z0003dhpr9x9lamxw" data-title="Materials for learning CFT and TQFT" class="article-share-link">分享</a>
       
       
       
@@ -255,7 +357,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/16/Hannover_CFT_Notes/" data-id="cl9cw7a0q000c8hpr05oxa974" data-title="Lecture notes on Introduction to conformal field theory" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2022/10/16/Hannover_CFT_Notes/" data-id="cl9hzez160019dhprfohpewby" data-title="Lecture notes on Introduction to conformal field theory" class="article-share-link">分享</a>
       
       
       
@@ -336,7 +438,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/15/TiTP_2015/" data-id="cl9cw7a0r000l8hpr3t3lhav9" data-title="Notes on TiTP 2015" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2022/10/15/TiTP_2015/" data-id="cl9hzez13000jdhpr6c2t9b1a" data-title="Notes on TiTP 2015" class="article-share-link">分享</a>
       
       
       
@@ -389,59 +491,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/13/Notes%20on%20TI,TSC/" data-id="cl9cw7a0o00078hpr30yk0ygq" data-title="Lecture notes on TI, TSC" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2022/10/13/Notes%20on%20TI,TSC/" data-id="cl9hzez110008dhprhr2mbncn" data-title="Lecture notes on TI, TSC" class="article-share-link">分享</a>
       
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-日常记录" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" class="article-date">
-  <time class="dt-published" datetime="2022-10-08T16:00:00.000Z" itemprop="datePublished">2022-10-09</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1>2022/10/1</h1>
-<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
-<h1>2022/10/9</h1>
-<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" data-id="cl9cw7a0q000e8hpr1snw0jdr" data-title="日常记录" class="article-share-link">分享</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a></li></ul>
 
     </footer>
   </div>
@@ -559,11 +613,59 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/09/math%20notes/" data-id="cl9cw7a0s000q8hpr4drg2jzj" data-title="Math notes" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2022/10/09/math%20notes/" data-id="cl9hzez13000edhpr81d0drbq" data-title="Math notes" class="article-share-link">分享</a>
       
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-日常记录" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" class="article-date">
+  <time class="dt-published" datetime="2022-10-08T16:00:00.000Z" itemprop="datePublished">2022-10-09</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1>2022/10/1</h1>
+<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
+<h1>2022/10/9</h1>
+<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" data-id="cl9hzez14000qdhprdyze9ram" data-title="日常记录" class="article-share-link">分享</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a></li></ul>
 
     </footer>
   </div>
@@ -649,7 +751,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/02/Math%20learning/" data-id="cl9cw7a0p00088hpr6ynh2icu" data-title="Math learning" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2022/10/02/Math%20learning/" data-id="cl9hzez14000ldhprc0rfcnd7" data-title="Math learning" class="article-share-link">分享</a>
       
       
       
@@ -698,7 +800,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" data-id="cl9cw7a0t00188hpreiikhx00" data-title="马列毛经典阅读笔记" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" data-id="cl9hzez16001adhpr5bz61x37" data-title="马列毛经典阅读笔记" class="article-share-link">分享</a>
       
       
       
@@ -891,91 +993,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/" data-id="cl9cw7a0o00068hprfcgudtnr" data-title="Learning project on topological quantum matters" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/" data-id="cl9hzez110006dhprh07cg5b0" data-title="Learning project on topological quantum matters" class="article-share-link">分享</a>
       
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Relativistic QFT" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/26/Relativistic%20QFT/" class="article-date">
-  <time class="dt-published" datetime="2022-09-26T10:20:55.726Z" itemprop="datePublished">2022-09-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/">场论学习</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/26/Relativistic%20QFT/">Summary notes on relativistic QFT</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1>自己整理的相对论性量子场论的笔记</h1>
-<p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
-<p>目前的思路是：</p>
-<ul>
-<li>量子力学的原理，这部分可以再额外参考Moore的两本书：群论和讲twisted K-theory的书。</li>
-<li>庞加莱群及其不可约表示，这部分可以再额外参考Woit的书。</li>
-<li>二次量子化，这部分可以再额外参考凝聚态的书。</li>
-<li>自由场算符的推导</li>
-<li>正则量子化，路径积分量子化，这部分得重写，需要写得更加简洁一些。还需要加入关于constraint system的讨论。路径积分的部分可以再参考一些凝聚态的书。</li>
-<li>To be continued</li>
-</ul>
-<h2 id="参考资料：">参考资料：</h2>
-<ul>
-<li>WeinbergI</li>
-<li>WeinbergII</li>
-<li>New_QFT by Yuchen Wang</li>
-<li>Schwartz</li>
-<li>Zee</li>
-</ul>
-<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
-<ul>
-<li>Tong:Gauge theory</li>
-<li>Srecnicki</li>
-<li>Peskin&amp;Schroeder</li>
-<li>Skinner</li>
-<li>Tong:QFT</li>
-<li>to be continued</li>
-</ul>
-<h2 id="latex">Latex:</h2>
-
-
-	<div class="row">
-    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/26/Relativistic%20QFT/" data-id="cl9cw7a0r000j8hpraoxqhsdx" data-title="Summary notes on relativistic QFT" class="article-share-link">分享</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
 
     </footer>
   </div>
@@ -1042,6 +1064,10 @@
       <ul>
         
           <li>
+            <a href="/2022/10/19/AT_Dieck/">Reading notes on Algebraic topology by T.Dieck</a>
+          </li>
+        
+          <li>
             <a href="/2022/10/17/CFT&TQFT_materials/">Materials for learning CFT and TQFT</a>
           </li>
         
@@ -1055,10 +1081,6 @@
         
           <li>
             <a href="/2022/10/13/Notes%20on%20TI,TSC/">Lecture notes on TI, TSC</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a>
           </li>
         
       </ul>

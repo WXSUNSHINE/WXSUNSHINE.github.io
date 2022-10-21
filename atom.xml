@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-17T14:48:59.315Z</updated>
+  <updated>2022-10-19T14:47:04.897Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Reading notes on Algebraic topology by T.Dieck</title>
+    <link href="http://example.com/2022/10/19/AT_Dieck/"/>
+    <id>http://example.com/2022/10/19/AT_Dieck/</id>
+    <published>2022-10-19T13:31:52.248Z</published>
+    <updated>2022-10-19T14:47:04.897Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Algebraic topology is the interplay between continuous and discrete mathematics, for topological/geometrical</summary>
+        
+      
+    
+    
+    
+    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
+    
+    
+    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Materials for learning CFT and TQFT</title>
     <link href="http://example.com/2022/10/17/CFT&amp;TQFT_materials/"/>
     <id>http://example.com/2022/10/17/CFT&amp;TQFT_materials/</id>
     <published>2022-10-16T16:00:00.000Z</published>
-    <updated>2022-10-17T14:48:59.315Z</updated>
+    <updated>2022-10-21T04:10:57.534Z</updated>
     
     
       
@@ -126,6 +153,33 @@
   </entry>
   
   <entry>
+    <title>Math notes</title>
+    <link href="http://example.com/2022/10/09/math%20notes/"/>
+    <id>http://example.com/2022/10/09/math%20notes/</id>
+    <published>2022-10-08T16:00:00.000Z</published>
+    <updated>2022-10-09T15:18:29.404Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Notes:&lt;/h1&gt;
+&lt;h2 id=&quot;basic-category-theory&quot;&gt;Basic category theory:&lt;/h2&gt;
+&lt;p&gt;This is the note based on the introductory lecture on</summary>
+        
+      
+    
+    
+    
+    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
+    
+    
+    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日常记录</title>
     <link href="http://example.com/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
     <id>http://example.com/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</id>
@@ -150,33 +204,6 @@
     
     
     <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Math notes</title>
-    <link href="http://example.com/2022/10/09/math%20notes/"/>
-    <id>http://example.com/2022/10/09/math%20notes/</id>
-    <published>2022-10-08T16:00:00.000Z</published>
-    <updated>2022-10-09T15:18:29.404Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;Notes:&lt;/h1&gt;
-&lt;h2 id=&quot;basic-category-theory&quot;&gt;Basic category theory:&lt;/h2&gt;
-&lt;p&gt;This is the note based on the introductory lecture on</summary>
-        
-      
-    
-    
-    
-    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
-    
-    
-    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
