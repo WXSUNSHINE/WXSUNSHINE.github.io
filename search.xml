@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
-]]></content>
-      <categories>
-        <category>凝聚态基础理论学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Materials for learning CFT and TQFT</title>
     <url>/2022/10/17/CFT&amp;TQFT_materials/</url>
     <content><![CDATA[<h1>CFT</h1>
@@ -70,6 +55,132 @@
 ]]></content>
       <categories>
         <category>场论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Reading notes on Algebraic topology by T.Dieck</title>
+    <url>/2022/10/19/AT_Dieck/</url>
+    <content><![CDATA[<h1>Introduction</h1>
+<ul>
+<li>Algebraic topology is the interplay between continuous and discrete mathematics, for topological/geometrical continuum, A.T allows their realizations to be of an algebraic nature.</li>
+<li>Classical A.T consists of construction and use functors to study/extract-information from topological category. Two important views are homology and homotopy. These implies the category of topological spaces has itself a kind of hidden algebraic structure and can been manifested only in techniques of A.T, these properties can not been obtained using simply point-set topology.</li>
+</ul>
+<h1>Topological space</h1>
+<p>This chapter serve as a set up of some point-set topological notions, the most important notions are quotient space(quotient set with quotient topology) and transformation groups.</p>
+<h2 id="basic-notions">Basic notions</h2>
+<ul>
+<li>Topological space is defined axiomatically with open sets, dually closed sets. Related notions including: closure(also defining dense subset), interior, boundary, etc. There’s notion of topological basis, also a weaker one known subbasis. There’s also subspaces, with subspace/induced topology defined on subset.</li>
+<li>There are many topological structure can be defined. We then have the notion of coarser/finer topology. The morphisms are continuous maps defined via open sets, the morphisms are usually refered to as open/close morphism. The isomorphism in TOP is homeomorphism, we have to make sure the inverse is also continous(a morphism).</li>
+<li>The notion of (open) neighbourhood is usually used, it is used to define continuity at some point. This notion is more useful in metric spaces, with topology defined respect to the metric, using open neighbourhoods. This type of topology is more related to analysis.</li>
+<li>There are some properties we can attach to a topological space. Separation axioms have four types: Hausdorff(separated), (complete) regular, normal. Another one is (local) compactness(defined using open coverings).</li>
+<li>Associated with compactness is the technique of compactification, most used one is known as one-point compactification. The proper morphism is associated with compactness.</li>
+<li>There’s theorem implying locally compact set in Hausdorff space is locally closed. Locally closed set in locally compact space is locally compact.</li>
+</ul>
+<p>There are many theorems related to openness, Hausdorffness, compactness, etc in the literature, they seem not that important to me.</p>
+<ul>
+<li>Associated with morphisms we have notions of sections, in topological context they are assumed to be continuous. Same for rectraction.</li>
+</ul>
+<h2 id="categorical-constructions">Categorical constructions</h2>
+<ul>
+<li>Product of topological spaces is defined with product topology on product of sets. The product topology is the coarsest topology making the projections continuous. The universal properties in this book is frequently framed as “the unique(by construction from universal properties in SET) map is continuous if the associated ones are”. This is just checking the definition is indeed a morphism, this is important and we should also check well-defineness.</li>
+<li>Dually we have coproduct which is refered to as topological sum. The subspace topology of components is the original ones, this means they are open in the sum.</li>
+<li>Finer constructions are fiber product and fiber coproduct, the former is refered to as pull back defined with subspace topology, the latter is refered to as push out defined by quotient topology via coproduct morphism.</li>
+<li>There’s notion of embedding, this is common in describing the topological object in terms of solution set of equations, they are defined with subspace topology. The embedding is of categorical nature</li>
+<li>The quotient space is important, it express the idea of pasting points by identifying them with equivalence relations usually through morphisms. Specificly the quotient topology is defined via surjective map, equivalently canonical projections to quotient sets. This morphism is known as identification or quotient map.</li>
+<li>Associted with quotient is the idea of constructing larger spaces by pasting smaller pieces. These process will finally need quotient, moding out some equivalence relation, this quotient process is intuitively identifying some structures in common, thus pasting different pieces together. Specific example include adjunction space, which is also a special case of push out of inclusion.</li>
+<li>More generally, we have the notion of clutching, the definition is rather subtle, involving labeled subsets and bijections. The bijections define the notion of pasting, the datum lead to equivalence relations on disjiont sum(largest set)between points comes from different pieces. By quotienting we have well defined spaces and injections identifying different pieces. The bijections serve for transition between different pieces pasting them together.</li>
+</ul>
+<h2 id="topological-groups">Topological groups</h2>
+<ul>
+<li>A topological group is a group with topological structure defined on set making the inverse and multiplication continous. The left action of group on itself is known as left transition and is a homeomorphism. Examples include matrice groups some of them are identified with topological spaces like n-sphere, n-torus, etc. Notions like subspace and quotient can be defined.</li>
+<li>Group action of topological group on topological spaces define category G-TOP, consisting of G-spaces(like G-module, G-set) and equivariant morphisms(G-map). There’s related notions like orbit space by quotienting out the G action, stabilizer fixed point set, etc.</li>
+<li>The equivariant continuous maps between topological spaces induce natrually continuous maps between corresponding G-spaces.</li>
+<li>Equivariant homotopy or G-homotopy is defined as a homotopy such that at all time the morphism is a G-map.</li>
+<li>The quotient space is defined on quotient set, the quotient space may not be a quotient group. The quotient space is defined with natural G-action, it is refered to as homogeneous space. It’s important in geometry.</li>
+<li>By orbit-stabilizer theorem, the homogeneous space constructed by mod out the some stabilizer is identified with the orbit(transitive) we usually refer the latter. Important examples include sphere, projective spaces, Grassmann manifolds, Stiefel manifolds.</li>
+<li>The homogeneous G-spaces with the mod out subgroup closed in G together with G-maps form orbit category.</li>
+<li>The action on real/complex vector space is known as (G-modules) real/complex representation if the translations are linear maps.</li>
+<li>Given a right G-space and a left G-space we can construct product with a left G action. Then by quotienting the action we obtain a orbit space. This constuction is important.</li>
+</ul>
+<h1>The fundamental group</h1>
+]]></content>
+      <categories>
+        <category>数学补习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/1/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
+]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Math learning</title>
+    <url>/2022/10/02/Math%20learning/</url>
+    <content><![CDATA[<h1>Plan:</h1>
+<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
+<h1>Basic Algebra:</h1>
+<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
+<ul>
+<li>Algebra: Chapter 0</li>
+<li>代数学方法</li>
+<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
+<li>Algebra_S.Lang</li>
+<li>Basic algebra_Jacobson</li>
+<li>…</li>
+</ul>
+<h2 id="physical-literacture">Physical literacture:</h2>
+<ul>
+<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
+<li>Group theory: application to group theory</li>
+<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
+<li>Woit: Quantum theory,groups and representation</li>
+<li>…</li>
+</ul>
+<h1>Representation theory</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Commutative algebra and homological algebra:</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Group cohomology</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Algebraic topology</h1>
+<ul>
+<li>Algebraic topology_Hatcher</li>
+<li>Rotman: introduction to algebraic topology</li>
+<li>Differential Forms in Algebraic Topology_Bott</li>
+</ul>
+<h2 id="physical-literature">Physical literature:</h2>
+<ul>
+<li>Nakahara</li>
+</ul>
+<h1>K-theory:</h1>
+<ul>
+<li>K-theory: an introduction</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数学补习</category>
       </categories>
       <tags>
         <tag>学习记录</tag>
@@ -183,193 +294,25 @@
       </tags>
   </entry>
   <entry>
-    <title>Reading notes on Algebraic topology by T.Dieck</title>
-    <url>/2022/10/19/AT_Dieck/</url>
-    <content><![CDATA[<h1>Introduction</h1>
-<ul>
-<li>Algebraic topology is the interplay between continuous and discrete mathematics, for topological/geometrical continuum, A.T allows their realizations to be of an algebraic nature.</li>
-<li>Classical A.T consists of construction and use functors to study/extract-information from topological category. Two important views are homology and homotopy. These implies the category of topological spaces has itself a kind of hidden algebraic structure and can been manifested only in techniques of A.T, these properties can not been obtained using simply point-set topology.</li>
-</ul>
-<h1>Topological space</h1>
-<p>This chapter serve as a set up of some point-set topological notions, the most important notions are quotient space(quotient set with quotient topology) and transformation groups.</p>
-<h2 id="basic-notions">Basic notions</h2>
-<ul>
-<li>Topological space is defined axiomatically with open sets, dually closed sets. Related notions including: closure(also defining dense subset), interior, boundary, etc. There’s notion of topological basis, also a weaker one known subbasis. There’s also subspaces, with subspace/induced topology defined on subset.</li>
-<li>There are many topological structure can be defined. We then have the notion of coarser/finer topology. The morphisms are continuous maps defined via open sets, the morphisms are usually refered to as open/close morphism. The isomorphism in TOP is homeomorphism, we have to make sure the inverse is also continous(a morphism).</li>
-<li>The notion of (open) neighbourhood is usually used, it is used to define continuity at some point. This notion is more useful in metric spaces, with topology defined respect to the metric, using open neighbourhoods. This type of topology is more related to analysis.</li>
-<li>There are some properties we can attach to a topological space. Separation axioms have four types: Hausdorff(separated), (complete) regular, normal. Another one is (local) compactness(defined using open coverings).</li>
-<li>Associated with compactness is the technique of compactification, most used one is known as one-point compactification. The proper morphism is associated with compactness.</li>
-<li>There’s theorem implying locally compact set in Hausdorff space is locally closed. Locally closed set in locally compact space is locally compact.</li>
-</ul>
-<p>There are many theorems related to openness, Hausdorffness, compactness, etc in the literature, they seem not that important to me.</p>
-<ul>
-<li>Associated with morphisms we have notions of sections, in topological context they are assumed to be continuous. Same for rectraction.</li>
-</ul>
-<h2 id="categorical-constructions">Categorical constructions</h2>
-<ul>
-<li>Product of topological spaces is defined with product topology on product of sets. The product topology is the coarsest topology making the projections continuous. The universal properties in this book is frequently framed as “the unique(by construction from universal properties in SET) map is continuous if the associated ones are”. This is just checking the definition is indeed a morphism, this is important and we should also check well-defineness.</li>
-<li>Dually we have coproduct which is refered to as topological sum. The subspace topology of components is the original ones, this means they are open in the sum.</li>
-<li>Finer constructions are fiber product and fiber coproduct, the former is refered to as pull back defined with subspace topology, the latter is refered to as push out defined by quotient topology via coproduct morphism.</li>
-<li>There’s notion of embedding, this is common in describing the topological object in terms of solution set of equations, they are defined with subspace topology. The embedding is of categorical nature</li>
-<li>The quotient space is important, it express the idea of pasting points by identifying them with equivalence relations usually through morphisms. Specificly the quotient topology is defined via surjective map, equivalently canonical projections to quotient sets. This morphism is known as identification or quotient map.</li>
-<li>Associted with quotient is the idea of constructing larger spaces by pasting smaller pieces. These process will finally need quotient, moding out some equivalence relation, this quotient process is intuitively identifying some structures in common, thus pasting different pieces together. Specific example include adjunction space, which is also a special case of push out of inclusion.</li>
-<li>More generally, we have the notion of clutching, the definition is rather subtle, involving labeled subsets and bijections. The bijections define the notion of pasting, the datum lead to equivalence relations on disjiont sum(largest set)between points comes from different pieces. By quotienting we have well defined spaces and injections identifying different pieces. The bijections serve for transition between different pieces pasting them together.</li>
-</ul>
-<h2 id="topological-groups">Topological groups</h2>
-<ul>
-<li>A topological group is a group with topological structure defined on set making the inverse and multiplication continous. The left action of group on itself is known as left transition and is a homeomorphism. Examples include matrice groups some of them are identified with topological spaces like n-sphere, n-torus, etc. Notions like subspace and quotient can be defined.</li>
-<li>Group action of topological group on topological spaces define category G-TOP, consisting of G-spaces(like G-module, G-set) and equivariant morphisms(G-map). There’s related notions like orbit space by quotienting out the G action, stabilizer fixed point set, etc.</li>
-<li>The equivariant continuous maps between topological spaces induce natrually continuous maps between corresponding G-spaces.</li>
-<li>Equivariant homotopy or G-homotopy is defined as a homotopy such that at all time the morphism is a G-map.</li>
-<li>The quotient space is defined on quotient set, the quotient space may not be a quotient group. The quotient space is defined with natural G-action, it is refered to as homogeneous space. It’s important in geometry.</li>
-<li>By orbit-stabilizer theorem, the homogeneous space constructed by mod out the some stabilizer is identified with the orbit(transitive) we usually refer the latter. Important examples include sphere, projective spaces, Grassmann manifolds, Stiefel manifolds.</li>
-<li>The homogeneous G-spaces with the mod out subgroup closed in G together with G-maps form orbit category.</li>
-<li>The action on real/complex vector space is known as (G-modules) real/complex representation if the translations are linear maps.</li>
-<li>Given a right G-space and a left G-space we can construct product with a left G action. Then by quotienting the action we obtain a orbit space. This constuction is important.</li>
-</ul>
-<h1>The fundamental group</h1>
-]]></content>
-      <categories>
-        <category>数学补习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Math learning</title>
-    <url>/2022/10/02/Math%20learning/</url>
-    <content><![CDATA[<h1>Plan:</h1>
-<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
-<h1>Basic Algebra:</h1>
-<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
-<ul>
-<li>Algebra: Chapter 0</li>
-<li>代数学方法</li>
-<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
-<li>Algebra_S.Lang</li>
-<li>Basic algebra_Jacobson</li>
-<li>…</li>
-</ul>
-<h2 id="physical-literacture">Physical literacture:</h2>
-<ul>
-<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
-<li>Group theory: application to group theory</li>
-<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
-<li>Woit: Quantum theory,groups and representation</li>
-<li>…</li>
-</ul>
-<h1>Representation theory</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Commutative algebra and homological algebra:</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Group cohomology</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Algebraic topology</h1>
-<ul>
-<li>Algebraic topology_Hatcher</li>
-<li>Rotman: introduction to algebraic topology</li>
-<li>Differential Forms in Algebraic Topology_Bott</li>
-</ul>
-<h2 id="physical-literature">Physical literature:</h2>
-<ul>
-<li>Nakahara</li>
-</ul>
-<h1>K-theory:</h1>
-<ul>
-<li>K-theory: an introduction</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数学补习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Summary notes on relativistic QFT</title>
-    <url>/2022/09/26/Relativistic%20QFT/</url>
-    <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
-<p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
-<p>目前的思路是：</p>
-<ul>
-<li>量子力学的原理，这部分可以再额外参考Moore的两本书：群论和讲twisted K-theory的书。</li>
-<li>庞加莱群及其不可约表示，这部分可以再额外参考Woit的书。</li>
-<li>二次量子化，这部分可以再额外参考凝聚态的书。</li>
-<li>自由场算符的推导</li>
-<li>正则量子化，路径积分量子化，这部分得重写，需要写得更加简洁一些。还需要加入关于constraint system的讨论。路径积分的部分可以再参考一些凝聚态的书。</li>
-<li>To be continued</li>
-</ul>
-<h2 id="参考资料：">参考资料：</h2>
-<ul>
-<li>WeinbergI</li>
-<li>WeinbergII</li>
-<li>New_QFT by Yuchen Wang</li>
-<li>Schwartz</li>
-<li>Zee</li>
-</ul>
-<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
-<ul>
-<li>Tong:Gauge theory</li>
-<li>Srecnicki</li>
-<li>Peskin&amp;Schroeder</li>
-<li>Skinner</li>
-<li>Tong:QFT</li>
-<li>to be continued</li>
-</ul>
-<h2 id="latex">Latex:</h2>
+    <title>Quasi quantum double and Dijkraaf Witten TQFT</title>
+    <url>/2022/10/21/QuasiQD_DW-TQFT/</url>
+    <content><![CDATA[<h1>Anyons in discrete gauge theories</h1>
+<p>A review of quasi quantum double type anyons.</p>
 
 
 	<div class="row">
-    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
+    <embed src="/pdf/QuasiQD_DWTQFT/QuasiQD_Anyon.pdf" width="100%" height="550" type="application/pdf">
 	</div>
 
 
+
+<h1>Notes on Dijkgraaf-Witten TQFT</h1>
 ]]></content>
       <categories>
-        <category>场论学习</category>
+        <category>场论学习,拓扑物态学习</category>
       </categories>
       <tags>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Invitation to topological order_2020</title>
-    <url>/2022/10/22/Topological%20order_2020/</url>
-    <content><![CDATA[<h1>Acknowledgement</h1>
-<p>This is the lecture notes taken from the 2020 lectures on topological order [<a href="https://www.koushare.com/live/topology">https://www.koushare.com/live/topology</a>]</p>
-<h1>孔良：Infinite more is more different</h1>
-<p>Try to give a categorical unification of many notions in quantum many body problem, quantum gravity, quantum entanglement. The “inifity” is essentially different from finite, where new mathematical structures emerge. The nature of strong interacting systems in quantum many body also adopt this feature.</p>
-<p>This talk(rather than a lecture) is inviting, a more detailed version can be found in [<a href="https://arxiv.org/abs/2205.05565">https://arxiv.org/abs/2205.05565</a>]</p>
-
-
-	<div class="row">
-    <embed src="/pdf/TO_2022_Kong/TO_2020_Kong.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-
-
-	<div class="row">
-    <embed src="/pdf/TO_2022_Kong/TO_2022_Kong_ppt.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <categories>
-        <category>拓扑物态学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
       </tags>
   </entry>
   <entry>
@@ -533,21 +476,6 @@
       </tags>
   </entry>
   <entry>
-    <title>日常记录</title>
-    <url>/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h1>2022/10/1</h1>
-<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
-<h1>2022/10/9</h1>
-<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
-]]></content>
-      <categories>
-        <category>日常记录</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Notes on TiTP 2015</title>
     <url>/2022/10/15/TiTP_2015/</url>
     <content><![CDATA[<h1>Acknowledgement</h1>
@@ -592,6 +520,127 @@
 
 
 ]]></content>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Summary notes on relativistic QFT</title>
+    <url>/2022/09/26/Relativistic%20QFT/</url>
+    <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
+<p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
+<p>目前的思路是：</p>
+<ul>
+<li>量子力学的原理，这部分可以再额外参考Moore的两本书：群论和讲twisted K-theory的书。</li>
+<li>庞加莱群及其不可约表示，这部分可以再额外参考Woit的书。</li>
+<li>二次量子化，这部分可以再额外参考凝聚态的书。</li>
+<li>自由场算符的推导</li>
+<li>正则量子化，路径积分量子化，这部分得重写，需要写得更加简洁一些。还需要加入关于constraint system的讨论。路径积分的部分可以再参考一些凝聚态的书。</li>
+<li>To be continued</li>
+</ul>
+<h2 id="参考资料：">参考资料：</h2>
+<ul>
+<li>WeinbergI</li>
+<li>WeinbergII</li>
+<li>New_QFT by Yuchen Wang</li>
+<li>Schwartz</li>
+<li>Zee</li>
+</ul>
+<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
+<ul>
+<li>Tong:Gauge theory</li>
+<li>Srecnicki</li>
+<li>Peskin&amp;Schroeder</li>
+<li>Skinner</li>
+<li>Tong:QFT</li>
+<li>to be continued</li>
+</ul>
+<h2 id="latex">Latex:</h2>
+
+
+	<div class="row">
+    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
+      <categories>
+        <category>场论学习</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Invitation to topological order_2020</title>
+    <url>/2022/10/22/Topological%20order_2020/</url>
+    <content><![CDATA[<h1>Acknowledgement</h1>
+<p>This is the lecture notes taken from the 2020 lectures on topological order [<a href="https://www.koushare.com/live/topology">https://www.koushare.com/live/topology</a>], the references are important for future study.</p>
+<h1>孔良：Infinite more is more different</h1>
+<p>Try to give a categorical unification of many notions in quantum many body problem, quantum gravity, quantum entanglement. The “inifity” is essentially different from finite, where new mathematical structures emerge. The nature of strong interacting systems in quantum many body also adopt this feature.</p>
+<p>This talk(rather than a lecture) is inviting, a more detailed version can be found in [<a href="https://arxiv.org/abs/2205.05565">https://arxiv.org/abs/2205.05565</a>]</p>
+
+
+	<div class="row">
+    <embed src="/pdf/TO_2022_Kong/TO_2020_Kong.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+
+	<div class="row">
+    <embed src="/pdf/TO_2022_Kong/TO_2022_Kong_ppt.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>王晨杰：Quantum anomaly and bulk-boundary correspondence</h1>
+<p>The anomaly in QFT is a powerful tool in CMP. The anomalous topological order(surface) must be attached to some topological nontrivial topological order(SPT/SET). The anomaly is classfied into several types: 't Hooft, Gravitational, gauge-gravitational mixed, invertible/non-invertible(w/o GSD,w/o anyon)</p>
+<p>'t Hooft anomaly basicly means the global symmetry can’t be gauged, turning on the probing(external) gauge field, we will obtain anomalous gauge response. This anomaly means the theory can’t have a lattice regularization(for example the Nilsen-Ninomiya theorem/fermion doubling). The anomalous theory can’t exist alone, but being the boudanry of some bulk topological order which is topologically nontrivial. Thus the whole space is anomaly free, and the bulk theory is protected/enriched by the corresponding theory.</p>
+<p>Gravitational anomaly is related to the topology, which is manifested by coupling to a external gravitational field(metric field), i.e, curving the spacetime. This is also related to the chiral central charge, which is manifested when the CFT description is set up.</p>
+
+
+	<div class="row">
+    <embed src="/pdf/TO_2022_Anomaly_Wang/TO_2020_anomaly.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+
+	<div class="row">
+    <embed src="/pdf/TO_2022_Anomaly_Wang/TO_2020_anomaly_ppt.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>顾正澄：Topological order and ground state wave function</h1>
+<p>Viewed from ground state, Topological order phase is a gapped quantum phase that can’t be deformed(using generalized local unitary transformation) into a tensor product state. This also means these phases have long-range entanglement(but don’t have long-range order,all correlation functions decaying). With symmetry, it’s a SET state. There’s related SPT state, which have no intrinsic T.O, but can’t be deformed into a tensor product state(independent atomic insulators) perserving symmetry.</p>
+<p>The construction of specific ground state for 2D T.O is using lattice models(this can’t be easily done for chiral T.O,like FQH)(From field theoretical point, this is constructing lattice gauge theory of TQFT), the construction will involve the wavefunction renormalization operations(related to retriangulation of lattice,etc) since ar RG fixed point, only the topology matters, then there will be consistency conditions for these operations together with gauge choices. These then defines possible data of a G.S wavefunction at least for bosonic case(having extra saturate condition). These data(solutions) define a unitary tensor category.</p>
+<p>This view is related to the excitation view, since the algebra of anyons(anyon diagramatics or TQFT/CFT algebra) and the algebra of the Ribbon operators also define a unitary tensor category, possibly with more datas.</p>
+<p>Models include Toric code, double semion(related in cohomology), quantum double, twisted quantum double(Dijkgraaf-Witten), string-net(Levin-Wen,Tuaev-Viro), etc. The construction of fermionic topological order lattice models are rather hard, which can be studied using anomaly.</p>
+<p>GS wavefunction can also be constructed using TQFT/CFT, for example the Laughlin wavefunction(chiral/holomorphic) of FQHE, and Moore-Reed, etc.</p>
+
+
+	<div class="row">
+    <embed src="/pdf/TO_2022_GS_Gu/TO_2020_TOandGS_Gu.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+
+	<div class="row">
+    <embed src="/pdf/TO_2022_GS_Gu/TO_2020_TOandGS_Gu_ppt.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <categories>
+        <category>拓扑物态学习</category>
+      </categories>
       <tags>
         <tag>学习记录</tag>
       </tags>
@@ -683,6 +732,21 @@
       </categories>
       <tags>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日常记录</title>
+    <url>/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1>2022/10/1</h1>
+<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
+<h1>2022/10/9</h1>
+<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
+]]></content>
+      <categories>
+        <category>日常记录</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
