@@ -1,105 +1,195 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Invitation to topological order_2020 | Personal Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Acknowledgement This is the lecture notes taken from the 2020 lectures on topological order [https:&#x2F;&#x2F;www.koushare.com&#x2F;live&#x2F;topology], the references are important for future study. 孔良：Infinite more is">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Invitation to topological order_2020">
-<meta property="og:url" content="http://example.com/2022/10/22/Topological%20order_2020/index.html">
-<meta property="og:site_name" content="Personal Blog">
-<meta property="og:description" content="Acknowledgement This is the lecture notes taken from the 2020 lectures on topological order [https:&#x2F;&#x2F;www.koushare.com&#x2F;live&#x2F;topology], the references are important for future study. 孔良：Infinite more is">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-10-21T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-10-23T05:11:16.848Z">
-<meta property="article:author" content="王祥">
-<meta property="article:tag" content="学习记录">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
 
+
+<!DOCTYPE html>
+<html lang="zh-CN" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Invitation to topological order_2020 - Personal Blog</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
   
+  <meta name="description" content="Acknowledgement
+This is the...">
+  <meta name="author" content="王祥">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/Sun.jpeg" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/Sun.jpeg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/Sun.jpeg">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
   
 <link rel="stylesheet" href="/css/style.css">
 
+
   
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
 
   
-<meta name="generator" content="Hexo 6.3.0"><link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Personal Blog</a>
-      </h1>
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'true',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: false,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: false
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: false
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '非淡泊无以明志，非宁静无以致远。',
+          typing: false,
+          api: '',
+          data_contents: ''
+        },
+      },
+      qrcode: {
+        enable: false,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: true,
+        path: 'search.xml'
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
       
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+    <div class="center">Invitation to topological order_2020</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+  </nav>
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img src="/images/theme/xiangjian.jpeg" draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">Invitation to topological order_2020</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>十月 22, 2022</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>12575</span>
     </div>
   </div>
-</header>
-
-      <div class="outer">
-        <section id="main"><article id="post-Topological order_2020" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/10/22/Topological%20order_2020/" class="article-date">
-  <time class="dt-published" datetime="2022-10-21T16:00:00.000Z" itemprop="datePublished">2022-10-22</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/">拓扑物态学习</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+</section>
+    <section class="main">
+      <section class="content">
         
-  
-    <h1 class="p-name article-title" itemprop="headline name">
-      Invitation to topological order_2020
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
         <h1>Acknowledgement</h1>
 <p>This is the lecture notes taken from the 2020 lectures on topological order [<a target="_blank" rel="noopener" href="https://www.koushare.com/live/topology">https://www.koushare.com/live/topology</a>], the references are important for future study.</p>
 <h1>孔良：Infinite more is more different</h1>
@@ -178,7 +268,7 @@
 
 
 	<div class="row">
-    <embed src="/pdf/TO_2022_SPT_Gu/TO_2020_SPT_Gu.pdf" width="100%" height="550" type="application/pdf">
+    <embed src="/pdf/TO_2022_SPT_Gu/TO_2020_SPT_Gu_ppt.pdf" width="100%" height="550" type="application/pdf">
 	</div>
 
 
@@ -186,154 +276,161 @@
 
 
 	<div class="row">
-    <embed src="/pdf/TO_2022_SPT_Gu/TO_2020_SPT_Gu_ppt.pdf" width="100%" height="550" type="application/pdf">
+    <embed src="/pdf/TO_2022_SPT_Gu/TO_2020_SPT_Gu.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>叶鹏： Effective topological field theory of topological phases of matter with global symmetry.</h1>
+<p>In strong correlated systems, the Hamiltonian is too complex to solve and to understand, we have to seek for effective description of the low-energy physics, this need inspired guess and some techniques to sort out the real relevant D.O.F and their effective field theory. For topological phases of matter, these will be all kinds of topological field theories, to extract the physics we have to gauging them to probe their gauge response.</p>
+<p>SPT phases are topological trivial TQFT with further global symmetry included, the ground state can be shown to be unique. While SET phases are nontrivial topological TQFT with further global symmetry, with ground state shown to be degenerate and the excitations(gauge responses) are anyons with braiding statistics and fractional gauge charges.</p>
+<p>The talk start with an example of t-J model, where the t is for hopping, which is weak correlated and the J is for superexchange effect between spins, which is strong correlated. The low-energy regime(low energy subspace, to construct these theories we need to project into these spaces, this is down by including further constraints, usually using Lagrange multiplier after some deformation/procedure) implies further constraints, known as non-doubly occupancy condition, this is the large-U limit of the Hubbard model. To extract the effective D.O.F, we use the technique known as slave-particle, this is one type of projective constructions.</p>
+<p>The basic idea is to include axulliary fields(particles) to enlarge the Hilbert space, introducing redundant gauge symmetry and D.O.F then projecting back to the physical Hilbert space(states) using constraints. These constraints then can be included into the meanfield theory of these axulliary particles. Usually these constraints means the axulliary particles are confined to be a physical particle. These axulliary particles are understood as originally confined by the redundant gauge interactions and became the relevant D.O.F in the effctive low-energy regime, producing the physically observed responses(coupling to external probing gauge field,usually EM field or Spin field).</p>
+<p>The Lagrange multiplier here usually turn out to be the gauge field of the redundant gauge symmetry. We can study their physics in two ways, first integrating out the redundant gauge field(Lagrange multiplier) to obtain a effective theory of axulliary particles, further integrate out the external field to obtain response and compare to experiments. We can also integrate out the axulliary particles first to see if the redundant gauge fields are well-behaved, since their Maxwell(or Y-M,more explicitly dynamical terms) term is not included, the redundant gauge coupling is actually infinite(confining phase).</p>
+<p>Usually to make sure the gauge coupling is not infinite, we have to gap these redundant gauge fields, this usually lead to the meanfield theory of axulliary particles being certain TQFT that will produce topological masses(like Chern-Simons), thus these terms dominate and we can safely ignore the dynamic terms.</p>
+<p>Another example is the v=1/3 Laughlin FQHE state. Whose effective excitations are partons, these effective field theoretical description help us to understand the wavefunctions.</p>
+<p>For the construction of TQFT theories of SPT, see the slices and the original papers, the talk is really full of details and not easy to follow. Some features should be noticed:</p>
+<ol>
+<li>the topological terms are different in different dimensions(BF term and generalized Wen-Zee term, etc) and there are twistings terms to include symmetry. This is actually similar to Dijkraaf-Witten TQFT, though the talker implies there are SPT phases beyond D-W TQFT, which is also beyond the cohomology classification(releted to the construction of NLSMs and wavefunctions). This is interesting.</li>
+<li>The coeffeicents(matrix) of the topological terms include the informations of the excitations, for example bosonic/fermionic, GSD, chiral/non-chiral(chiral central charge), excitation(anyon) statistics(by gauging SPT, we actually obtain topological order phases). The classification is obtained physically by constraints on the coefficents like Dirac quantization condition(related to large gauge transformations) or symmetry constraints. These quantization can also be obtained from duality, which usually describe some superfluid/superconductors.</li>
+<li>In a given TQFT gauge theory, the phases are really complex, we have to be careful. The topologcial trivial phases(some special level) involve trivial braiding statistics, thus are starting point of the study of SPT(no T.O.)</li>
+</ol>
+<p>The main refecences:</p>
+<ol>
+<li>Topological quantum field theory of three-dimensional bosonic abelian-symmetry-protected topological phases_Ye,Gu16</li>
+<li>Generalized Wen-Zee terms_Han,Wang,PY19</li>
+</ol>
+
+
+	<div class="row">
+    <embed src="/pdf/TO_2022_TQFTofGlobalSymmetry_YP/TO_2020_TQFTofGlobalSymmetry_YP.pdf" width="100%" height="550" type="application/pdf">
 	</div>
 
 
 
 
+
+	<div class="row">
+    <embed src="/pdf/TO_2022_TQFTofGlobalSymmetry_YP/TO_2020_TQFTofGlobalSymmetry_YP_ppt.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+      </section>
+      <section class="extra">
+        
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a></a>
+    <a href="/2022/10/21/QuasiQD_DW-TQFT/">Quasi quantum double and Dijkraaf Witten TQFT<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
       
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/22/Topological%20order_2020/" data-id="cl9kw7fer0010cppr82f7fqs5" data-title="Invitation to topological order_2020" class="article-share-link">分享</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul>
-
-    </footer>
+    </section>
   </div>
-  
-    
-<nav id="article-nav">
-  
-  
-    <a href="/2022/10/21/QuasiQD_DW-TQFT/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">Quasi quantum double and Dijkraaf Witten TQFT</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-
-</section>
+</article></div>
+      <div class="col-xl-3">
         
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%87%9D%E8%81%9A%E6%80%81%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/">凝聚态基础理论学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%93%B2%E5%AD%A6-%E7%A4%BE%E7%A7%91-%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E9%9A%8F%E8%AE%B0/">哲学/社科/小说阅读随记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/">场论学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0-%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/">场论学习,拓扑物态学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/">拓扑物态学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/">数学补习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a></li></ul>
-    </div>
-  </div>
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Acknowledgement</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">孔良：Infinite more is more different</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">王晨杰：Quantum anomaly and bulk-boundary correspondence</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">顾正澄：Topological order and ground state wave function</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Gu: Introduction to SPT phases</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">叶鹏： Effective topological field theory of topological phases of matter with global symmetry.</span></a></li></ol>
+  </aside>
 
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%93%B2%E5%AD%A6%E9%9A%8F%E8%AE%B0/" rel="tag">哲学随记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/%E5%93%B2%E5%AD%A6%E9%9A%8F%E8%AE%B0/" style="font-size: 10px;">哲学随记</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" style="font-size: 20px;">学习记录</a> <a href="/tags/%E6%97%A5%E5%B8%B8/" style="font-size: 10px;">日常</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">笔记</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">十月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">九月 2022</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2022/10/22/Topological%20order_2020/">Invitation to topological order_2020</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/21/QuasiQD_DW-TQFT/">Quasi quantum double and Dijkraaf Witten TQFT</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/19/AT_Dieck/">Reading notes on Algebraic topology by T.Dieck</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/17/CFT&TQFT_materials/">Materials for learning CFT and TQFT</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/16/Hannover_CFT_Notes/">Lecture notes on Introduction to conformal field theory</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
         
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2022 王祥<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
 </footer>
-
-    </div>
-    <nav id="mobile-nav">
   
-    <a href="/" class="mobile-nav-link">Home</a>
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
   
-</nav>
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
     
+<script src="/js/color-mode.js"></script>
+
+  
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
-<script src="/js/jquery-3.4.1.min.js"></script>
 
 
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
 
 
 
 
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/js/utils.js"></script>
 <script src="/js/script.js"></script>
 
 
 
 
 
-  </div>
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>

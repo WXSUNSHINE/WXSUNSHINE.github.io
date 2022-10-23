@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-23T05:11:16.848Z</updated>
+  <updated>2022-10-23T13:17:32.416Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/10/22/Topological%20order_2020/"/>
     <id>http://example.com/2022/10/22/Topological%20order_2020/</id>
     <published>2022-10-21T16:00:00.000Z</published>
-    <updated>2022-10-23T05:11:16.848Z</updated>
+    <updated>2022-10-23T13:17:32.416Z</updated>
     
     
       
@@ -47,7 +47,7 @@
     <link href="http://example.com/2022/10/21/QuasiQD_DW-TQFT/"/>
     <id>http://example.com/2022/10/21/QuasiQD_DW-TQFT/</id>
     <published>2022-10-20T16:00:00.000Z</published>
-    <updated>2022-10-22T10:14:03.905Z</updated>
+    <updated>2022-10-23T13:32:38.322Z</updated>
     
     
       
@@ -65,7 +65,7 @@
     
     
     
-    <category term="场论学习,拓扑物态学习" scheme="http://example.com/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0-%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/"/>
+    <category term="场论学习" scheme="http://example.com/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/"/>
     
     
     <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
@@ -104,7 +104,7 @@
     <link href="http://example.com/2022/10/17/CFT&amp;TQFT_materials/"/>
     <id>http://example.com/2022/10/17/CFT&amp;TQFT_materials/</id>
     <published>2022-10-16T16:00:00.000Z</published>
-    <updated>2022-10-21T04:10:57.534Z</updated>
+    <updated>2022-10-23T09:17:37.111Z</updated>
     
     
       

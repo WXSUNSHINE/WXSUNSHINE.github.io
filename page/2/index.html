@@ -1,568 +1,399 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Personal Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Personal Blog">
-<meta property="og:url" content="http://example.com/page/2/index.html">
-<meta property="og:site_name" content="Personal Blog">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="王祥">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
 
+
+<!DOCTYPE html>
+<html lang="zh-CN" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Blog</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
   
+  
+  <meta name="author" content="王祥">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/Sun.jpeg" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/Sun.jpeg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/Sun.jpeg">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
   
 <link rel="stylesheet" href="/css/style.css">
 
+
   
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
 
   
-<meta name="generator" content="Hexo 6.3.0"><link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Personal Blog</a>
-      </h1>
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: true,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'true',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: false,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: false
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: false
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '非淡泊无以明志，非宁静无以致远。',
+          typing: false,
+          api: '',
+          data_contents: ''
+        },
+      },
+      qrcode: {
+        enable: false,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: true,
+        path: 'search.xml'
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
       
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+    <div class="center"> </div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
     </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-读书笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time class="dt-published" datetime="2022-09-26T14:52:32.279Z" itemprop="datePublished">2022-09-26</time>
-</a>
     
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%93%B2%E5%AD%A6-%E7%A4%BE%E7%A7%91-%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E9%9A%8F%E8%AE%B0/">哲学/社科/小说阅读随记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">马列毛经典阅读笔记</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1>《国家与革命》</h1>
-<h1>《怎么办？》</h1>
-<h1>《进一步，退两步》</h1>
-<h1>《毛选》</h1>
-<h1>《政治经济学概论》</h1>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" data-id="cl9kw7fer0013cppr93hx6fcw" data-title="马列毛经典阅读笔记" class="article-share-link">分享</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%93%B2%E5%AD%A6%E9%9A%8F%E8%AE%B0/" rel="tag">哲学随记</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Leaning project of topology in physics" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/" class="article-date">
-  <time class="dt-published" datetime="2022-09-26T11:59:44.990Z" itemprop="datePublished">2022-09-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/">拓扑物态学习</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/">Learning project on topological quantum matters</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1>学习规划</h1>
-<ul>
-<li>2022/10/9 这周计划学习一下 2016年的综述，以及组里的两篇投影表示的重要文章，周末把最近学的内容整理一下：TI/TSC 中的对称性，基于对称性的分类：K理论/Clifford代数简单的结论，Band crossing/inversion，拓扑不变量的定义和计算，几个简单的模型（SSH，Graphene，Kitaev chain)(主要是熟练拓扑数的计算和各种变换，对称性的应用），空间群，投影表示的原理。这部分整理一个周末肯定不够，下周继续，等这部分物理初步整理完了，可以去看Berry phase的文章，以及更详细的分类工作；继续学习Altland上拓扑场论相关的部分，之后去看Nakahara；可以开始学习Moore的书了；</li>
-</ul>
-<h1>一些基本概念</h1>
-<ul>
-<li>
-<p>Based on the idea of tensor product states, the ground state of a many body system H can be classified into SRE and LRE states, the latter is known as having intrinsic topological order. Further take symmetry into consideration, the SRE is then promoted to SPT states, as long as keeping the energy gap and preserving symmtry, the ground state can be topological: can’t be deformed into trivial states.</p>
-</li>
-<li>
-<p>The field theoretical definition of topological phases of matter is that the long-range effective theory of the ground state is a topological field theory.There are several types of topological field theories: Chern-SImons term ,WZW term , theta term, DW TQFT, TV TQFT,… The bulk-boundary correspondence implies that at the boundary there can be CFT presenting.</p>
-</li>
-<li>
-<p>The bosonic SPT states are classified by group cohomology, while it is not clear if fermionic SPT states can be classified by super group cohomology.</p>
-</li>
-<li>
-<p>For noninteracting fermionic SPT states, there’s a complete classification, known as 10-fold way.This classification result can be obtained using several ways: K theory in topological band theory, extension problem of real/complex Clifford algebra(Using Dirac Hamiltonian),Anderson localization at the boundary using NLSMs and homotopy(of classifying space), gauge anomalous response(topological field theories). Last method also applies in interacting cases.</p>
-</li>
-<li>
-<p>The 10-fold classification have several features:<br>
--Bott periodicity<br>
--The table is constructed with antiunitary symmetries(unitary ones will make the classification finer, but “degenerate” in non-interacting phases): T,C,S.<br>
--The 10-fold classification have geometrical meanings:Cartan symmetric spaces, and have something to do with disorder(A-Z random matrix theory)</p>
-</li>
-</ul>
-<ul>
-<li>In each case, the phases are classified by topological invariants,these topological invariants coincide with coefficients of the topological terms and is quantized due to symmtry. They can also been obtained using topological band theory: the Berry phase,…,these topological invariants can be considered as indicating the homotopy group of the k-space band Hamiltonian.<br>
--There’s certain dimension reduction, descent</li>
-</ul>
-<p>*Specific physical implications of topology:<br>
--Anomalous boundary/defect states,protected by symmtry,topological(stable) against disorder(extended),these states are gapless.<br>
--The topological invariants can identified with polarizations physically and related to boundary chiral/helical states( Weyl/Dirac/Majorana)<br>
--Exotic boundary states when the energy gap is open.</p>
-<ul>
-<li>These feature also applies to certain gapless phases:semimetal, non-ordinary SC,… Where the topology is not captured by filled bands but by the Fermi surface/line/point.</li>
-</ul>
-<p>*…</p>
-<h1>作为基础的数学和物理补充</h1>
-<ul>
-<li>
-<p>Nakahara: Topology,geometry and physics</p>
-</li>
-<li>
-<p>Moore: Quantum Symmetries and Compatible Hamiltonians</p>
-</li>
-<li>
-<p>Moore: Quantum Symmetries and K-Theory(a shorter version)</p>
-</li>
-<li>
-<p>Moore: Clifford algebra</p>
-</li>
-<li>
-<p>Moore: Abstract group theory(focus on group cohomology and group extension)</p>
-</li>
-<li>
-<p>Karoubi: K-theory: an introduction</p>
-</li>
-<li>
-<p>…</p>
-</li>
-<li>
-<p>Tong: Instanton (topological defect,especially index theorem)</p>
-</li>
-<li>
-<p>Altland: chapter 9</p>
-</li>
-<li>
-<p>Topology,geometry and quantum interference in condensed matter physics.</p>
-</li>
-</ul>
-<h1>文献：Non-interacting fermionic SPT(TI,TSC,Nodal systems)：</h1>
-<h2 id="综述及教材">综述及教材</h2>
-<ul>
-<li>
-<p>Qi_topological insulator and superconductor</p>
-</li>
-<li>
-<p>Topological insulator_Hasan</p>
-</li>
-<li>
-<p>Classification of topological quantum matter with symmetries</p>
-</li>
-<li>
-<p>Topological insulators Dirac equation in condensed matter (Shen, Shun-Qing)</p>
-</li>
-<li>
-<p>A Short Course on Topological Insulators Band Structure and Edge States in One and Two Dimensions</p>
-</li>
-<li>
-<p>Topological Insulators and Topological Superconductors by B. Andrei Bernevig Taylor L. Hughes</p>
-</li>
-<li>
-<p>Topological quantum by H.Simons</p>
-</li>
-<li>
-<p>Witten_Three Lectures On Topological Phases Of Matter</p>
-</li>
-<li>
-<p>Another note by Witten</p>
-</li>
-<li>
-<p>…</p>
-</li>
-</ul>
-<h2 id="其他的笔记">其他的笔记</h2>
-<ul>
-<li>Q.R Wang Lecture notes</li>
-<li>Topo-Invariants by Y.X Zhao</li>
-<li>…</li>
-</ul>
-<h2 id="讲分类的文章和用k理论-nlsm-clifford代数的文章">讲分类的文章和用K理论，NLSM,Clifford代数的文章</h2>
-<ul>
-<li>Classification of topological insulators and superconductors in three spatial dimensions</li>
-<li>Classification of topological insulators and superconductors</li>
-<li>Topological insulators and superconductors tenfold way and dimensional hierarchy</li>
-<li>Kitaev_Periodic table for topological insulators and superconductors</li>
-<li>Topological phases classification of topological insulators and superconductors of non-interacting fermions, and beyond_Ludwig_2015</li>
-<li>Stability of fermi surfaces and K theory</li>
-<li>Topological classification and stability of fermi surfaces</li>
-<li>Disordered Weyl semimetals and their topological family</li>
-<li>Topoligical phases_isomorphism,homotopy and K-theory</li>
-<li>Topological classification with additional symmetries from Clifford algebras</li>
-<li>Twisted equivariant matter</li>
-<li>Clifford modules and symmetries of topological insulators</li>
-<li>…</li>
-</ul>
-<h2 id="wilson-loop方法">Wilson loop方法</h2>
-<ul>
-<li>Benalcaza_Bernevig_Hughes_2017</li>
-<li>Equivalent expression of Z2 topological invariant for band insulators using the non-Abelian Berry connection</li>
-</ul>
-<h2 id="其他相关的物理基础">其他相关的物理基础</h2>
-<p>Topological nodal line semimetals</p>
-<h2 id="经典原始文献">经典原始文献</h2>
-<ul>
-<li>Kane_Z2 Topological Order and the Quantum Spin Hall Effect</li>
-<li>Kane_Time reversal polarization and Z2 adiabatic spin pump</li>
-<li>Kane_Topological insulators in 3D</li>
-<li>Kane_Topological insulators with inversion symmetry</li>
-<li>Kitaev_Unpaired Majorana fermions in quantum wires</li>
-<li>Qi_Topological field theory of timereversal invariance topological insulators</li>
-<li>A&amp;Z_Nonstandard symmetry classes in mesoscopic normal-superconducting hybrid structures</li>
-<li>TKNN</li>
-<li>Laughlin</li>
-<li>Haldane model</li>
-</ul>
-<h2 id="组内文章">组内文章</h2>
-<h1>文献：General SPT:</h1>
-<p>主要是Kitaev,Wen,Witten,…的文章。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/" data-id="cl9kw7fen000mcppr1xtoffks" data-title="Learning project on topological quantum matters" class="article-share-link">分享</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Relativistic QFT" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/26/Relativistic%20QFT/" class="article-date">
-  <time class="dt-published" datetime="2022-09-26T10:20:55.726Z" itemprop="datePublished">2022-09-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/">场论学习</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/26/Relativistic%20QFT/">Summary notes on relativistic QFT</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1>自己整理的相对论性量子场论的笔记</h1>
-<p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
-<p>目前的思路是：</p>
-<ul>
-<li>量子力学的原理，这部分可以再额外参考Moore的两本书：群论和讲twisted K-theory的书。</li>
-<li>庞加莱群及其不可约表示，这部分可以再额外参考Woit的书。</li>
-<li>二次量子化，这部分可以再额外参考凝聚态的书。</li>
-<li>自由场算符的推导</li>
-<li>正则量子化，路径积分量子化，这部分得重写，需要写得更加简洁一些。还需要加入关于constraint system的讨论。路径积分的部分可以再参考一些凝聚态的书。</li>
-<li>To be continued</li>
-</ul>
-<h2 id="参考资料：">参考资料：</h2>
-<ul>
-<li>WeinbergI</li>
-<li>WeinbergII</li>
-<li>New_QFT by Yuchen Wang</li>
-<li>Schwartz</li>
-<li>Zee</li>
-</ul>
-<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
-<ul>
-<li>Tong:Gauge theory</li>
-<li>Srecnicki</li>
-<li>Peskin&amp;Schroeder</li>
-<li>Skinner</li>
-<li>Tong:QFT</li>
-<li>to be continued</li>
-</ul>
-<h2 id="latex">Latex:</h2>
-
-
-	<div class="row">
-    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/26/Relativistic%20QFT/" data-id="cl9kw7feo000wcppr1ag74a0h" data-title="Summary notes on relativistic QFT" class="article-share-link">分享</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/25/1/" class="article-date">
-  <time class="dt-published" datetime="2022-09-25T14:17:49.283Z" itemprop="datePublished">2022-09-25</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%87%9D%E8%81%9A%E6%80%81%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/">凝聚态基础理论学习</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/25/1/">Reading notes on condensed matter physics</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/1/" data-id="cl9kw7feh0001cppr92yn8uhv" data-title="Reading notes on condensed matter physics" class="article-share-link">分享</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-  <nav id="page-nav">
-    
-    <a class="extend prev" rel="prev" href="/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
   </nav>
 
-</section>
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  
+    <div class="preview">
+  <!-- <nav class="navbar j-navbar-menu">
+    <i class="iconfont iconmenu"></i>
+  </nav> -->
+  <div class="preview-image">
+    
         
-          <aside id="sidebar">
+          <img src="/images/theme/cloud.png" class="preview-overlay" draggable="false">
+            
+  </div>
+  <div class="preview-motto-wrapper">
+    <h2 class="preview-motto" id="motto">
+      
+        非淡泊无以明志，非宁静无以致远。
+          
+    </h2>
+    
+  </div>
+  <div class="preview-scroll">
+    <a href="#container" class="smooth-scroll"><i class="iconfont iconMouse"></i></a>
+  </div>
+</div>
+  
+  <div class="container" id="container">
+    <section class="row post">
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%87%9D%E8%81%9A%E6%80%81%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/">凝聚态基础理论学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%93%B2%E5%AD%A6-%E7%A4%BE%E7%A7%91-%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E9%9A%8F%E8%AE%B0/">哲学/社科/小说阅读随记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/">场论学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0-%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/">场论学习,拓扑物态学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/">拓扑物态学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/">数学补习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">日常记录</a></li></ul>
-    </div>
-  </div>
 
-
-  
+<div class="col-lg-4 col-md-6 col-sm-12 post-item">
+  <div class="post-wrap">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%93%B2%E5%AD%A6%E9%9A%8F%E8%AE%B0/" rel="tag">哲学随记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/%E5%93%B2%E5%AD%A6%E9%9A%8F%E8%AE%B0/" style="font-size: 10px;">哲学随记</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" style="font-size: 20px;">学习记录</a> <a href="/tags/%E6%97%A5%E5%B8%B8/" style="font-size: 10px;">日常</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">笔记</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">十月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">九月 2022</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2022/10/22/Topological%20order_2020/">Invitation to topological order_2020</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/21/QuasiQD_DW-TQFT/">Quasi quantum double and Dijkraaf Witten TQFT</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/19/AT_Dieck/">Reading notes on Algebraic topology by T.Dieck</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/17/CFT&TQFT_materials/">Materials for learning CFT and TQFT</a>
-          </li>
-        
-          <li>
-            <a href="/2022/10/16/Hannover_CFT_Notes/">Lecture notes on Introduction to conformal field theory</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
+    <a href="/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-image">
+      <img src="/images/theme/xiangjian.jpeg" draggable="false">
+    </a>
+    <div class="post-content">
+      <div class="post-content-wrap">
+        <h3 class="post-title"><a href="/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" title="马列毛经典阅读笔记" >马列毛经典阅读笔记</a></h3>
+        <div class="post-excerpt">
+          <p class="substr-3">《国家与革命》
+《怎么办？》
+《进一步，退两步》
+《毛选》
+《政治经济学概论》
+</p>
+        </div>
+      </div>
+      <div class="post-info">
+        <span class="post-info-item"><i class="iconfont iconcalendar"></i>九月 26, 2022</span>
         
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2022 王祥<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
-</footer>
+</div>
 
-    </div>
-    <nav id="mobile-nav">
   
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
     
 
+<div class="col-lg-4 col-md-6 col-sm-12 post-item">
+  <div class="post-wrap">
+    
+    <a href="/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/" class="post-image">
+      <img src="/images/theme/xiangjian.jpeg" draggable="false">
+    </a>
+    <div class="post-content">
+      <div class="post-content-wrap">
+        <h3 class="post-title"><a href="/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/" title="Learning project on topological quantum matters" >Learning project on topological quantum matters</a></h3>
+        <div class="post-excerpt">
+          <p class="substr-3">学习规划
 
-<script src="/js/jquery-3.4.1.min.js"></script>
+2022/10/9 这周计划学习一下 2016年的综述，以及组里的两篇投影表示的重要文章，周末把最近学的内容整理一下：TI/TSC 中的对称性，基于对称性的分类：K理论/Cliffo...</p>
+        </div>
+      </div>
+      <div class="post-info">
+        <span class="post-info-item"><i class="iconfont iconcalendar"></i>九月 26, 2022</span>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+    
+
+<div class="col-lg-4 col-md-6 col-sm-12 post-item">
+  <div class="post-wrap">
+    
+    <a href="/2022/09/26/Relativistic%20QFT/" class="post-image">
+      <img src="/images/theme/xiangjian.jpeg" draggable="false">
+    </a>
+    <div class="post-content">
+      <div class="post-content-wrap">
+        <h3 class="post-title"><a href="/2022/09/26/Relativistic%20QFT/" title="Summary notes on relativistic QFT" >Summary notes on relativistic QFT</a></h3>
+        <div class="post-excerpt">
+          <p class="substr-3">自己整理的相对论性量子场论的笔记
+目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Ga...</p>
+        </div>
+      </div>
+      <div class="post-info">
+        <span class="post-info-item"><i class="iconfont iconcalendar"></i>九月 26, 2022</span>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+    
+
+<div class="col-lg-4 col-md-6 col-sm-12 post-item">
+  <div class="post-wrap">
+    
+    <a href="/2022/09/25/1/" class="post-image">
+      <img src="/images/theme/xiangjian.jpeg" draggable="false">
+    </a>
+    <div class="post-content">
+      <div class="post-content-wrap">
+        <h3 class="post-title"><a href="/2022/09/25/1/" title="Reading notes on condensed matter physics" >Reading notes on condensed matter physics</a></h3>
+        <div class="post-excerpt">
+          <p class="substr-3">在这里记录一下学习凝聚态理论的日常。
+学习材料
+Condensed Matter Field theory by A.Altland &amp; B.Simons
+Fradkin
+</p>
+        </div>
+      </div>
+      <div class="post-info">
+        <span class="post-info-item"><i class="iconfont iconcalendar"></i>九月 25, 2022</span>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+</section>
+    <section class="paginator">
+  
+    <a class="extend prev" rel="prev" href="/">&lt;</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  
+</section>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
 
 
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
 
 
 
 
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/js/utils.js"></script>
 <script src="/js/script.js"></script>
 
 
 
 
 
-  </div>
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
