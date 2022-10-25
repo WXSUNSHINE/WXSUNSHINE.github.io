@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-23T13:17:32.416Z</updated>
+  <updated>2022-10-25T03:09:07.212Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Reading notes on Vector bundle and K theory by A.Hatcher</title>
+    <link href="http://example.com/2022/10/25/VB_Ktheory_Hatcher/"/>
+    <id>http://example.com/2022/10/25/VB_Ktheory_Hatcher/</id>
+    <published>2022-10-24T16:00:00.000Z</published>
+    <updated>2022-10-25T03:09:07.212Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The classification of vector bundles with arbitary base space and different dimensions of fibers(vector</summary>
+        
+      
+    
+    
+    
+    <category term="数学补习" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6%E8%A1%A5%E4%B9%A0/"/>
+    
+    
+    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Invitation to topological order_2020</title>
-    <link href="http://example.com/2022/10/22/Topological%20order_2020/"/>
-    <id>http://example.com/2022/10/22/Topological%20order_2020/</id>
-    <published>2022-10-21T16:00:00.000Z</published>
-    <updated>2022-10-23T13:17:32.416Z</updated>
+    <link href="http://example.com/2022/10/23/Topological%20order_2020/"/>
+    <id>http://example.com/2022/10/23/Topological%20order_2020/</id>
+    <published>2022-10-22T16:00:00.000Z</published>
+    <updated>2022-10-23T14:59:47.820Z</updated>
     
     
       

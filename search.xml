@@ -1,75 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
-]]></content>
-      <categories>
-        <category>凝聚态基础理论学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Reading notes on Algebraic topology by T.Dieck</title>
-    <url>/2022/10/19/AT_Dieck/</url>
-    <content><![CDATA[<h1>Introduction</h1>
-<ul>
-<li>Algebraic topology is the interplay between continuous and discrete mathematics, for topological/geometrical continuum, A.T allows their realizations to be of an algebraic nature.</li>
-<li>Classical A.T consists of construction and use functors to study/extract-information from topological category. Two important views are homology and homotopy. These implies the category of topological spaces has itself a kind of hidden algebraic structure and can been manifested only in techniques of A.T, these properties can not been obtained using simply point-set topology.</li>
-</ul>
-<h1>Topological space</h1>
-<p>This chapter serve as a set up of some point-set topological notions, the most important notions are quotient space(quotient set with quotient topology) and transformation groups.</p>
-<h2 id="basic-notions">Basic notions</h2>
-<ul>
-<li>Topological space is defined axiomatically with open sets, dually closed sets. Related notions including: closure(also defining dense subset), interior, boundary, etc. There’s notion of topological basis, also a weaker one known subbasis. There’s also subspaces, with subspace/induced topology defined on subset.</li>
-<li>There are many topological structure can be defined. We then have the notion of coarser/finer topology. The morphisms are continuous maps defined via open sets, the morphisms are usually refered to as open/close morphism. The isomorphism in TOP is homeomorphism, we have to make sure the inverse is also continous(a morphism).</li>
-<li>The notion of (open) neighbourhood is usually used, it is used to define continuity at some point. This notion is more useful in metric spaces, with topology defined respect to the metric, using open neighbourhoods. This type of topology is more related to analysis.</li>
-<li>There are some properties we can attach to a topological space. Separation axioms have four types: Hausdorff(separated), (complete) regular, normal. Another one is (local) compactness(defined using open coverings).</li>
-<li>Associated with compactness is the technique of compactification, most used one is known as one-point compactification. The proper morphism is associated with compactness.</li>
-<li>There’s theorem implying locally compact set in Hausdorff space is locally closed. Locally closed set in locally compact space is locally compact.</li>
-</ul>
-<p>There are many theorems related to openness, Hausdorffness, compactness, etc in the literature, they seem not that important to me.</p>
-<ul>
-<li>Associated with morphisms we have notions of sections, in topological context they are assumed to be continuous. Same for rectraction.</li>
-</ul>
-<h2 id="categorical-constructions">Categorical constructions</h2>
-<ul>
-<li>Product of topological spaces is defined with product topology on product of sets. The product topology is the coarsest topology making the projections continuous. The universal properties in this book is frequently framed as “the unique(by construction from universal properties in SET) map is continuous if the associated ones are”. This is just checking the definition is indeed a morphism, this is important and we should also check well-defineness.</li>
-<li>Dually we have coproduct which is refered to as topological sum. The subspace topology of components is the original ones, this means they are open in the sum.</li>
-<li>Finer constructions are fiber product and fiber coproduct, the former is refered to as pull back defined with subspace topology, the latter is refered to as push out defined by quotient topology via coproduct morphism.</li>
-<li>There’s notion of embedding, this is common in describing the topological object in terms of solution set of equations, they are defined with subspace topology. The embedding is of categorical nature</li>
-<li>The quotient space is important, it express the idea of pasting points by identifying them with equivalence relations usually through morphisms. Specificly the quotient topology is defined via surjective map, equivalently canonical projections to quotient sets. This morphism is known as identification or quotient map.</li>
-<li>Associted with quotient is the idea of constructing larger spaces by pasting smaller pieces. These process will finally need quotient, moding out some equivalence relation, this quotient process is intuitively identifying some structures in common, thus pasting different pieces together. Specific example include adjunction space, which is also a special case of push out of inclusion.</li>
-<li>More generally, we have the notion of clutching, the definition is rather subtle, involving labeled subsets and bijections. The bijections define the notion of pasting, the datum lead to equivalence relations on disjiont sum(largest set)between points comes from different pieces. By quotienting we have well defined spaces and injections identifying different pieces. The bijections serve for transition between different pieces pasting them together.</li>
-</ul>
-<h2 id="topological-groups">Topological groups</h2>
-<ul>
-<li>A topological group is a group with topological structure defined on set making the inverse and multiplication continous. The left action of group on itself is known as left transition and is a homeomorphism. Examples include matrice groups some of them are identified with topological spaces like n-sphere, n-torus, etc. Notions like subspace and quotient can be defined.</li>
-<li>Group action of topological group on topological spaces define category G-TOP, consisting of G-spaces(like G-module, G-set) and equivariant morphisms(G-map). There’s related notions like orbit space by quotienting out the G action, stabilizer fixed point set, etc.</li>
-<li>The equivariant continuous maps between topological spaces induce natrually continuous maps between corresponding G-spaces.</li>
-<li>Equivariant homotopy or G-homotopy is defined as a homotopy such that at all time the morphism is a G-map.</li>
-<li>The quotient space is defined on quotient set, the quotient space may not be a quotient group. The quotient space is defined with natural G-action, it is refered to as homogeneous space. It’s important in geometry.</li>
-<li>By orbit-stabilizer theorem, the homogeneous space constructed by mod out the some stabilizer is identified with the orbit(transitive) we usually refer the latter. Important examples include sphere, projective spaces, Grassmann manifolds, Stiefel manifolds.</li>
-<li>The homogeneous G-spaces with the mod out subgroup closed in G together with G-maps form orbit category.</li>
-<li>The action on real/complex vector space is known as (G-modules) real/complex representation if the translations are linear maps.</li>
-<li>Given a right G-space and a left G-space we can construct product with a left G action. Then by quotienting the action we obtain a orbit space. This constuction is important.</li>
-</ul>
-<h1>The fundamental group</h1>
-]]></content>
-      <categories>
-        <category>数学补习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Materials for learning CFT and TQFT</title>
     <url>/2022/10/17/CFT&amp;TQFT_materials/</url>
     <content><![CDATA[<h1>CFT</h1>
@@ -151,87 +82,54 @@
       </tags>
   </entry>
   <entry>
-    <title>Lecture notes on Introduction to conformal field theory</title>
-    <url>/2022/10/16/Hannover_CFT_Notes/</url>
-    <content><![CDATA[<h1>Acknowledgement</h1>
-<p>This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [<a href="https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</p>
-<h1>Lecture 1,2:</h1>
-<h2 id="motivation">Motivation:</h2>
+    <title>Reading notes on Algebraic topology by T.Dieck</title>
+    <url>/2022/10/19/AT_Dieck/</url>
+    <content><![CDATA[<h1>Introduction</h1>
 <ul>
-<li>CFT provide good effective description of systems at/near criticality(2nd phase transition point), near which we have interesting phenomena including long-range correlation, scaling invariance, etc.</li>
-<li>CFT is the fixed point of RG, which implies all other QFTs are perturbation(approximation) to CFTs, they are also cut-off independent.</li>
-<li>CFT can be made more mathematical rigorous, there are roughly 3 different formulation, haven’t been unified yet.</li>
+<li>Algebraic topology is the interplay between continuous and discrete mathematics, for topological/geometrical continuum, A.T allows their realizations to be of an algebraic nature.</li>
+<li>Classical A.T consists of construction and use functors to study/extract-information from topological category. Two important views are homology and homotopy. These implies the category of topological spaces has itself a kind of hidden algebraic structure and can been manifested only in techniques of A.T, these properties can not been obtained using simply point-set topology.</li>
 </ul>
-<h2 id="what-is-cft">What is CFT:</h2>
+<h1>Topological space</h1>
+<p>This chapter serve as a set up of some point-set topological notions, the most important notions are quotient space(quotient set with quotient topology) and transformation groups.</p>
+<h2 id="basic-notions">Basic notions</h2>
 <ul>
-<li>From the group theoretical point of view, CFT are local field(quantum) construction of projective unitary representations of the conformal group(actually the local algebra, generated by infinitesimal transformations)</li>
-<li>The combination of locality and unitarity is nontrivial.</li>
-<li>For quantum theory, we actually need intrinsic projective representation(with central extension) to construct physical models.</li>
+<li>Topological space is defined axiomatically with open sets, dually closed sets. Related notions including: closure(also defining dense subset), interior, boundary, etc. There’s notion of topological basis, also a weaker one known subbasis. There’s also subspaces, with subspace/induced topology defined on subset.</li>
+<li>There are many topological structure can be defined. We then have the notion of coarser/finer topology. The morphisms are continuous maps defined via open sets, the morphisms are usually refered to as open/close morphism. The isomorphism in TOP is homeomorphism, we have to make sure the inverse is also continous(a morphism).</li>
+<li>The notion of (open) neighbourhood is usually used, it is used to define continuity at some point. This notion is more useful in metric spaces, with topology defined respect to the metric, using open neighbourhoods. This type of topology is more related to analysis.</li>
+<li>There are some properties we can attach to a topological space. Separation axioms have four types: Hausdorff(separated), (complete) regular, normal. Another one is (local) compactness(defined using open coverings).</li>
+<li>Associated with compactness is the technique of compactification, most used one is known as one-point compactification. The proper morphism is associated with compactness.</li>
+<li>There’s theorem implying locally compact set in Hausdorff space is locally closed. Locally closed set in locally compact space is locally compact.</li>
 </ul>
-<h2 id="conformal-transformations">Conformal transformations:</h2>
+<p>There are many theorems related to openness, Hausdorffness, compactness, etc in the literature, they seem not that important to me.</p>
 <ul>
-<li>Consider the case of flat spacetime, the conformal transformations are defined to be those leaves metric invariant up to a spacetime dependent scale(preserving angles). This condition then lead to two useful constraint on infinitesimal conformal transformations.</li>
-<li>In general the infinitesimal conformal transformations are generated by some vector fields(may be represented by differential operators), for d&gt;3, the situation is simpler, there are generators of translation, rotation &amp; boost, scale transformation, special conformal transformation. For d=2, the situation is more subtler, the local algebra(close under Lie bracket) is an infinite dimensional algebra, for Euclidean metric, it’s known as Witt alegebra, for Lorentzian metric, the Lie algebra is isomorphic to Witt algebra. The meaning of the conformal transformations are far more clear in d=2 Minkowski spacetime, they correspond to dilatation/contraction of the two independent light-cone coordinate axes, for d=2 Euclidean case, the finite conformal transformations correspond to linear complex analytic functions, especially the group PSL(2,C)(Mobius transformations). For the general case(including infinitesimal ones) ,this means the study of conformal transformations is reduced to the study of orientation-preserving diffeomorphism of R or S^{1} when compactified.</li>
-<li>Not all infinitesimal conformal transformations can be exponentiated to be a finite transforamtion. There may be singularities as the obstructions. Those generator admitting finite transformations form a subalgebra, being the Lie algebra of the finite conformal transformations they form a group. There are two possibilies, when the infinity is excluded, we have less finite transformations, with infitnity included(we are compatictifying thus on a Riemann sphere/surface) there are more fninite transformations.</li>
-<li>With more transformation, the system is more symmetric and thus more constraint. This means the physics of d=2 conformal field theories are highly constraint. The claim is that they are classfied by the central charge related to projective representations. Also note that the d=2 conformal field theory are very important in statistical physics and as the boundary of 2+1d topological bulk.</li>
+<li>Associated with morphisms we have notions of sections, in topological context they are assumed to be continuous. Same for rectraction.</li>
 </ul>
-<h2 id="confusions-and-thoughts">Confusions and thoughts</h2>
+<h2 id="categorical-constructions">Categorical constructions</h2>
 <ul>
-<li>Is the compacitifed case, especially d=2 directly related to the knot theory and thus topological field theory?</li>
-<li>Why in d=2 Lorentzian case, the group of (finite?) conformal transformations have infinite dimensional Lie algebra? Answer: in that case, the conformal transformations infer to all including infinitesimal ones, thus the Lie algebra is isomorphic to Witt algerba, not containing just finite ones that is related to Mobius transformations(PSL(2,C)).</li>
-<li>The infinite dimensionality is consequential! Also note the infinite dimensionality of the Hilbert space in quantum mechanics. Also note the word “group” usually refer to some algebra: Lie algebra, Hopf algebra, etc. This is also similar for quantum groups.</li>
+<li>Product of topological spaces is defined with product topology on product of sets. The product topology is the coarsest topology making the projections continuous. The universal properties in this book is frequently framed as “the unique(by construction from universal properties in SET) map is continuous if the associated ones are”. This is just checking the definition is indeed a morphism, this is important and we should also check well-defineness.</li>
+<li>Dually we have coproduct which is refered to as topological sum. The subspace topology of components is the original ones, this means they are open in the sum.</li>
+<li>Finer constructions are fiber product and fiber coproduct, the former is refered to as pull back defined with subspace topology, the latter is refered to as push out defined by quotient topology via coproduct morphism.</li>
+<li>There’s notion of embedding, this is common in describing the topological object in terms of solution set of equations, they are defined with subspace topology. The embedding is of categorical nature</li>
+<li>The quotient space is important, it express the idea of pasting points by identifying them with equivalence relations usually through morphisms. Specificly the quotient topology is defined via surjective map, equivalently canonical projections to quotient sets. This morphism is known as identification or quotient map.</li>
+<li>Associted with quotient is the idea of constructing larger spaces by pasting smaller pieces. These process will finally need quotient, moding out some equivalence relation, this quotient process is intuitively identifying some structures in common, thus pasting different pieces together. Specific example include adjunction space, which is also a special case of push out of inclusion.</li>
+<li>More generally, we have the notion of clutching, the definition is rather subtle, involving labeled subsets and bijections. The bijections define the notion of pasting, the datum lead to equivalence relations on disjiont sum(largest set)between points comes from different pieces. By quotienting we have well defined spaces and injections identifying different pieces. The bijections serve for transition between different pieces pasting them together.</li>
 </ul>
-
-
-	<div class="row">
-    <embed src="/pdf/CFT_Hannover_Lect1,2.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1>Lecture 3,4</h1>
-<h2 id="classical-cft">Classical CFT:</h2>
+<h2 id="topological-groups">Topological groups</h2>
 <ul>
-<li>classical field theory with conformal symmetries is the construction with local field operators which transform under conformal transformations(finite(group) for d&gt;2, infinitesimal(algebra) for d=2) properly, i.e, it transform under conformal group as some reducible representation.(Note the field depends on spacetime coordinates, this is really a special representation! It is compatible with locality. But note here we assume such representation as field exist, it may not be possible to construct such reducible representations out of irreducible(usually finite dimensional) representations.). Classical symmetry refers to the invariance of the equation of motion.</li>
-<li>With the help of differential operator(linear operator on Hilbert space, usually unbounded) representation of the generators(assume d&gt;2) we can obtain the classical Lie algebra of finite transformations. It contain the Poincare algebra as an important subalgebra. To find field representations, we try to find finite dimensional tensor representations first. We may use the representation of Poincare algebra as a ground, since any representation of conformal algebra must be a representation of the Poincare subalgebra, what left is to find their behavior under extra conformal transformations.</li>
-<li>The result is that we use the method of induced representation, the little subgroup is defined as the subgroup leaving origin invariant, generated by Lorentz, dilation, SCTs generators. Since the Lorentz generators are represented irreducibly, form the Lie algebra(commutators) and the Schur’s lemma, we obtain the corresponding representation of dilation,SCT generator. The former is proportional to the identity, labeled by scaling dimension, the later vanishes. Thus all that is extra is dilation lead to a scaling bahavior. The general case is generated by action of translation.</li>
+<li>A topological group is a group with topological structure defined on set making the inverse and multiplication continous. The left action of group on itself is known as left transition and is a homeomorphism. Examples include matrice groups some of them are identified with topological spaces like n-sphere, n-torus, etc. Notions like subspace and quotient can be defined.</li>
+<li>Group action of topological group on topological spaces define category G-TOP, consisting of G-spaces(like G-module, G-set) and equivariant morphisms(G-map). There’s related notions like orbit space by quotienting out the G action, stabilizer fixed point set, etc.</li>
+<li>The equivariant continuous maps between topological spaces induce natrually continuous maps between corresponding G-spaces.</li>
+<li>Equivariant homotopy or G-homotopy is defined as a homotopy such that at all time the morphism is a G-map.</li>
+<li>The quotient space is defined on quotient set, the quotient space may not be a quotient group. The quotient space is defined with natural G-action, it is refered to as homogeneous space. It’s important in geometry.</li>
+<li>By orbit-stabilizer theorem, the homogeneous space constructed by mod out the some stabilizer is identified with the orbit(transitive) we usually refer the latter. Important examples include sphere, projective spaces, Grassmann manifolds, Stiefel manifolds.</li>
+<li>The homogeneous G-spaces with the mod out subgroup closed in G together with G-maps form orbit category.</li>
+<li>The action on real/complex vector space is known as (G-modules) real/complex representation if the translations are linear maps.</li>
+<li>Given a right G-space and a left G-space we can construct product with a left G action. Then by quotienting the action we obtain a orbit space. This constuction is important.</li>
 </ul>
-<h2 id="quantum-cft">Quantum CFT:</h2>
-<ul>
-<li>The quantum version involve self-adjoint operators representing the generators, they are fully specified by eigenvalues, the general result is that the relevant eigenvalues are(the representation is labeled by) scaling dimension, spin, central charge(from projective representation thus central extension of the local algebra)</li>
-<li>We then seek the consequence(constraint) of quantum conformal invariance, that is we assume we have constructed the relevant D.O.F and they transform under quantum conformal transformations such that the extended conformal algebra is furnished, and we consider the constraint of this invariance on physical quantities, especially the Green’s functions.</li>
-<li>The locality in quantum cases are expressed as self-adjoint observables, labeled by spacetime and others, are jointly measurable, this requirement is expressed as space-like separation commutators vanishes. This is causality condition.</li>
-<li>The relevant D.O.F is known as quasi-primary for finite conformal group or primary for conformal algebra. The latter is more constraint and may not even exist(luckily they do exist and the constraints are enough to solve them completely!) These objects(fields but may not standing for particles) transform under classical conformal transformations appropriately. This constraint on Green’s functions(correlation functions) is so strong that the 2-pt, 3-pt functions are determined to have a specific form, while the theory is indeed nontrivial since the higher functions are not fully determined, but they all must depend only on the cross ratios of distance. Note that the 2d case(algebras) is usually expressed in terms of complex variables, with the domain of Green’s functions analytically continued.</li>
-</ul>
-
-
-	<div class="row">
-    <embed src="/pdf/CFT_Hannover_Lect3,4.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1>Lecture 5,6,7,8</h1>
-
-
-	<div class="row">
-    <embed src="/pdf/CFT_Hannover_Lect5,6,7,8.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1>Lecture 9,10</h1>
-
-
-	<div class="row">
-    <embed src="/pdf/CFT_Hannover_Lect9,10.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
+<h1>The fundamental group</h1>
 ]]></content>
       <categories>
-        <category>场论学习</category>
+        <category>数学补习</category>
       </categories>
       <tags>
         <tag>学习记录</tag>
@@ -398,6 +296,93 @@
       </tags>
   </entry>
   <entry>
+    <title>Lecture notes on Introduction to conformal field theory</title>
+    <url>/2022/10/16/Hannover_CFT_Notes/</url>
+    <content><![CDATA[<h1>Acknowledgement</h1>
+<p>This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [<a href="https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</p>
+<h1>Lecture 1,2:</h1>
+<h2 id="motivation">Motivation:</h2>
+<ul>
+<li>CFT provide good effective description of systems at/near criticality(2nd phase transition point), near which we have interesting phenomena including long-range correlation, scaling invariance, etc.</li>
+<li>CFT is the fixed point of RG, which implies all other QFTs are perturbation(approximation) to CFTs, they are also cut-off independent.</li>
+<li>CFT can be made more mathematical rigorous, there are roughly 3 different formulation, haven’t been unified yet.</li>
+</ul>
+<h2 id="what-is-cft">What is CFT:</h2>
+<ul>
+<li>From the group theoretical point of view, CFT are local field(quantum) construction of projective unitary representations of the conformal group(actually the local algebra, generated by infinitesimal transformations)</li>
+<li>The combination of locality and unitarity is nontrivial.</li>
+<li>For quantum theory, we actually need intrinsic projective representation(with central extension) to construct physical models.</li>
+</ul>
+<h2 id="conformal-transformations">Conformal transformations:</h2>
+<ul>
+<li>Consider the case of flat spacetime, the conformal transformations are defined to be those leaves metric invariant up to a spacetime dependent scale(preserving angles). This condition then lead to two useful constraint on infinitesimal conformal transformations.</li>
+<li>In general the infinitesimal conformal transformations are generated by some vector fields(may be represented by differential operators), for d&gt;3, the situation is simpler, there are generators of translation, rotation &amp; boost, scale transformation, special conformal transformation. For d=2, the situation is more subtler, the local algebra(close under Lie bracket) is an infinite dimensional algebra, for Euclidean metric, it’s known as Witt alegebra, for Lorentzian metric, the Lie algebra is isomorphic to Witt algebra. The meaning of the conformal transformations are far more clear in d=2 Minkowski spacetime, they correspond to dilatation/contraction of the two independent light-cone coordinate axes, for d=2 Euclidean case, the finite conformal transformations correspond to linear complex analytic functions, especially the group PSL(2,C)(Mobius transformations). For the general case(including infinitesimal ones) ,this means the study of conformal transformations is reduced to the study of orientation-preserving diffeomorphism of R or S^{1} when compactified.</li>
+<li>Not all infinitesimal conformal transformations can be exponentiated to be a finite transforamtion. There may be singularities as the obstructions. Those generator admitting finite transformations form a subalgebra, being the Lie algebra of the finite conformal transformations they form a group. There are two possibilies, when the infinity is excluded, we have less finite transformations, with infitnity included(we are compatictifying thus on a Riemann sphere/surface) there are more fninite transformations.</li>
+<li>With more transformation, the system is more symmetric and thus more constraint. This means the physics of d=2 conformal field theories are highly constraint. The claim is that they are classfied by the central charge related to projective representations. Also note that the d=2 conformal field theory are very important in statistical physics and as the boundary of 2+1d topological bulk.</li>
+</ul>
+<h2 id="confusions-and-thoughts">Confusions and thoughts</h2>
+<ul>
+<li>Is the compacitifed case, especially d=2 directly related to the knot theory and thus topological field theory?</li>
+<li>Why in d=2 Lorentzian case, the group of (finite?) conformal transformations have infinite dimensional Lie algebra? Answer: in that case, the conformal transformations infer to all including infinitesimal ones, thus the Lie algebra is isomorphic to Witt algerba, not containing just finite ones that is related to Mobius transformations(PSL(2,C)).</li>
+<li>The infinite dimensionality is consequential! Also note the infinite dimensionality of the Hilbert space in quantum mechanics. Also note the word “group” usually refer to some algebra: Lie algebra, Hopf algebra, etc. This is also similar for quantum groups.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect1,2.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 3,4</h1>
+<h2 id="classical-cft">Classical CFT:</h2>
+<ul>
+<li>classical field theory with conformal symmetries is the construction with local field operators which transform under conformal transformations(finite(group) for d&gt;2, infinitesimal(algebra) for d=2) properly, i.e, it transform under conformal group as some reducible representation.(Note the field depends on spacetime coordinates, this is really a special representation! It is compatible with locality. But note here we assume such representation as field exist, it may not be possible to construct such reducible representations out of irreducible(usually finite dimensional) representations.). Classical symmetry refers to the invariance of the equation of motion.</li>
+<li>With the help of differential operator(linear operator on Hilbert space, usually unbounded) representation of the generators(assume d&gt;2) we can obtain the classical Lie algebra of finite transformations. It contain the Poincare algebra as an important subalgebra. To find field representations, we try to find finite dimensional tensor representations first. We may use the representation of Poincare algebra as a ground, since any representation of conformal algebra must be a representation of the Poincare subalgebra, what left is to find their behavior under extra conformal transformations.</li>
+<li>The result is that we use the method of induced representation, the little subgroup is defined as the subgroup leaving origin invariant, generated by Lorentz, dilation, SCTs generators. Since the Lorentz generators are represented irreducibly, form the Lie algebra(commutators) and the Schur’s lemma, we obtain the corresponding representation of dilation,SCT generator. The former is proportional to the identity, labeled by scaling dimension, the later vanishes. Thus all that is extra is dilation lead to a scaling bahavior. The general case is generated by action of translation.</li>
+</ul>
+<h2 id="quantum-cft">Quantum CFT:</h2>
+<ul>
+<li>The quantum version involve self-adjoint operators representing the generators, they are fully specified by eigenvalues, the general result is that the relevant eigenvalues are(the representation is labeled by) scaling dimension, spin, central charge(from projective representation thus central extension of the local algebra)</li>
+<li>We then seek the consequence(constraint) of quantum conformal invariance, that is we assume we have constructed the relevant D.O.F and they transform under quantum conformal transformations such that the extended conformal algebra is furnished, and we consider the constraint of this invariance on physical quantities, especially the Green’s functions.</li>
+<li>The locality in quantum cases are expressed as self-adjoint observables, labeled by spacetime and others, are jointly measurable, this requirement is expressed as space-like separation commutators vanishes. This is causality condition.</li>
+<li>The relevant D.O.F is known as quasi-primary for finite conformal group or primary for conformal algebra. The latter is more constraint and may not even exist(luckily they do exist and the constraints are enough to solve them completely!) These objects(fields but may not standing for particles) transform under classical conformal transformations appropriately. This constraint on Green’s functions(correlation functions) is so strong that the 2-pt, 3-pt functions are determined to have a specific form, while the theory is indeed nontrivial since the higher functions are not fully determined, but they all must depend only on the cross ratios of distance. Note that the 2d case(algebras) is usually expressed in terms of complex variables, with the domain of Green’s functions analytically continued.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect3,4.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 5,6,7,8</h1>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect5,6,7,8.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 9,10</h1>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect9,10.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <categories>
+        <category>场论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Math learning</title>
     <url>/2022/10/02/Math%20learning/</url>
     <content><![CDATA[<h1>Plan:</h1>
@@ -475,28 +460,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Quasi quantum double and Dijkraaf Witten TQFT</title>
-    <url>/2022/10/21/QuasiQD_DW-TQFT/</url>
-    <content><![CDATA[<h1>Anyons in discrete gauge theories</h1>
-<p>A review of quasi quantum double type anyons.</p>
-
-
-	<div class="row">
-    <embed src="/pdf/QuasiQD_DWTQFT/QuasiQD_Anyon.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1>Notes on Dijkgraaf-Witten TQFT</h1>
-]]></content>
-      <categories>
-        <category>场论学习</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Summary notes on relativistic QFT</title>
     <url>/2022/09/26/Relativistic%20QFT/</url>
     <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
@@ -535,6 +498,28 @@
 	</div>
 
 
+]]></content>
+      <categories>
+        <category>场论学习</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Quasi quantum double and Dijkraaf Witten TQFT</title>
+    <url>/2022/10/21/QuasiQD_DW-TQFT/</url>
+    <content><![CDATA[<h1>Anyons in discrete gauge theories</h1>
+<p>A review of quasi quantum double type anyons.</p>
+
+
+	<div class="row">
+    <embed src="/pdf/QuasiQD_DWTQFT/QuasiQD_Anyon.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Notes on Dijkgraaf-Witten TQFT</h1>
 ]]></content>
       <categories>
         <category>场论学习</category>
@@ -594,7 +579,7 @@
   </entry>
   <entry>
     <title>Invitation to topological order_2020</title>
-    <url>/2022/10/22/Topological%20order_2020/</url>
+    <url>/2022/10/23/Topological%20order_2020/</url>
     <content><![CDATA[<h1>Acknowledgement</h1>
 <p>This is the lecture notes taken from the 2020 lectures on topological order [<a href="https://www.koushare.com/live/topology">https://www.koushare.com/live/topology</a>], the references are important for future study.</p>
 <h1>孔良：Infinite more is more different</h1>
@@ -704,6 +689,7 @@
 <ol>
 <li>Topological quantum field theory of three-dimensional bosonic abelian-symmetry-protected topological phases_Ye,Gu16</li>
 <li>Generalized Wen-Zee terms_Han,Wang,PY19</li>
+<li>Gauge theory of strongly-correlated symmetric topological phases_PY20</li>
 </ol>
 
 
@@ -724,6 +710,29 @@
 ]]></content>
       <categories>
         <category>拓扑物态学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Reading notes on Vector bundle and K theory by A.Hatcher</title>
+    <url>/2022/10/25/VB_Ktheory_Hatcher/</url>
+    <content><![CDATA[<h1>Introduction</h1>
+<ul>
+<li>
+<p>The classification of vector bundles with arbitary base space and different dimensions of fibers(vector spaces over real/complex numbers) in terms of isomorphism of vector bundles is a hard problem. We can use topological invariants to distinguish non-isomorphic vector bundles, but this is far from complete. Another way is to weaken the classification, this is the idea of K theory, we try to classify the vector bundles in equivalence classes defined via Whitney sum(direct sum of fiber bundles over same base space) with some trivial bundle. After this sum, the resulting fiber bundle are isomorphic, the summed trivial bundle may be different for different vector bundles. This is known as stable isomorphism</p>
+</li>
+<li>
+<p>The stable isomorphism equivalence classes form an abelian group under direct sum operation. There turns out to some kind of Bott periodicity. With a more general form of Bott periodicity, it’s possible to extend the groups to a full cohomology theory, with more algebraic structures than just group structure. This makes K theory a powerful tool.</p>
+</li>
+<li>
+<p>Important classes of topological invariants are cohomological invariants, known as characteristic classes. Examples include Z2 coefficents: Stiefel-Whitney class(measuring orientability, refined sort of orientability:spin structure,…), Z coefficients: Pontryagin, Euler classes, Chern classes,…</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数学补习</category>
       </categories>
       <tags>
         <tag>学习记录</tag>
@@ -831,6 +840,21 @@
       </categories>
       <tags>
         <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/1/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
+]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
       </tags>
   </entry>
   <entry>
