@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-25T03:09:07.212Z</updated>
+  <updated>2022-10-25T09:32:06.166Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>逸夫馆的沉思：自我反思与重新出发</title>
+    <link href="http://example.com/2022/10/25/Self%20Reflection,%20Future%20Planing,%20Dately/22.10.25/"/>
+    <id>http://example.com/2022/10/25/Self%20Reflection,%20Future%20Planing,%20Dately/22.10.25/</id>
+    <published>2022-10-25T07:46:11.771Z</published>
+    <updated>2022-10-25T09:32:06.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;一吐心绪&lt;/h1&gt;
+&lt;p&gt;最近学习状态相当之差，我想是时候停下来整顿思绪，反省自己了。自从大四完全没有课业之后，就完全是在自学，缺少合适的反馈。由于缺少参照物，感觉自己已经在自学中彻底迷失了，为了完成一时兴起而定下的计划，我整天都在死读书，为了赶上自己的进度和预期，大部分</summary>
+        
+      
+    
+    
+    
+    <category term="日常记录" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Reading notes on Vector bundle and K theory by A.Hatcher</title>
