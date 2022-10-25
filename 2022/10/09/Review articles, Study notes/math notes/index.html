@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Math notes - Personal Blog</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="Notes:
+Basic category theor...">
+  <meta name="author" content="王祥">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/Sun.jpeg" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/Sun.jpeg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/Sun.jpeg">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'true',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: false,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: false
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: false
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '非淡泊无以明志，非宁静无以致远。',
+          typing: false,
+          api: '',
+          data_contents: ''
+        },
+      },
+      qrcode: {
+        enable: false,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: true,
+        path: 'search.xml'
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
+      
+    </div>
+    <div class="center">Math notes</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+  </nav>
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img src="/images/theme/xiangjian.jpeg" draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">Math notes</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>十月 09, 2022</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>7536</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        <h1>Notes:</h1>
+<h2 id="basic-category-theory">Basic category theory:</h2>
+<p>This is the note based on the introductory lecture on bilibili. More materials should be learned and included. This should be accompanied with learning of algebraic topology and abstract algebra and homological algebra.</p>
+
+
+	<div class="row">
+    <embed src="/pdf/Basic_category_theory.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-fiber-bundle">Nakahara: Fiber bundle</h2>
+<p>Reading notes:</p>
+<ul>
+<li>Total space is glued up piece by piece by transition functions(physically gauge transformations)</li>
+<li>The topolohgical properties of fiber bundle will have physical meaning in gauge theory, especially the principle bundle(Fiber=Structure group) and topological configurations(monopole,instanton,…)</li>
+<li>Quantum mechanics can be considered in fiber bundles: Hilbert space= projective space.Wave functions = sections of canonical complex line bundle.</li>
+<li>Fields are sections of the corresponding fiber bundle.</li>
+<li>vector bundles are related to principle bundles: using vector space(carrier space of the group we consider) and principle bundle we construct the associated vectore bundle, conversely we can construct associated principle bundle with vector bundle using reconstruction procedure. Examples include: Frame bundle and spin bundle.</li>
+<li>H bundle over G/H can be considered as a group extension. The theory of group cohomology and group extension have geometrical interpretation as principle bundles and associated bundles.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch9_Fiber_Bundle.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-connections-on-fiber-bundles">Nakahara: Connections on Fiber bundles</h2>
+<p>Reading notes:</p>
+<ul>
+<li>Given principle bundle, geometrically we can uniquely separate the tangent space  into vertical part and  horizontal part with respect to the fiber G. This defines the E-connection naturally.</li>
+<li>This then define the Lie algebra valued connection one form, whose image and kernal defines the separation properly.</li>
+<li>Given local section, we can then pull back the connection one form to have a local connection one form on M, this defines the gauge potential. The requirement that the connection one form is unique, independent of covering then defines the compatibility condition of local connection, which is just the gauge transformation defined via transition function.</li>
+<li>The definition of parallel transportation on principle bundle( transport both base point and its fiber) is then defined by horizontal lift of curves in base manifold. The horizontal lift depend on the definition of horizontal space, thus depend on connection.</li>
+<li>The loops in base manifold induce horizontal lift which have closed base point but not the fiber element in general. This is then defines the holonomy group.The holonomy is known as Wilson loop or Berry phase. The holonomy group is a manifest of the curvature on principle bundle.</li>
+<li>By defining covariant derivative on principle bundle via horizontal space(connection), the curvature two form is defined as the covariant derivative of the connection one form. The pull back by local section is the local curvature two form or gauge field strength. Whose local covariant derivative vanishes(Bianchi identity)</li>
+<li>The holonomy(curvature) manifest the non trivial topological properties of the fiber bundle, which is also manifest by transition function and its homotopy group. Characteristic classes can be constructed from curvature.</li>
+<li>The connection on principle bundle defines a natural covariant derivative of sections of the associated vector bundle, which defines how the fibers change in parallel transportation (the fiber is constant with respect to the horizontal lift) induced by the curve in base space. This definition of covariant derivative depend on only the section itself and connection on principle bundle, independent of both horizontal lift(which is not unique upon right action),and local trivialization( which is not unique upon left action(transition function)). The curvature can be expressed in terms of covariant derivative.</li>
+<li>Gauge theories first relies on defining the right base manifold and fiber(as a group). The homotopy class of the bundle is manifested by the transition function(gauge transformation), characteristic class,… The physical degrees of freedom manifest as the associated vector bundle, with the section specifying both gauge D.O.F(principle bundle) and physical D.O.F(multiplet). The gauge bosons(connection itself) are defined with adjoint action(representation) and Lie algebra, while others are defined with other representations(action) and carrier vector spaces. The mod out right action is just gauge equivalence, with right action of gauge group on the fiber(both local gauge and multiplet) which is identified as the gauge transformation of both matter field and gauge field(on connection).</li>
+<li>Many topological spaces can also be viewed as fiber bundles. The notion of twist(transition function/gauge transformation) is very important, also note that the independence of local trivialization, local coordinate system, covering, triangulation is very important.These are all expressed as certain equivalence relation and the these equivalence relation further define more constructions. The topological properties of many systems can be expressed explicitly in terms of fiber bundles and characteristic class(cohomology) and homotopy. The topological properties then is physically related to gauge theories! By triangulation, we then obtain lattice gauge theories.</li>
+<li>examples include: Topological spaces like Mobius stripe, Gauge theories like Yang-Mills, General relativity, others like Berry phase, topological configurations(monopole,instanton,…)</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch10_Connections_On_Fiber_Bundles.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-characteristic-classes">Nakahara: Characteristic classes</h2>
+<p>Reading notes:</p>
+<ul>
+<li>The characteristic classes are defined to be subsets of cohomology class of the base space, which measure the (non)trivial property of both M and Fiber bundles over M.</li>
+<li>For vector bundles the characteristic classes are defined to be functors from bundle to functors from the algebra of (adjiont) G-invariant polynomials  to the algebra of de Rham cohomology. Given certain invariant polynomial, the characteristic class is a functor form bundle to de Rham cohomology algebra.</li>
+<li>For spin bundles the characteristic classes are defined via Cech cohomology group.</li>
+<li>The classification of homotopy class of complex vector bundle can be turned into the classification homotopy class of smooth map from base space to the universal classifying space defined using Grassmann manifold which is also related to the classification of Clifford algebra. The characteristic classes of the classifying space pull back define characteristic classes of the fiber bundle.Which can be used to construct indicators of the homotopy class(topological invariants)</li>
+<li>Useful characteristic classes include:</li>
+</ul>
+<ol>
+<li>Complex vector bundle: Chern class, Chern character(important in index theorems), Todd class</li>
+<li>Real vector bundle: Protrjagin class, Euler class(Gauss-Bonet:curvature—Euler character), L-polynomial, A-genus(Dirac genus).</li>
+<li>Spin bundle: Stiefel-Whitney class(1st measure the (non)orientability, 2nd measure the possible spin bundle associated with the frame bundle(principle bundle associated with the tangent bundle endowed with a fiber metric)</li>
+</ol>
+<ul>
+<li>Since the characteristic classes are closed(de Rham type), they are locally the exterior derivative of the Chern-Simons forms, defined via Chern-Weil theorem(transgression).</li>
+<li>The local form of characteristic classes(de Rham type) only measure the local bundle, which is trivial. What is important is their integral over the base space, which is global. The integral can be turned into the integral over the boundary with Chern-Simons forms, which measure the topology(global) of the boundary manifold. This gives bulk-boundary correspondence.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch11_characteristic_Classes.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+      </section>
+      <section class="extra">
+        
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a href="/2022/10/09/Self%20Reflection,%20Future%20Planing,%20Dately/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"><i class="iconfont iconleft"></i>日常记录</a>
+    <a href="/2022/10/02/Reading%20notes%20and%20%20learning%20recording/Math%20learning/">Math learning<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Notes:</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#basic-category-theory"><span class="toc-text">Basic category theory:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#nakahara-fiber-bundle"><span class="toc-text">Nakahara: Fiber bundle</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#nakahara-connections-on-fiber-bundles"><span class="toc-text">Nakahara: Connections on Fiber bundles</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#nakahara-characteristic-classes"><span class="toc-text">Nakahara: Characteristic classes</span></a></li></ol></li></ol>
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

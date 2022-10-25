@@ -1,0 +1,382 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Materials for learning CFT and TQFT - Personal Blog</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="CFT
+Books and Notes
+
+confor...">
+  <meta name="author" content="王祥">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/Sun.jpeg" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/Sun.jpeg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/Sun.jpeg">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'true',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: false,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: false
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: false
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '非淡泊无以明志，非宁静无以致远。',
+          typing: false,
+          api: '',
+          data_contents: ''
+        },
+      },
+      qrcode: {
+        enable: false,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: true,
+        path: 'search.xml'
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
+      
+    </div>
+    <div class="center">Materials for learning CFT and TQFT</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+  </nav>
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img src="/images/theme/xiangjian.jpeg" draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">Materials for learning CFT and TQFT</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>十月 17, 2022</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>2657</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        <h1>CFT</h1>
+<h2 id="books-and-notes">Books and Notes</h2>
+<ul>
+<li>conformal field theroy-“the yellow book”</li>
+<li>Introduction to conformal field theory with application to string theory</li>
+<li>String theory_Polchinski</li>
+<li>String theory_D.Tong</li>
+</ul>
+<h2 id="reviews">Reviews</h2>
+<ul>
+<li>Applied conformal field theory_Ginsparg</li>
+<li>An introduction to conformal field theory_Gaberdiel</li>
+</ul>
+<p>These two reviews are good, the former is more physical, the later contain more formal aspects of 2d CFT, and the references are important.</p>
+<h2 id="lecture-notes">Lecture notes</h2>
+<ul>
+<li>Conformal field theroy_Alday</li>
+<li>Supersymmetry and conformal field theory_Herzog</li>
+<li>Conformal field theory for string theorists_Herzog</li>
+<li>Lectures on conformal field theory_Qualls</li>
+</ul>
+<p>I don’t have enough time to study all these, these will be used as just reference, the main materials for study will be [Ginsparg],[Gaberdiel],[Yellow book],[Tong], and the important papers especially about [BPZ] and [MS]</p>
+<h2 id="zhihu-notes">Zhihu notes</h2>
+<ul>
+<li>[<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/473536902">https://zhuanlan.zhihu.com/p/473536902</a>]</li>
+<li>[<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/392768986">https://zhuanlan.zhihu.com/p/392768986</a>]</li>
+</ul>
+<h2 id="online-lectures">Online lectures</h2>
+<ul>
+<li>2020 Introduction to Topological Field Theory-Prof. M. Marino [<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ji4y187pH/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1Ji4y187pH/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
+<li>Introduction to conformal field theory by Tobias Osborne [<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1xW411F7jn/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1xW411F7jn/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
+<li>RCFT 孔良 [<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1t44y1g7e8/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1t44y1g7e8/?spm_id_from=333.999.0.0&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
+<li>Conformal Field Theory (PSI 11-12, Core) - Jaume Gomis [<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1u4411E7Uj/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1u4411E7Uj/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</li>
+</ul>
+<h2 id="important-original-papers">Important original papers</h2>
+<ul>
+<li>BPZ</li>
+<li>Moore,Seiberg</li>
+<li>Segel</li>
+<li>…</li>
+</ul>
+<h2 id="important-notions">Important notions</h2>
+<ul>
+<li>Scale invariance, conformal invariance, trace anomaly, universality, consistent conditions.</li>
+<li>Witt algebra, OPE, VOA, Virasoro algebra, central charge</li>
+<li>Verma module and representation</li>
+<li>Meromorphic CFT(chiral algebra,VOA)</li>
+<li>Moore Seiberg: MTC, quantum groups</li>
+</ul>
+<h1>TQFT</h1>
+<h2 id="more-physical">More physical</h2>
+<ul>
+<li>Tong_Quantum Hall Effect</li>
+<li>Gauge theory_Tong</li>
+<li>Aspects of Chern-Simons Theory_Dune</li>
+<li>Chapters on FQHE_Wen</li>
+<li>Topological investigations of gauge theory_Jackiw</li>
+<li>References on Instantons: Zee, WeinbergII,…</li>
+<li>Topological quantum_H.Simons</li>
+<li>Chapter 9 of Altland&amp;B.Simons</li>
+<li>Topology,geometry and quantum interference in condensed matter physics</li>
+<li>Three Lectures On Topological Phases Of Matter_Witten</li>
+<li>Fermion path integral and Fermion path integrals and topological phases_Witten</li>
+<li>Many other papers and reviews on topological field theoretical approach to I/FQHE,SPT,SET states(May follow the reference of some lectures on topological order)</li>
+</ul>
+<h2 id="more-mathematical">More mathematical</h2>
+<ul>
+<li>On characteristic classes</li>
+<li>On supersymmetric TQFT…</li>
+</ul>
+
+      </section>
+      <section class="extra">
+        
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a href="/2022/10/19/Reading%20notes%20and%20%20learning%20recording/AT_Dieck/"><i class="iconfont iconleft"></i>Reading notes on Algebraic topology by T.Dieck</a>
+    <a href="/2022/10/16/Reading%20notes%20and%20%20learning%20recording/Hannover_CFT_Notes/">Lecture notes on Introduction to conformal field theory<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">CFT</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#books-and-notes"><span class="toc-text">Books and Notes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#reviews"><span class="toc-text">Reviews</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#lecture-notes"><span class="toc-text">Lecture notes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#zhihu-notes"><span class="toc-text">Zhihu notes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#online-lectures"><span class="toc-text">Online lectures</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#important-original-papers"><span class="toc-text">Important original papers</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#important-notions"><span class="toc-text">Important notions</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">TQFT</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#more-physical"><span class="toc-text">More physical</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#more-mathematical"><span class="toc-text">More mathematical</span></a></li></ol></li></ol>
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

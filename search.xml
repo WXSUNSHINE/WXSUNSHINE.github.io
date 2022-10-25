@@ -1,8 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Summary notes on relativistic QFT</title>
+    <url>/2022/09/26/Review%20articles,%20Study%20notes/Relativistic%20QFT/</url>
+    <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
+<p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
+<p>目前的思路是：</p>
+<ul>
+<li>量子力学的原理，这部分可以再额外参考Moore的两本书：群论和讲twisted K-theory的书。</li>
+<li>庞加莱群及其不可约表示，这部分可以再额外参考Woit的书。</li>
+<li>二次量子化，这部分可以再额外参考凝聚态的书。</li>
+<li>自由场算符的推导</li>
+<li>正则量子化，路径积分量子化，这部分得重写，需要写得更加简洁一些。还需要加入关于constraint system的讨论。路径积分的部分可以再参考一些凝聚态的书。</li>
+<li>To be continued</li>
+</ul>
+<h2 id="参考资料：">参考资料：</h2>
+<ul>
+<li>WeinbergI</li>
+<li>WeinbergII</li>
+<li>New_QFT by Yuchen Wang</li>
+<li>Schwartz</li>
+<li>Zee</li>
+</ul>
+<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
+<ul>
+<li>Tong:Gauge theory</li>
+<li>Srecnicki</li>
+<li>Peskin&amp;Schroeder</li>
+<li>Skinner</li>
+<li>Tong:QFT</li>
+<li>to be continued</li>
+</ul>
+<h2 id="latex">Latex:</h2>
+
+
+	<div class="row">
+    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
+      <categories>
+        <category>场论学习</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日常记录</title>
+    <url>/2022/10/09/Self%20Reflection,%20Future%20Planing,%20Dately/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1>2022/10/1</h1>
+<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
+<h1>2022/10/9</h1>
+<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
+<h1>2022/10/25</h1>
+<p>沉痛反思：</p>
+]]></content>
+      <categories>
+        <category>日常记录</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Math notes</title>
+    <url>/2022/10/09/Review%20articles,%20Study%20notes/math%20notes/</url>
+    <content><![CDATA[<h1>Notes:</h1>
+<h2 id="basic-category-theory">Basic category theory:</h2>
+<p>This is the note based on the introductory lecture on bilibili. More materials should be learned and included. This should be accompanied with learning of algebraic topology and abstract algebra and homological algebra.</p>
+
+
+	<div class="row">
+    <embed src="/pdf/Basic_category_theory.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-fiber-bundle">Nakahara: Fiber bundle</h2>
+<p>Reading notes:</p>
+<ul>
+<li>Total space is glued up piece by piece by transition functions(physically gauge transformations)</li>
+<li>The topolohgical properties of fiber bundle will have physical meaning in gauge theory, especially the principle bundle(Fiber=Structure group) and topological configurations(monopole,instanton,…)</li>
+<li>Quantum mechanics can be considered in fiber bundles: Hilbert space= projective space.Wave functions = sections of canonical complex line bundle.</li>
+<li>Fields are sections of the corresponding fiber bundle.</li>
+<li>vector bundles are related to principle bundles: using vector space(carrier space of the group we consider) and principle bundle we construct the associated vectore bundle, conversely we can construct associated principle bundle with vector bundle using reconstruction procedure. Examples include: Frame bundle and spin bundle.</li>
+<li>H bundle over G/H can be considered as a group extension. The theory of group cohomology and group extension have geometrical interpretation as principle bundles and associated bundles.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch9_Fiber_Bundle.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-connections-on-fiber-bundles">Nakahara: Connections on Fiber bundles</h2>
+<p>Reading notes:</p>
+<ul>
+<li>Given principle bundle, geometrically we can uniquely separate the tangent space  into vertical part and  horizontal part with respect to the fiber G. This defines the E-connection naturally.</li>
+<li>This then define the Lie algebra valued connection one form, whose image and kernal defines the separation properly.</li>
+<li>Given local section, we can then pull back the connection one form to have a local connection one form on M, this defines the gauge potential. The requirement that the connection one form is unique, independent of covering then defines the compatibility condition of local connection, which is just the gauge transformation defined via transition function.</li>
+<li>The definition of parallel transportation on principle bundle( transport both base point and its fiber) is then defined by horizontal lift of curves in base manifold. The horizontal lift depend on the definition of horizontal space, thus depend on connection.</li>
+<li>The loops in base manifold induce horizontal lift which have closed base point but not the fiber element in general. This is then defines the holonomy group.The holonomy is known as Wilson loop or Berry phase. The holonomy group is a manifest of the curvature on principle bundle.</li>
+<li>By defining covariant derivative on principle bundle via horizontal space(connection), the curvature two form is defined as the covariant derivative of the connection one form. The pull back by local section is the local curvature two form or gauge field strength. Whose local covariant derivative vanishes(Bianchi identity)</li>
+<li>The holonomy(curvature) manifest the non trivial topological properties of the fiber bundle, which is also manifest by transition function and its homotopy group. Characteristic classes can be constructed from curvature.</li>
+<li>The connection on principle bundle defines a natural covariant derivative of sections of the associated vector bundle, which defines how the fibers change in parallel transportation (the fiber is constant with respect to the horizontal lift) induced by the curve in base space. This definition of covariant derivative depend on only the section itself and connection on principle bundle, independent of both horizontal lift(which is not unique upon right action),and local trivialization( which is not unique upon left action(transition function)). The curvature can be expressed in terms of covariant derivative.</li>
+<li>Gauge theories first relies on defining the right base manifold and fiber(as a group). The homotopy class of the bundle is manifested by the transition function(gauge transformation), characteristic class,… The physical degrees of freedom manifest as the associated vector bundle, with the section specifying both gauge D.O.F(principle bundle) and physical D.O.F(multiplet). The gauge bosons(connection itself) are defined with adjoint action(representation) and Lie algebra, while others are defined with other representations(action) and carrier vector spaces. The mod out right action is just gauge equivalence, with right action of gauge group on the fiber(both local gauge and multiplet) which is identified as the gauge transformation of both matter field and gauge field(on connection).</li>
+<li>Many topological spaces can also be viewed as fiber bundles. The notion of twist(transition function/gauge transformation) is very important, also note that the independence of local trivialization, local coordinate system, covering, triangulation is very important.These are all expressed as certain equivalence relation and the these equivalence relation further define more constructions. The topological properties of many systems can be expressed explicitly in terms of fiber bundles and characteristic class(cohomology) and homotopy. The topological properties then is physically related to gauge theories! By triangulation, we then obtain lattice gauge theories.</li>
+<li>examples include: Topological spaces like Mobius stripe, Gauge theories like Yang-Mills, General relativity, others like Berry phase, topological configurations(monopole,instanton,…)</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch10_Connections_On_Fiber_Bundles.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h2 id="nakahara-characteristic-classes">Nakahara: Characteristic classes</h2>
+<p>Reading notes:</p>
+<ul>
+<li>The characteristic classes are defined to be subsets of cohomology class of the base space, which measure the (non)trivial property of both M and Fiber bundles over M.</li>
+<li>For vector bundles the characteristic classes are defined to be functors from bundle to functors from the algebra of (adjiont) G-invariant polynomials  to the algebra of de Rham cohomology. Given certain invariant polynomial, the characteristic class is a functor form bundle to de Rham cohomology algebra.</li>
+<li>For spin bundles the characteristic classes are defined via Cech cohomology group.</li>
+<li>The classification of homotopy class of complex vector bundle can be turned into the classification homotopy class of smooth map from base space to the universal classifying space defined using Grassmann manifold which is also related to the classification of Clifford algebra. The characteristic classes of the classifying space pull back define characteristic classes of the fiber bundle.Which can be used to construct indicators of the homotopy class(topological invariants)</li>
+<li>Useful characteristic classes include:</li>
+</ul>
+<ol>
+<li>Complex vector bundle: Chern class, Chern character(important in index theorems), Todd class</li>
+<li>Real vector bundle: Protrjagin class, Euler class(Gauss-Bonet:curvature—Euler character), L-polynomial, A-genus(Dirac genus).</li>
+<li>Spin bundle: Stiefel-Whitney class(1st measure the (non)orientability, 2nd measure the possible spin bundle associated with the frame bundle(principle bundle associated with the tangent bundle endowed with a fiber metric)</li>
+</ol>
+<ul>
+<li>Since the characteristic classes are closed(de Rham type), they are locally the exterior derivative of the Chern-Simons forms, defined via Chern-Weil theorem(transgression).</li>
+<li>The local form of characteristic classes(de Rham type) only measure the local bundle, which is trivial. What is important is their integral over the base space, which is global. The integral can be turned into the integral over the boundary with Chern-Simons forms, which measure the topology(global) of the boundary manifold. This gives bulk-boundary correspondence.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/ch11_characteristic_Classes.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <categories>
+        <category>数学补习</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Materials for learning CFT and TQFT</title>
-    <url>/2022/10/17/CFT&amp;TQFT_materials/</url>
+    <url>/2022/10/17/Reading%20notes%20and%20%20learning%20recording/CFT&amp;TQFT_materials/</url>
     <content><![CDATA[<h1>CFT</h1>
 <h2 id="books-and-notes">Books and Notes</h2>
 <ul>
@@ -83,7 +236,7 @@
   </entry>
   <entry>
     <title>Reading notes on Algebraic topology by T.Dieck</title>
-    <url>/2022/10/19/AT_Dieck/</url>
+    <url>/2022/10/19/Reading%20notes%20and%20%20learning%20recording/AT_Dieck/</url>
     <content><![CDATA[<h1>Introduction</h1>
 <ul>
 <li>Algebraic topology is the interplay between continuous and discrete mathematics, for topological/geometrical continuum, A.T allows their realizations to be of an algebraic nature.</li>
@@ -136,8 +289,152 @@
       </tags>
   </entry>
   <entry>
+    <title>Lecture notes on Introduction to conformal field theory</title>
+    <url>/2022/10/16/Reading%20notes%20and%20%20learning%20recording/Hannover_CFT_Notes/</url>
+    <content><![CDATA[<h1>Acknowledgement</h1>
+<p>This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [<a href="https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</p>
+<h1>Lecture 1,2:</h1>
+<h2 id="motivation">Motivation:</h2>
+<ul>
+<li>CFT provide good effective description of systems at/near criticality(2nd phase transition point), near which we have interesting phenomena including long-range correlation, scaling invariance, etc.</li>
+<li>CFT is the fixed point of RG, which implies all other QFTs are perturbation(approximation) to CFTs, they are also cut-off independent.</li>
+<li>CFT can be made more mathematical rigorous, there are roughly 3 different formulation, haven’t been unified yet.</li>
+</ul>
+<h2 id="what-is-cft">What is CFT:</h2>
+<ul>
+<li>From the group theoretical point of view, CFT are local field(quantum) construction of projective unitary representations of the conformal group(actually the local algebra, generated by infinitesimal transformations)</li>
+<li>The combination of locality and unitarity is nontrivial.</li>
+<li>For quantum theory, we actually need intrinsic projective representation(with central extension) to construct physical models.</li>
+</ul>
+<h2 id="conformal-transformations">Conformal transformations:</h2>
+<ul>
+<li>Consider the case of flat spacetime, the conformal transformations are defined to be those leaves metric invariant up to a spacetime dependent scale(preserving angles). This condition then lead to two useful constraint on infinitesimal conformal transformations.</li>
+<li>In general the infinitesimal conformal transformations are generated by some vector fields(may be represented by differential operators), for d&gt;3, the situation is simpler, there are generators of translation, rotation &amp; boost, scale transformation, special conformal transformation. For d=2, the situation is more subtler, the local algebra(close under Lie bracket) is an infinite dimensional algebra, for Euclidean metric, it’s known as Witt alegebra, for Lorentzian metric, the Lie algebra is isomorphic to Witt algebra. The meaning of the conformal transformations are far more clear in d=2 Minkowski spacetime, they correspond to dilatation/contraction of the two independent light-cone coordinate axes, for d=2 Euclidean case, the finite conformal transformations correspond to linear complex analytic functions, especially the group PSL(2,C)(Mobius transformations). For the general case(including infinitesimal ones) ,this means the study of conformal transformations is reduced to the study of orientation-preserving diffeomorphism of R or S^{1} when compactified.</li>
+<li>Not all infinitesimal conformal transformations can be exponentiated to be a finite transforamtion. There may be singularities as the obstructions. Those generator admitting finite transformations form a subalgebra, being the Lie algebra of the finite conformal transformations they form a group. There are two possibilies, when the infinity is excluded, we have less finite transformations, with infitnity included(we are compatictifying thus on a Riemann sphere/surface) there are more fninite transformations.</li>
+<li>With more transformation, the system is more symmetric and thus more constraint. This means the physics of d=2 conformal field theories are highly constraint. The claim is that they are classfied by the central charge related to projective representations. Also note that the d=2 conformal field theory are very important in statistical physics and as the boundary of 2+1d topological bulk.</li>
+</ul>
+<h2 id="confusions-and-thoughts">Confusions and thoughts</h2>
+<ul>
+<li>Is the compacitifed case, especially d=2 directly related to the knot theory and thus topological field theory?</li>
+<li>Why in d=2 Lorentzian case, the group of (finite?) conformal transformations have infinite dimensional Lie algebra? Answer: in that case, the conformal transformations infer to all including infinitesimal ones, thus the Lie algebra is isomorphic to Witt algerba, not containing just finite ones that is related to Mobius transformations(PSL(2,C)).</li>
+<li>The infinite dimensionality is consequential! Also note the infinite dimensionality of the Hilbert space in quantum mechanics. Also note the word “group” usually refer to some algebra: Lie algebra, Hopf algebra, etc. This is also similar for quantum groups.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect1,2.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 3,4</h1>
+<h2 id="classical-cft">Classical CFT:</h2>
+<ul>
+<li>classical field theory with conformal symmetries is the construction with local field operators which transform under conformal transformations(finite(group) for d&gt;2, infinitesimal(algebra) for d=2) properly, i.e, it transform under conformal group as some reducible representation.(Note the field depends on spacetime coordinates, this is really a special representation! It is compatible with locality. But note here we assume such representation as field exist, it may not be possible to construct such reducible representations out of irreducible(usually finite dimensional) representations.). Classical symmetry refers to the invariance of the equation of motion.</li>
+<li>With the help of differential operator(linear operator on Hilbert space, usually unbounded) representation of the generators(assume d&gt;2) we can obtain the classical Lie algebra of finite transformations. It contain the Poincare algebra as an important subalgebra. To find field representations, we try to find finite dimensional tensor representations first. We may use the representation of Poincare algebra as a ground, since any representation of conformal algebra must be a representation of the Poincare subalgebra, what left is to find their behavior under extra conformal transformations.</li>
+<li>The result is that we use the method of induced representation, the little subgroup is defined as the subgroup leaving origin invariant, generated by Lorentz, dilation, SCTs generators. Since the Lorentz generators are represented irreducibly, form the Lie algebra(commutators) and the Schur’s lemma, we obtain the corresponding representation of dilation,SCT generator. The former is proportional to the identity, labeled by scaling dimension, the later vanishes. Thus all that is extra is dilation lead to a scaling bahavior. The general case is generated by action of translation.</li>
+</ul>
+<h2 id="quantum-cft">Quantum CFT:</h2>
+<ul>
+<li>The quantum version involve self-adjoint operators representing the generators, they are fully specified by eigenvalues, the general result is that the relevant eigenvalues are(the representation is labeled by) scaling dimension, spin, central charge(from projective representation thus central extension of the local algebra)</li>
+<li>We then seek the consequence(constraint) of quantum conformal invariance, that is we assume we have constructed the relevant D.O.F and they transform under quantum conformal transformations such that the extended conformal algebra is furnished, and we consider the constraint of this invariance on physical quantities, especially the Green’s functions.</li>
+<li>The locality in quantum cases are expressed as self-adjoint observables, labeled by spacetime and others, are jointly measurable, this requirement is expressed as space-like separation commutators vanishes. This is causality condition.</li>
+<li>The relevant D.O.F is known as quasi-primary for finite conformal group or primary for conformal algebra. The latter is more constraint and may not even exist(luckily they do exist and the constraints are enough to solve them completely!) These objects(fields but may not standing for particles) transform under classical conformal transformations appropriately. This constraint on Green’s functions(correlation functions) is so strong that the 2-pt, 3-pt functions are determined to have a specific form, while the theory is indeed nontrivial since the higher functions are not fully determined, but they all must depend only on the cross ratios of distance. Note that the 2d case(algebras) is usually expressed in terms of complex variables, with the domain of Green’s functions analytically continued.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect3,4.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 5,6,7,8</h1>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect5,6,7,8.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 9,10</h1>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect9,10.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <categories>
+        <category>场论学习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Math learning</title>
+    <url>/2022/10/02/Reading%20notes%20and%20%20learning%20recording/Math%20learning/</url>
+    <content><![CDATA[<h1>Plan:</h1>
+<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
+<h1>Basic Algebra:</h1>
+<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
+<ul>
+<li>Algebra: Chapter 0</li>
+<li>代数学方法</li>
+<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
+<li>Algebra_S.Lang</li>
+<li>Basic algebra_Jacobson</li>
+<li>…</li>
+</ul>
+<h2 id="physical-literacture">Physical literacture:</h2>
+<ul>
+<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
+<li>Group theory: application to group theory</li>
+<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
+<li>Woit: Quantum theory,groups and representation</li>
+<li>…</li>
+</ul>
+<h1>Representation theory</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Commutative algebra and homological algebra:</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Group cohomology</h1>
+<ul>
+<li>…</li>
+</ul>
+<h1>Algebraic topology</h1>
+<ul>
+<li>Algebraic topology_Hatcher</li>
+<li>Rotman: introduction to algebraic topology</li>
+<li>Differential Forms in Algebraic Topology_Bott</li>
+</ul>
+<h2 id="physical-literature">Physical literature:</h2>
+<ul>
+<li>Nakahara</li>
+</ul>
+<h1>K-theory:</h1>
+<ul>
+<li>K-theory: an introduction</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数学补习</category>
+      </categories>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Learning project on topological quantum matters</title>
-    <url>/2022/09/26/Leaning%20project%20of%20topology%20in%20physics/</url>
+    <url>/2022/09/26/Reading%20notes%20and%20%20learning%20recording/Leaning%20project%20of%20topology%20in%20physics/</url>
     <content><![CDATA[<h1>学习规划</h1>
 <ul>
 <li>2022/10/9 这周计划学习一下 2016年的综述，以及组里的两篇投影表示的重要文章，周末把最近学的内容整理一下：TI/TSC 中的对称性，基于对称性的分类：K理论/Clifford代数简单的结论，Band crossing/inversion，拓扑不变量的定义和计算，几个简单的模型（SSH，Graphene，Kitaev chain)(主要是熟练拓扑数的计算和各种变换，对称性的应用），空间群，投影表示的原理。这部分整理一个周末肯定不够，下周继续，等这部分物理初步整理完了，可以去看Berry phase的文章，以及更详细的分类工作；继续学习Altland上拓扑场论相关的部分，之后去看Nakahara；可以开始学习Moore的书了；</li>
@@ -296,152 +593,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Lecture notes on Introduction to conformal field theory</title>
-    <url>/2022/10/16/Hannover_CFT_Notes/</url>
-    <content><![CDATA[<h1>Acknowledgement</h1>
-<p>This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [<a href="https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</p>
-<h1>Lecture 1,2:</h1>
-<h2 id="motivation">Motivation:</h2>
-<ul>
-<li>CFT provide good effective description of systems at/near criticality(2nd phase transition point), near which we have interesting phenomena including long-range correlation, scaling invariance, etc.</li>
-<li>CFT is the fixed point of RG, which implies all other QFTs are perturbation(approximation) to CFTs, they are also cut-off independent.</li>
-<li>CFT can be made more mathematical rigorous, there are roughly 3 different formulation, haven’t been unified yet.</li>
-</ul>
-<h2 id="what-is-cft">What is CFT:</h2>
-<ul>
-<li>From the group theoretical point of view, CFT are local field(quantum) construction of projective unitary representations of the conformal group(actually the local algebra, generated by infinitesimal transformations)</li>
-<li>The combination of locality and unitarity is nontrivial.</li>
-<li>For quantum theory, we actually need intrinsic projective representation(with central extension) to construct physical models.</li>
-</ul>
-<h2 id="conformal-transformations">Conformal transformations:</h2>
-<ul>
-<li>Consider the case of flat spacetime, the conformal transformations are defined to be those leaves metric invariant up to a spacetime dependent scale(preserving angles). This condition then lead to two useful constraint on infinitesimal conformal transformations.</li>
-<li>In general the infinitesimal conformal transformations are generated by some vector fields(may be represented by differential operators), for d&gt;3, the situation is simpler, there are generators of translation, rotation &amp; boost, scale transformation, special conformal transformation. For d=2, the situation is more subtler, the local algebra(close under Lie bracket) is an infinite dimensional algebra, for Euclidean metric, it’s known as Witt alegebra, for Lorentzian metric, the Lie algebra is isomorphic to Witt algebra. The meaning of the conformal transformations are far more clear in d=2 Minkowski spacetime, they correspond to dilatation/contraction of the two independent light-cone coordinate axes, for d=2 Euclidean case, the finite conformal transformations correspond to linear complex analytic functions, especially the group PSL(2,C)(Mobius transformations). For the general case(including infinitesimal ones) ,this means the study of conformal transformations is reduced to the study of orientation-preserving diffeomorphism of R or S^{1} when compactified.</li>
-<li>Not all infinitesimal conformal transformations can be exponentiated to be a finite transforamtion. There may be singularities as the obstructions. Those generator admitting finite transformations form a subalgebra, being the Lie algebra of the finite conformal transformations they form a group. There are two possibilies, when the infinity is excluded, we have less finite transformations, with infitnity included(we are compatictifying thus on a Riemann sphere/surface) there are more fninite transformations.</li>
-<li>With more transformation, the system is more symmetric and thus more constraint. This means the physics of d=2 conformal field theories are highly constraint. The claim is that they are classfied by the central charge related to projective representations. Also note that the d=2 conformal field theory are very important in statistical physics and as the boundary of 2+1d topological bulk.</li>
-</ul>
-<h2 id="confusions-and-thoughts">Confusions and thoughts</h2>
-<ul>
-<li>Is the compacitifed case, especially d=2 directly related to the knot theory and thus topological field theory?</li>
-<li>Why in d=2 Lorentzian case, the group of (finite?) conformal transformations have infinite dimensional Lie algebra? Answer: in that case, the conformal transformations infer to all including infinitesimal ones, thus the Lie algebra is isomorphic to Witt algerba, not containing just finite ones that is related to Mobius transformations(PSL(2,C)).</li>
-<li>The infinite dimensionality is consequential! Also note the infinite dimensionality of the Hilbert space in quantum mechanics. Also note the word “group” usually refer to some algebra: Lie algebra, Hopf algebra, etc. This is also similar for quantum groups.</li>
-</ul>
-
-
-	<div class="row">
-    <embed src="/pdf/CFT_Hannover_Lect1,2.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1>Lecture 3,4</h1>
-<h2 id="classical-cft">Classical CFT:</h2>
-<ul>
-<li>classical field theory with conformal symmetries is the construction with local field operators which transform under conformal transformations(finite(group) for d&gt;2, infinitesimal(algebra) for d=2) properly, i.e, it transform under conformal group as some reducible representation.(Note the field depends on spacetime coordinates, this is really a special representation! It is compatible with locality. But note here we assume such representation as field exist, it may not be possible to construct such reducible representations out of irreducible(usually finite dimensional) representations.). Classical symmetry refers to the invariance of the equation of motion.</li>
-<li>With the help of differential operator(linear operator on Hilbert space, usually unbounded) representation of the generators(assume d&gt;2) we can obtain the classical Lie algebra of finite transformations. It contain the Poincare algebra as an important subalgebra. To find field representations, we try to find finite dimensional tensor representations first. We may use the representation of Poincare algebra as a ground, since any representation of conformal algebra must be a representation of the Poincare subalgebra, what left is to find their behavior under extra conformal transformations.</li>
-<li>The result is that we use the method of induced representation, the little subgroup is defined as the subgroup leaving origin invariant, generated by Lorentz, dilation, SCTs generators. Since the Lorentz generators are represented irreducibly, form the Lie algebra(commutators) and the Schur’s lemma, we obtain the corresponding representation of dilation,SCT generator. The former is proportional to the identity, labeled by scaling dimension, the later vanishes. Thus all that is extra is dilation lead to a scaling bahavior. The general case is generated by action of translation.</li>
-</ul>
-<h2 id="quantum-cft">Quantum CFT:</h2>
-<ul>
-<li>The quantum version involve self-adjoint operators representing the generators, they are fully specified by eigenvalues, the general result is that the relevant eigenvalues are(the representation is labeled by) scaling dimension, spin, central charge(from projective representation thus central extension of the local algebra)</li>
-<li>We then seek the consequence(constraint) of quantum conformal invariance, that is we assume we have constructed the relevant D.O.F and they transform under quantum conformal transformations such that the extended conformal algebra is furnished, and we consider the constraint of this invariance on physical quantities, especially the Green’s functions.</li>
-<li>The locality in quantum cases are expressed as self-adjoint observables, labeled by spacetime and others, are jointly measurable, this requirement is expressed as space-like separation commutators vanishes. This is causality condition.</li>
-<li>The relevant D.O.F is known as quasi-primary for finite conformal group or primary for conformal algebra. The latter is more constraint and may not even exist(luckily they do exist and the constraints are enough to solve them completely!) These objects(fields but may not standing for particles) transform under classical conformal transformations appropriately. This constraint on Green’s functions(correlation functions) is so strong that the 2-pt, 3-pt functions are determined to have a specific form, while the theory is indeed nontrivial since the higher functions are not fully determined, but they all must depend only on the cross ratios of distance. Note that the 2d case(algebras) is usually expressed in terms of complex variables, with the domain of Green’s functions analytically continued.</li>
-</ul>
-
-
-	<div class="row">
-    <embed src="/pdf/CFT_Hannover_Lect3,4.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1>Lecture 5,6,7,8</h1>
-
-
-	<div class="row">
-    <embed src="/pdf/CFT_Hannover_Lect5,6,7,8.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1>Lecture 9,10</h1>
-
-
-	<div class="row">
-    <embed src="/pdf/CFT_Hannover_Lect9,10.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <categories>
-        <category>场论学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Math learning</title>
-    <url>/2022/10/02/Math%20learning/</url>
-    <content><![CDATA[<h1>Plan:</h1>
-<p>学点基本的范畴论，以预备未来学习代数拓扑和同调代数更顺畅。</p>
-<h1>Basic Algebra:</h1>
-<h2 id="abstract-algebra-basic-category-theory">Abstract algebra &amp; basic category theory:</h2>
-<ul>
-<li>Algebra: Chapter 0</li>
-<li>代数学方法</li>
-<li>Category theory_S.Awodey,Category theory in context_Emily Riehl</li>
-<li>Algebra_S.Lang</li>
-<li>Basic algebra_Jacobson</li>
-<li>…</li>
-</ul>
-<h2 id="physical-literacture">Physical literacture:</h2>
-<ul>
-<li>Unitary Group Representations in Physics, Probability and Number Theory</li>
-<li>Group theory: application to group theory</li>
-<li>Moore系列notes：Abstract group theory, representation theory,Lie group,Clifford algebra,…</li>
-<li>Woit: Quantum theory,groups and representation</li>
-<li>…</li>
-</ul>
-<h1>Representation theory</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Commutative algebra and homological algebra:</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Group cohomology</h1>
-<ul>
-<li>…</li>
-</ul>
-<h1>Algebraic topology</h1>
-<ul>
-<li>Algebraic topology_Hatcher</li>
-<li>Rotman: introduction to algebraic topology</li>
-<li>Differential Forms in Algebraic Topology_Bott</li>
-</ul>
-<h2 id="physical-literature">Physical literature:</h2>
-<ul>
-<li>Nakahara</li>
-</ul>
-<h1>K-theory:</h1>
-<ul>
-<li>K-theory: an introduction</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数学补习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Lecture notes on TI, TSC</title>
-    <url>/2022/10/13/Notes%20on%20TI,TSC/</url>
+    <url>/2022/10/13/Reading%20notes%20and%20%20learning%20recording/Notes%20on%20TI,TSC/</url>
     <content><![CDATA[<h1>Kane: Topolgical insulator</h1>
 <p>Main results:</p>
 
@@ -460,55 +613,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Summary notes on relativistic QFT</title>
-    <url>/2022/09/26/Relativistic%20QFT/</url>
-    <content><![CDATA[<h1>自己整理的相对论性量子场论的笔记</h1>
-<p>目前停留在路径积分这一部分，最近写的感觉像在抄书，准备先放着。后续看了WeinbergII，一些凝聚态场论，Tong的Gauge theory之后，在整理。Gauge theory的部分比较丰富，准备额外写一份，需要加入一些比较数学的东西，特别是anomaly，index theorem，topological/conformal场论的内容，这部分的数学还需要先学习。以后写笔记不准备像写书一样了，还是得分章节来写。</p>
-<p>目前的思路是：</p>
-<ul>
-<li>量子力学的原理，这部分可以再额外参考Moore的两本书：群论和讲twisted K-theory的书。</li>
-<li>庞加莱群及其不可约表示，这部分可以再额外参考Woit的书。</li>
-<li>二次量子化，这部分可以再额外参考凝聚态的书。</li>
-<li>自由场算符的推导</li>
-<li>正则量子化，路径积分量子化，这部分得重写，需要写得更加简洁一些。还需要加入关于constraint system的讨论。路径积分的部分可以再参考一些凝聚态的书。</li>
-<li>To be continued</li>
-</ul>
-<h2 id="参考资料：">参考资料：</h2>
-<ul>
-<li>WeinbergI</li>
-<li>WeinbergII</li>
-<li>New_QFT by Yuchen Wang</li>
-<li>Schwartz</li>
-<li>Zee</li>
-</ul>
-<h2 id="更多的参考的材料：">更多的参考的材料：</h2>
-<ul>
-<li>Tong:Gauge theory</li>
-<li>Srecnicki</li>
-<li>Peskin&amp;Schroeder</li>
-<li>Skinner</li>
-<li>Tong:QFT</li>
-<li>to be continued</li>
-</ul>
-<h2 id="latex">Latex:</h2>
-
-
-	<div class="row">
-    <embed src="/pdf/QFT_notes.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-]]></content>
-      <categories>
-        <category>场论学习</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Quasi quantum double and Dijkraaf Witten TQFT</title>
-    <url>/2022/10/21/QuasiQD_DW-TQFT/</url>
+    <url>/2022/10/21/Reading%20notes%20and%20%20learning%20recording/QuasiQD_DW-TQFT/</url>
     <content><![CDATA[<h1>Anyons in discrete gauge theories</h1>
 <p>A review of quasi quantum double type anyons.</p>
 
@@ -529,57 +635,23 @@
       </tags>
   </entry>
   <entry>
-    <title>Notes on TiTP 2015</title>
-    <url>/2022/10/15/TiTP_2015/</url>
-    <content><![CDATA[<h1>Acknowledgement</h1>
-<p>I found the PiTP 2015 contain rich materials on both field theory and topological matters given by the masters in these fields, I will include the notes taken from these lectures/talks here for future review. The link for the lectures: [<a href="https://www.youtube.com/watch?v=jEEQO-tcyHc&amp;list=PLdDZb3TwJPZ74yxMM1FNWzzpZf8xDb6G4">https://www.youtube.com/watch?v=jEEQO-tcyHc&amp;list=PLdDZb3TwJPZ74yxMM1FNWzzpZf8xDb6G4</a>]. I plan to watch those given by Dijkgraaf, Moore, Wen, Bernevig, Witten.</p>
-<h1>Dijkgraaf: Introduction to topological field theory and conformal field theory</h1>
-<h2 id="some-general-concepts">Some general concepts:</h2>
-<ul>
-<li>TQFT is a functor from cobordism to Hilbert space.</li>
-<li>Boundary condition can be considered as defects(punctures) labeled by anyon(excitations), the axiom of TQFT give rise to the anyon algebra. There’s natural algebra defined on Hilbert space.  In 1+1 d, it is known as Frobenius algebra, in higher dimensions, for example 2+1 d the quantum groups are involved. The crucial building block is the pants(along with others like cylinder disc, they are sphere with 1,2,3 punctures/singularities), which is equivalent to 3-point vertex or anyon ring.</li>
-<li>TQFT give rise to topological invariants(vacuum amplitude or states) of the spacetime manifold, note there’s no dynamics in TQFT.</li>
-<li>SUSY QM and CFT can be formulated in the modified form: CFT have extra complex structure, SUSY have extra differential structure, analysis structure.</li>
-<li>The boundary theory is mathematically rich, with the increase of the codimension, more complex mathematics are involved. For cod=1, we have Hilbert space, For cod=2, we have category of boundaries, for cod=3, we have 2-categories,… For example in string theory, the boundary condition problem is related to D-brane categories.</li>
-<li>The diffeomorphism(ISO) of space manifold will produce projective representation over the Hilbert space. For example the Virasoro algebra(factor into two chiral(holomorphic and anti-holomorphic) algebra) will be represented on Hilbert space(infinite dimensional)</li>
-<li>The CFT should be thought as depending only on complex structures, the metric is invariant up to scale, then the 1+1d CFT identify the equivalence(local rescaling) class of metric and the complex structure( the space to complex structures is known as moduli space). The space of all metric is in general infinite dimensional, but the moduli space(CFT) can be finite dimensional.</li>
-<li>The CFT on S^1 can be considered as defined on cylinder or plane with singularities at origin and infinity or sphere with two singularities. These transformations are allowed since they have same complex structure(not the same metric) The states are then identified as the local operators at the origin or a infinite-long tube at the origin, with vacuum state identified with the disc. Then the vacuum expectation value of local operators are identified with the topological invariants for closed manifold with corresponding defects(boundary conditions)</li>
-<li>To compute these invariants we may cut the manifold into building blocks and use the boundary condition to glue them, the boundary condition then captures the twisting, extanglement,…(all together gives global properties)</li>
-<li>RCFT(rational) have extended chiral algebra, which is larger and thus a finite number of primary fields and finite dimensional representations. The will have extra symmetries which is related to topological gauge theories.</li>
-</ul>
-<h2 id="chern-simons-theory">Chern-Simons theory:</h2>
-<ul>
-<li>classical C-S theory all have flat connection thus flat bundle, vanishing curvature thus contribute no energy.</li>
-<li>To quantize C-S theory, a possible way is to identify the phase space which have a symplectic structure, the number of states can be obtained by Bohr-Sommerfield quantization. The canonical quantization need the identification of canonical variables.</li>
-<li>The classical configuration space is defined by space of flat connections module the action of conjugation(gauge transformation) The flat connection can be obtained by homomorphism from fundamental group to G, group of holonomies.</li>
-<li>The finite group case can be obtained also in this way. A important feature is that the TQFT algebra is furnished by the center of the group algebra.</li>
-<li>The generalization involve the introduction of group cohomology, using pull back and classifying space/bundle. The cocycles have natural geometrical meanings attached to flat connection simplices.(lattice models)</li>
-</ul>
-
-
-	<div class="row">
-    <embed src="/pdf/Dijkgraaf_TiTP_2015.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h1>Moore: Quantum symmetries and the 10-fold way.</h1>
-
-
-	<div class="row">
-    <embed src="/pdf/10-fold_Way_Moore.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
+    <title>Reading notes on condensed matter physics</title>
+    <url>/2022/09/25/Reading%20notes%20and%20%20learning%20recording/Reading%20notes%20on%20condensed%20matter%20physics/</url>
+    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
+<h2 id="学习材料">学习材料</h2>
+<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
+<p>Fradkin</p>
 ]]></content>
+      <categories>
+        <category>凝聚态基础理论学习</category>
+      </categories>
       <tags>
         <tag>学习记录</tag>
       </tags>
   </entry>
   <entry>
     <title>Invitation to topological order_2020</title>
-    <url>/2022/10/23/Topological%20order_2020/</url>
+    <url>/2022/10/23/Reading%20notes%20and%20%20learning%20recording/Topological%20order_2020/</url>
     <content><![CDATA[<h1>Acknowledgement</h1>
 <p>This is the lecture notes taken from the 2020 lectures on topological order [<a href="https://www.koushare.com/live/topology">https://www.koushare.com/live/topology</a>], the references are important for future study.</p>
 <h1>孔良：Infinite more is more different</h1>
@@ -716,8 +788,57 @@
       </tags>
   </entry>
   <entry>
+    <title>Notes on TiTP 2015</title>
+    <url>/2022/10/15/Reading%20notes%20and%20%20learning%20recording/TiTP_2015/</url>
+    <content><![CDATA[<h1>Acknowledgement</h1>
+<p>I found the PiTP 2015 contain rich materials on both field theory and topological matters given by the masters in these fields, I will include the notes taken from these lectures/talks here for future review. The link for the lectures: [<a href="https://www.youtube.com/watch?v=jEEQO-tcyHc&amp;list=PLdDZb3TwJPZ74yxMM1FNWzzpZf8xDb6G4">https://www.youtube.com/watch?v=jEEQO-tcyHc&amp;list=PLdDZb3TwJPZ74yxMM1FNWzzpZf8xDb6G4</a>]. I plan to watch those given by Dijkgraaf, Moore, Wen, Bernevig, Witten.</p>
+<h1>Dijkgraaf: Introduction to topological field theory and conformal field theory</h1>
+<h2 id="some-general-concepts">Some general concepts:</h2>
+<ul>
+<li>TQFT is a functor from cobordism to Hilbert space.</li>
+<li>Boundary condition can be considered as defects(punctures) labeled by anyon(excitations), the axiom of TQFT give rise to the anyon algebra. There’s natural algebra defined on Hilbert space.  In 1+1 d, it is known as Frobenius algebra, in higher dimensions, for example 2+1 d the quantum groups are involved. The crucial building block is the pants(along with others like cylinder disc, they are sphere with 1,2,3 punctures/singularities), which is equivalent to 3-point vertex or anyon ring.</li>
+<li>TQFT give rise to topological invariants(vacuum amplitude or states) of the spacetime manifold, note there’s no dynamics in TQFT.</li>
+<li>SUSY QM and CFT can be formulated in the modified form: CFT have extra complex structure, SUSY have extra differential structure, analysis structure.</li>
+<li>The boundary theory is mathematically rich, with the increase of the codimension, more complex mathematics are involved. For cod=1, we have Hilbert space, For cod=2, we have category of boundaries, for cod=3, we have 2-categories,… For example in string theory, the boundary condition problem is related to D-brane categories.</li>
+<li>The diffeomorphism(ISO) of space manifold will produce projective representation over the Hilbert space. For example the Virasoro algebra(factor into two chiral(holomorphic and anti-holomorphic) algebra) will be represented on Hilbert space(infinite dimensional)</li>
+<li>The CFT should be thought as depending only on complex structures, the metric is invariant up to scale, then the 1+1d CFT identify the equivalence(local rescaling) class of metric and the complex structure( the space to complex structures is known as moduli space). The space of all metric is in general infinite dimensional, but the moduli space(CFT) can be finite dimensional.</li>
+<li>The CFT on S^1 can be considered as defined on cylinder or plane with singularities at origin and infinity or sphere with two singularities. These transformations are allowed since they have same complex structure(not the same metric) The states are then identified as the local operators at the origin or a infinite-long tube at the origin, with vacuum state identified with the disc. Then the vacuum expectation value of local operators are identified with the topological invariants for closed manifold with corresponding defects(boundary conditions)</li>
+<li>To compute these invariants we may cut the manifold into building blocks and use the boundary condition to glue them, the boundary condition then captures the twisting, extanglement,…(all together gives global properties)</li>
+<li>RCFT(rational) have extended chiral algebra, which is larger and thus a finite number of primary fields and finite dimensional representations. The will have extra symmetries which is related to topological gauge theories.</li>
+</ul>
+<h2 id="chern-simons-theory">Chern-Simons theory:</h2>
+<ul>
+<li>classical C-S theory all have flat connection thus flat bundle, vanishing curvature thus contribute no energy.</li>
+<li>To quantize C-S theory, a possible way is to identify the phase space which have a symplectic structure, the number of states can be obtained by Bohr-Sommerfield quantization. The canonical quantization need the identification of canonical variables.</li>
+<li>The classical configuration space is defined by space of flat connections module the action of conjugation(gauge transformation) The flat connection can be obtained by homomorphism from fundamental group to G, group of holonomies.</li>
+<li>The finite group case can be obtained also in this way. A important feature is that the TQFT algebra is furnished by the center of the group algebra.</li>
+<li>The generalization involve the introduction of group cohomology, using pull back and classifying space/bundle. The cocycles have natural geometrical meanings attached to flat connection simplices.(lattice models)</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/Dijkgraaf_TiTP_2015.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Moore: Quantum symmetries and the 10-fold way.</h1>
+
+
+	<div class="row">
+    <embed src="/pdf/10-fold_Way_Moore.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <tags>
+        <tag>学习记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Reading notes on Vector bundle and K theory by A.Hatcher</title>
-    <url>/2022/10/25/VB_Ktheory_Hatcher/</url>
+    <url>/2022/10/25/Reading%20notes%20and%20%20learning%20recording/VB_Ktheory_Hatcher/</url>
     <content><![CDATA[<h1>Introduction</h1>
 <ul>
 <li>
@@ -739,127 +860,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Math notes</title>
-    <url>/2022/10/09/math%20notes/</url>
-    <content><![CDATA[<h1>Notes:</h1>
-<h2 id="basic-category-theory">Basic category theory:</h2>
-<p>This is the note based on the introductory lecture on bilibili. More materials should be learned and included. This should be accompanied with learning of algebraic topology and abstract algebra and homological algebra.</p>
-
-
-	<div class="row">
-    <embed src="/pdf/Basic_category_theory.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h2 id="nakahara-fiber-bundle">Nakahara: Fiber bundle</h2>
-<p>Reading notes:</p>
-<ul>
-<li>Total space is glued up piece by piece by transition functions(physically gauge transformations)</li>
-<li>The topolohgical properties of fiber bundle will have physical meaning in gauge theory, especially the principle bundle(Fiber=Structure group) and topological configurations(monopole,instanton,…)</li>
-<li>Quantum mechanics can be considered in fiber bundles: Hilbert space= projective space.Wave functions = sections of canonical complex line bundle.</li>
-<li>Fields are sections of the corresponding fiber bundle.</li>
-<li>vector bundles are related to principle bundles: using vector space(carrier space of the group we consider) and principle bundle we construct the associated vectore bundle, conversely we can construct associated principle bundle with vector bundle using reconstruction procedure. Examples include: Frame bundle and spin bundle.</li>
-<li>H bundle over G/H can be considered as a group extension. The theory of group cohomology and group extension have geometrical interpretation as principle bundles and associated bundles.</li>
-</ul>
-
-
-	<div class="row">
-    <embed src="/pdf/ch9_Fiber_Bundle.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h2 id="nakahara-connections-on-fiber-bundles">Nakahara: Connections on Fiber bundles</h2>
-<p>Reading notes:</p>
-<ul>
-<li>Given principle bundle, geometrically we can uniquely separate the tangent space  into vertical part and  horizontal part with respect to the fiber G. This defines the E-connection naturally.</li>
-<li>This then define the Lie algebra valued connection one form, whose image and kernal defines the separation properly.</li>
-<li>Given local section, we can then pull back the connection one form to have a local connection one form on M, this defines the gauge potential. The requirement that the connection one form is unique, independent of covering then defines the compatibility condition of local connection, which is just the gauge transformation defined via transition function.</li>
-<li>The definition of parallel transportation on principle bundle( transport both base point and its fiber) is then defined by horizontal lift of curves in base manifold. The horizontal lift depend on the definition of horizontal space, thus depend on connection.</li>
-<li>The loops in base manifold induce horizontal lift which have closed base point but not the fiber element in general. This is then defines the holonomy group.The holonomy is known as Wilson loop or Berry phase. The holonomy group is a manifest of the curvature on principle bundle.</li>
-<li>By defining covariant derivative on principle bundle via horizontal space(connection), the curvature two form is defined as the covariant derivative of the connection one form. The pull back by local section is the local curvature two form or gauge field strength. Whose local covariant derivative vanishes(Bianchi identity)</li>
-<li>The holonomy(curvature) manifest the non trivial topological properties of the fiber bundle, which is also manifest by transition function and its homotopy group. Characteristic classes can be constructed from curvature.</li>
-<li>The connection on principle bundle defines a natural covariant derivative of sections of the associated vector bundle, which defines how the fibers change in parallel transportation (the fiber is constant with respect to the horizontal lift) induced by the curve in base space. This definition of covariant derivative depend on only the section itself and connection on principle bundle, independent of both horizontal lift(which is not unique upon right action),and local trivialization( which is not unique upon left action(transition function)). The curvature can be expressed in terms of covariant derivative.</li>
-<li>Gauge theories first relies on defining the right base manifold and fiber(as a group). The homotopy class of the bundle is manifested by the transition function(gauge transformation), characteristic class,… The physical degrees of freedom manifest as the associated vector bundle, with the section specifying both gauge D.O.F(principle bundle) and physical D.O.F(multiplet). The gauge bosons(connection itself) are defined with adjoint action(representation) and Lie algebra, while others are defined with other representations(action) and carrier vector spaces. The mod out right action is just gauge equivalence, with right action of gauge group on the fiber(both local gauge and multiplet) which is identified as the gauge transformation of both matter field and gauge field(on connection).</li>
-<li>Many topological spaces can also be viewed as fiber bundles. The notion of twist(transition function/gauge transformation) is very important, also note that the independence of local trivialization, local coordinate system, covering, triangulation is very important.These are all expressed as certain equivalence relation and the these equivalence relation further define more constructions. The topological properties of many systems can be expressed explicitly in terms of fiber bundles and characteristic class(cohomology) and homotopy. The topological properties then is physically related to gauge theories! By triangulation, we then obtain lattice gauge theories.</li>
-<li>examples include: Topological spaces like Mobius stripe, Gauge theories like Yang-Mills, General relativity, others like Berry phase, topological configurations(monopole,instanton,…)</li>
-</ul>
-
-
-	<div class="row">
-    <embed src="/pdf/ch10_Connections_On_Fiber_Bundles.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h2 id="nakahara-characteristic-classes">Nakahara: Characteristic classes</h2>
-<p>Reading notes:</p>
-<ul>
-<li>The characteristic classes are defined to be subsets of cohomology class of the base space, which measure the (non)trivial property of both M and Fiber bundles over M.</li>
-<li>For vector bundles the characteristic classes are defined to be functors from bundle to functors from the algebra of (adjiont) G-invariant polynomials  to the algebra of de Rham cohomology. Given certain invariant polynomial, the characteristic class is a functor form bundle to de Rham cohomology algebra.</li>
-<li>For spin bundles the characteristic classes are defined via Cech cohomology group.</li>
-<li>The classification of homotopy class of complex vector bundle can be turned into the classification homotopy class of smooth map from base space to the universal classifying space defined using Grassmann manifold which is also related to the classification of Clifford algebra. The characteristic classes of the classifying space pull back define characteristic classes of the fiber bundle.Which can be used to construct indicators of the homotopy class(topological invariants)</li>
-<li>Useful characteristic classes include:</li>
-</ul>
-<ol>
-<li>Complex vector bundle: Chern class, Chern character(important in index theorems), Todd class</li>
-<li>Real vector bundle: Protrjagin class, Euler class(Gauss-Bonet:curvature—Euler character), L-polynomial, A-genus(Dirac genus).</li>
-<li>Spin bundle: Stiefel-Whitney class(1st measure the (non)orientability, 2nd measure the possible spin bundle associated with the frame bundle(principle bundle associated with the tangent bundle endowed with a fiber metric)</li>
-</ol>
-<ul>
-<li>Since the characteristic classes are closed(de Rham type), they are locally the exterior derivative of the Chern-Simons forms, defined via Chern-Weil theorem(transgression).</li>
-<li>The local form of characteristic classes(de Rham type) only measure the local bundle, which is trivial. What is important is their integral over the base space, which is global. The integral can be turned into the integral over the boundary with Chern-Simons forms, which measure the topology(global) of the boundary manifold. This gives bulk-boundary correspondence.</li>
-</ul>
-
-
-	<div class="row">
-    <embed src="/pdf/ch11_characteristic_Classes.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <categories>
-        <category>数学补习</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>日常记录</title>
-    <url>/2022/10/09/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h1>2022/10/1</h1>
-<p>都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。</p>
-<h1>2022/10/9</h1>
-<p>最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber bundle分类的note看一看。去学一下K理论基础，争取自己把十重分类搞明白。接下来还要整理一下群的上同调，把两部分结合一下学习整理，还有Clifford代数的内容没学。</p>
-]]></content>
-      <categories>
-        <category>日常记录</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Reading notes on condensed matter physics</title>
-    <url>/2022/09/25/1/</url>
-    <content><![CDATA[<p>在这里记录一下学习凝聚态理论的日常。</p>
-<h2 id="学习材料">学习材料</h2>
-<p>Condensed Matter Field theory by A.Altland &amp; B.Simons</p>
-<p>Fradkin</p>
-]]></content>
-      <categories>
-        <category>凝聚态基础理论学习</category>
-      </categories>
-      <tags>
-        <tag>学习记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>马列毛经典阅读笔记</title>
-    <url>/2022/09/26/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+    <url>/2022/09/26/Reading%20notes%20and%20%20learning%20recording/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1>《国家与革命》</h1>
 <h1>《怎么办？》</h1>
 <h1>《进一步，退两步》</h1>

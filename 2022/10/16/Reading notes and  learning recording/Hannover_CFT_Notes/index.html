@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lecture notes on Introduction to conformal field theory - Personal Blog</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="Acknowledgement
+This is the...">
+  <meta name="author" content="王祥">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/Sun.jpeg" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/Sun.jpeg" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/Sun.jpeg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/Sun.jpeg">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'true',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: false,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: false
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: false
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '非淡泊无以明志，非宁静无以致远。',
+          typing: false,
+          api: '',
+          data_contents: ''
+        },
+      },
+      qrcode: {
+        enable: false,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: true,
+        path: 'search.xml'
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
+      
+    </div>
+    <div class="center">Lecture notes on Introduction to conformal field theory</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+  </nav>
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img src="/images/theme/xiangjian.jpeg" draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">Lecture notes on Introduction to conformal field theory</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>十月 16, 2022</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>7837</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        <h1>Acknowledgement</h1>
+<p>This is the lecture notes taken from the online lecture: Introduction to CFT by Tobias Osborne at Hannover: [<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f">https://www.bilibili.com/video/BV1xW411F7jn?p=1&amp;vd_source=a5a8460500e2a3b8256e6de946ff552f</a>]</p>
+<h1>Lecture 1,2:</h1>
+<h2 id="motivation">Motivation:</h2>
+<ul>
+<li>CFT provide good effective description of systems at/near criticality(2nd phase transition point), near which we have interesting phenomena including long-range correlation, scaling invariance, etc.</li>
+<li>CFT is the fixed point of RG, which implies all other QFTs are perturbation(approximation) to CFTs, they are also cut-off independent.</li>
+<li>CFT can be made more mathematical rigorous, there are roughly 3 different formulation, haven’t been unified yet.</li>
+</ul>
+<h2 id="what-is-cft">What is CFT:</h2>
+<ul>
+<li>From the group theoretical point of view, CFT are local field(quantum) construction of projective unitary representations of the conformal group(actually the local algebra, generated by infinitesimal transformations)</li>
+<li>The combination of locality and unitarity is nontrivial.</li>
+<li>For quantum theory, we actually need intrinsic projective representation(with central extension) to construct physical models.</li>
+</ul>
+<h2 id="conformal-transformations">Conformal transformations:</h2>
+<ul>
+<li>Consider the case of flat spacetime, the conformal transformations are defined to be those leaves metric invariant up to a spacetime dependent scale(preserving angles). This condition then lead to two useful constraint on infinitesimal conformal transformations.</li>
+<li>In general the infinitesimal conformal transformations are generated by some vector fields(may be represented by differential operators), for d&gt;3, the situation is simpler, there are generators of translation, rotation &amp; boost, scale transformation, special conformal transformation. For d=2, the situation is more subtler, the local algebra(close under Lie bracket) is an infinite dimensional algebra, for Euclidean metric, it’s known as Witt alegebra, for Lorentzian metric, the Lie algebra is isomorphic to Witt algebra. The meaning of the conformal transformations are far more clear in d=2 Minkowski spacetime, they correspond to dilatation/contraction of the two independent light-cone coordinate axes, for d=2 Euclidean case, the finite conformal transformations correspond to linear complex analytic functions, especially the group PSL(2,C)(Mobius transformations). For the general case(including infinitesimal ones) ,this means the study of conformal transformations is reduced to the study of orientation-preserving diffeomorphism of R or S^{1} when compactified.</li>
+<li>Not all infinitesimal conformal transformations can be exponentiated to be a finite transforamtion. There may be singularities as the obstructions. Those generator admitting finite transformations form a subalgebra, being the Lie algebra of the finite conformal transformations they form a group. There are two possibilies, when the infinity is excluded, we have less finite transformations, with infitnity included(we are compatictifying thus on a Riemann sphere/surface) there are more fninite transformations.</li>
+<li>With more transformation, the system is more symmetric and thus more constraint. This means the physics of d=2 conformal field theories are highly constraint. The claim is that they are classfied by the central charge related to projective representations. Also note that the d=2 conformal field theory are very important in statistical physics and as the boundary of 2+1d topological bulk.</li>
+</ul>
+<h2 id="confusions-and-thoughts">Confusions and thoughts</h2>
+<ul>
+<li>Is the compacitifed case, especially d=2 directly related to the knot theory and thus topological field theory?</li>
+<li>Why in d=2 Lorentzian case, the group of (finite?) conformal transformations have infinite dimensional Lie algebra? Answer: in that case, the conformal transformations infer to all including infinitesimal ones, thus the Lie algebra is isomorphic to Witt algerba, not containing just finite ones that is related to Mobius transformations(PSL(2,C)).</li>
+<li>The infinite dimensionality is consequential! Also note the infinite dimensionality of the Hilbert space in quantum mechanics. Also note the word “group” usually refer to some algebra: Lie algebra, Hopf algebra, etc. This is also similar for quantum groups.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect1,2.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 3,4</h1>
+<h2 id="classical-cft">Classical CFT:</h2>
+<ul>
+<li>classical field theory with conformal symmetries is the construction with local field operators which transform under conformal transformations(finite(group) for d&gt;2, infinitesimal(algebra) for d=2) properly, i.e, it transform under conformal group as some reducible representation.(Note the field depends on spacetime coordinates, this is really a special representation! It is compatible with locality. But note here we assume such representation as field exist, it may not be possible to construct such reducible representations out of irreducible(usually finite dimensional) representations.). Classical symmetry refers to the invariance of the equation of motion.</li>
+<li>With the help of differential operator(linear operator on Hilbert space, usually unbounded) representation of the generators(assume d&gt;2) we can obtain the classical Lie algebra of finite transformations. It contain the Poincare algebra as an important subalgebra. To find field representations, we try to find finite dimensional tensor representations first. We may use the representation of Poincare algebra as a ground, since any representation of conformal algebra must be a representation of the Poincare subalgebra, what left is to find their behavior under extra conformal transformations.</li>
+<li>The result is that we use the method of induced representation, the little subgroup is defined as the subgroup leaving origin invariant, generated by Lorentz, dilation, SCTs generators. Since the Lorentz generators are represented irreducibly, form the Lie algebra(commutators) and the Schur’s lemma, we obtain the corresponding representation of dilation,SCT generator. The former is proportional to the identity, labeled by scaling dimension, the later vanishes. Thus all that is extra is dilation lead to a scaling bahavior. The general case is generated by action of translation.</li>
+</ul>
+<h2 id="quantum-cft">Quantum CFT:</h2>
+<ul>
+<li>The quantum version involve self-adjoint operators representing the generators, they are fully specified by eigenvalues, the general result is that the relevant eigenvalues are(the representation is labeled by) scaling dimension, spin, central charge(from projective representation thus central extension of the local algebra)</li>
+<li>We then seek the consequence(constraint) of quantum conformal invariance, that is we assume we have constructed the relevant D.O.F and they transform under quantum conformal transformations such that the extended conformal algebra is furnished, and we consider the constraint of this invariance on physical quantities, especially the Green’s functions.</li>
+<li>The locality in quantum cases are expressed as self-adjoint observables, labeled by spacetime and others, are jointly measurable, this requirement is expressed as space-like separation commutators vanishes. This is causality condition.</li>
+<li>The relevant D.O.F is known as quasi-primary for finite conformal group or primary for conformal algebra. The latter is more constraint and may not even exist(luckily they do exist and the constraints are enough to solve them completely!) These objects(fields but may not standing for particles) transform under classical conformal transformations appropriately. This constraint on Green’s functions(correlation functions) is so strong that the 2-pt, 3-pt functions are determined to have a specific form, while the theory is indeed nontrivial since the higher functions are not fully determined, but they all must depend only on the cross ratios of distance. Note that the 2d case(algebras) is usually expressed in terms of complex variables, with the domain of Green’s functions analytically continued.</li>
+</ul>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect3,4.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 5,6,7,8</h1>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect5,6,7,8.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h1>Lecture 9,10</h1>
+
+
+	<div class="row">
+    <embed src="/pdf/CFT_Hannover_Lect9,10.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+      </section>
+      <section class="extra">
+        
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="tag">学习记录</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a href="/2022/10/17/Reading%20notes%20and%20%20learning%20recording/CFT&TQFT_materials/"><i class="iconfont iconleft"></i>Materials for learning CFT and TQFT</a>
+    <a href="/2022/10/15/Reading%20notes%20and%20%20learning%20recording/TiTP_2015/">Notes on TiTP 2015<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Acknowledgement</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lecture 1,2:</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#motivation"><span class="toc-text">Motivation:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#what-is-cft"><span class="toc-text">What is CFT:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#conformal-transformations"><span class="toc-text">Conformal transformations:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#confusions-and-thoughts"><span class="toc-text">Confusions and thoughts</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lecture 3,4</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#classical-cft"><span class="toc-text">Classical CFT:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#quantum-cft"><span class="toc-text">Quantum CFT:</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lecture 5,6,7,8</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lecture 9,10</span></a></li></ol>
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
