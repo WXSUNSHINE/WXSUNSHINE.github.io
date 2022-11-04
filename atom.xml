@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-25T09:32:06.166Z</updated>
+  <updated>2022-11-04T12:55:23.617Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,64 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日常记录</title>
+    <link href="http://example.com/2022/11/04/Self%20Reflection,%20Future%20Planing,%20Dately/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+    <id>http://example.com/2022/11/04/Self%20Reflection,%20Future%20Planing,%20Dately/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</id>
+    <published>2022-11-03T16:00:00.000Z</published>
+    <updated>2022-11-04T12:55:23.617Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;2022/10/1&lt;/h1&gt;
+&lt;p&gt;都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。&lt;/p&gt;
+&lt;h1&gt;2022/10/9&lt;/h1&gt;
+&lt;p&gt;最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber</summary>
+        
+      
+    
+    
+    
+    <category term="日常记录" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>writing plan for review notes on topological matters</title>
+    <link href="http://example.com/2022/11/03/Review%20articles,%20Study%20notes/Writting%20plan/"/>
+    <id>http://example.com/2022/11/03/Review%20articles,%20Study%20notes/Writting%20plan/</id>
+    <published>2022-11-02T16:00:00.000Z</published>
+    <updated>2022-11-03T02:50:02.076Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;(generalized/super) Group cohomology construction and classification of (interacting) bosonic/fermionic SPT states(RGFP</summary>
+        
+      
+    
+    
+    
+    <category term="拓扑物态学习" scheme="http://example.com/categories/%E6%8B%93%E6%89%91%E7%89%A9%E6%80%81%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>逸夫馆的沉思：自我反思与重新出发</title>
     <link href="http://example.com/2022/10/25/Self%20Reflection,%20Future%20Planing,%20Dately/22.10.25/"/>
     <id>http://example.com/2022/10/25/Self%20Reflection,%20Future%20Planing,%20Dately/22.10.25/</id>
     <published>2022-10-25T07:46:11.771Z</published>
-    <updated>2022-10-25T09:32:06.166Z</updated>
+    <updated>2022-10-25T09:47:35.310Z</updated>
     
     
       
@@ -259,34 +312,6 @@
     
     
     <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日常记录</title>
-    <link href="http://example.com/2022/10/09/Self%20Reflection,%20Future%20Planing,%20Dately/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
-    <id>http://example.com/2022/10/09/Self%20Reflection,%20Future%20Planing,%20Dately/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</id>
-    <published>2022-10-08T16:00:00.000Z</published>
-    <updated>2022-10-25T07:28:24.383Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;2022/10/1&lt;/h1&gt;
-&lt;p&gt;都说密涅瓦的猫头鹰在黄昏起飞，怎么我到了晚上脑子就不带转的。&lt;/p&gt;
-&lt;h1&gt;2022/10/9&lt;/h1&gt;
-&lt;p&gt;最近学了Nakahara上纤维丛的三章，接下来整理一下，把老板的note和另外一个FIber</summary>
-        
-      
-    
-    
-    
-    <category term="日常记录" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
